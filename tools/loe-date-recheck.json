@@ -9,7 +9,7 @@
       "https://www.icy-veins.com/hearthstone/league-of-explorers-guide",
       "https://hearthstone.fandom.com/wiki/The_League_of_Explorers_Class_Challenges"
     ],
-    "sourceLimitations": "Inven direct opens returned 502, but search indexed contemporary article bodies explicitly identify dates. Icy Veins full reward table retrieved. Class Challenge mapping retrieved from search index.",
+    "sourceLimitations": "Contemporary Inven article excerpts explicitly identify dates, but the complete articles were not independently reviewed. The Icy Veins reward table was reviewed in full. Class Challenge mapping is supported by indexed excerpts.",
     "specialCases": [
       "Explorer's Hat LOE_105 and Forgotten Torch LOE_002 are purchase rewards, available with first release, not assigned to later class challenges.",
       "LOE_019t and LOE_019t2 belong to Elise Starseeker, not Unearthed Raptor despite their ID prefix: December 11 is correct.",
@@ -148,7 +148,7 @@
       "https://www.inven.co.kr/board/hs/3508/19396?p=39",
       "https://hearthstone.blizzard.com/ko-kr/news/23882860"
     ],
-    "upgradedDependency": "Contemporary Nov30 post https://www.reddit.com/r/hearthstone/comments/z89j26/death_knight_upgraded_hero_power/ demonstrates prelaunch upgraded2/1 power and comments explicitly discuss Finley before class launch. Could be Finley of Sands rather than base Finley then Justicar. Exact Justicar chain unproven. https://www.reddit.com/r/wildhearthstone/comments/z8yqvq/death_knight_came_early/ further corroborates prelaunch powers. Image fetch returned403; no bypass or image inspection succeeded."
+    "upgradedDependency": "Contemporary Nov30 post https://www.reddit.com/r/hearthstone/comments/z89j26/death_knight_upgraded_hero_power/ demonstrates prelaunch upgraded2/1 power and comments explicitly discuss Finley before class launch. Could be Finley of Sands rather than base Finley then Justicar. Exact Justicar chain unproven. https://www.reddit.com/r/wildhearthstone/comments/z8yqvq/death_knight_came_early/ further corroborates prelaunch powers. The images were not independently inspected."
   },
   "followupCorrections": [
     {
@@ -339,11 +339,11 @@
       "behavioralIdentity": "High: contemporary comments identify Finley and actual2/1ghoul/end-of-turn death before DKclass unlock.",
       "exactPowerId": "Medium-high inference, not unique-name proof. HERO_11bp2/79943 and Darion cosmetic HERO_11cbp2/99219 have identical names/text in exact25.0. Finley standard pool favors original, but no rawPower.log ID binding was found.",
       "exactTokenId": "High inference: only Frenzied Ghoul named token in exact25.0 is HERO_11bp2t/87918,2/1ChargeUndead. No rawPower.log binding.",
-      "ordinaryConstructed": "Medium-high: Wild subreddit, named Finley/Yoink generation, comments discussing current gameplay and future class launch strongly support constructed use; permitted text does not explicitly certify a ranked/casual queue or rule out friendly/practice. Images were not inspected after403; do not claim visual verification.",
+      "ordinaryConstructed": "Medium-high: Wild subreddit, named Finley/Yoink generation, comments discussing current gameplay and future class launch strongly support constructed use; the available text does not explicitly establish a ranked/casual queue or rule out friendly/practice. Images were not independently inspected, so visual details remain unverified.",
       "kstDay": "Medium-high patch-derivedNov30; Korean tomorrow25.0 notice datedNov29 plus contemporaryNov29/30 reports and wiki25.0 generation attribution. No exact Korean-region match timestamp obtained."
     },
     "limitations": [
-      "No image access bypass attempted.",
+      "Images were not independently inspected.",
       "No rawPower.log/deck binding, replay ID or regional timestamp.",
       "No TGT repository inspected or edited.",
       "Base→Justicar chain not required or proven."
@@ -354,7 +354,7 @@
     "finding": "HearthSim GameTag defines UPGRADED_HERO_POWER=1086. Exact25.0 original78162 points79943; cosmetic99218 points99219. Strong direct data evidence of intended upgrade mapping.",
     "justicarSource": "https://hearthstone.wiki.gg/wiki/Ghoul_Charge",
     "justicarFinding": "Indexed original GhoulCharge page names HERO_11bp and explicitly says Justicar upgrade becomes GhoulFrenzy summoning2attack FrenziedGhoul. This corroborates functional mapping, not underlying proprietary server implementation or actual community match IDs.",
-    "finleyLimit": "Indexed Finley page explicitly says25.0 can discoverGhoulCharge. Its actual outgoing hyperlink target could not be inspected because page access403; do not claim verified original-ID hyperlink or cosmetic exclusion.",
+    "finleyLimit": "Indexed Finley page explicitly says25.0 can discoverGhoulCharge. Its outgoing hyperlink target was not verified, so the link does not establish an original-ID destination or exclude a cosmetic variant.",
     "confidence": "High intended base-original→upgraded-original mapping; actual Nov2022 match binding remains inferred, no rawPower.log."
   },
   "lateTribeDeployment": [
