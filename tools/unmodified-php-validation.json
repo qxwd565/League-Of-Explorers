@@ -1,0 +1,12 @@
+{
+  "result": "pass",
+  "php": "8.5.12",
+  "pluginCommit": "78ce6fdc4e70f689880a70d6f22aa77a6c75e337",
+  "verifiedBlobs": {
+    "includes/class-card-history.php": "e2382b0d1f25aa3ab27f6adce096f8d3f58d013f",
+    "includes/class-set-api.php": "1e26fd05afc62278d49af12ad07dddd5fc043dd4"
+  },
+  "importedCards": 60,
+  "checks": 3541,
+  "limitations": "Offline parser/import comparison only; not live UI, actual WordPress import or deployed site proof."
+}

@@ -23,3 +23,8 @@
 카드 이름이 아닌 **정확한 카드 ID/dbfId를 기준**으로 변경 이력을 연결했습니다.
 
 **기존 저장소의 원화·황금 애니메이션 자료 및 이미지 경로는 수정하거나 삭제하지 않았습니다.**
+
+
+## Date-first history
+
+See [date-schema.md](docs/date-schema.md) for the 62 per-card timelines, 60-card compatible/precise root endpoints, pinned source provenance, Korean date policy, validation commands and explicit uncertainty. The old root endpoints remain schema 1; use the `-date.json` siblings only with a historySchema 2 capable reader. No live plugin settings were changed.

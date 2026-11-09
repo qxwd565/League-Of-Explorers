@@ -1,0 +1,169 @@
+{
+  "schema": 1,
+  "vocabulary": [
+    "BATTLECRY",
+    "CANT_BE_TARGETED_BY_HERO_POWERS",
+    "CANT_BE_TARGETED_BY_SPELLS",
+    "CASTS_WHEN_DRAWN",
+    "CHARGE",
+    "CHOOSE_ONE",
+    "COMBO",
+    "DEATHRATTLE",
+    "DIVINE_SHIELD",
+    "ELUSIVE",
+    "ENRAGED",
+    "FREEZE",
+    "INSPIRE",
+    "LIFESTEAL",
+    "MEGA_WINDFURY",
+    "OVERHEAL",
+    "OVERLOAD",
+    "POISONOUS",
+    "RUSH",
+    "SECRET",
+    "SPELLPOWER",
+    "STEALTH",
+    "TAUNT",
+    "WINDFURY"
+  ],
+  "baseline": {
+    "LOE_089t": [],
+    "LOE_051": [
+      "SPELLPOWER"
+    ],
+    "LOE_002": [],
+    "LOE_107": [],
+    "LOE_115b": [],
+    "LOE_026": [],
+    "LOE_002t": [],
+    "LOE_104": [],
+    "LOE_038": [],
+    "HERO_11bp": [],
+    "LOE_053": [],
+    "LOEA16_5t": [],
+    "LOE_076": [
+      "BATTLECRY"
+    ],
+    "LOE_046": [
+      "DEATHRATTLE"
+    ],
+    "LOE_089t2": [],
+    "LOE_118": [],
+    "LOE_113": [],
+    "LOE_019t": [],
+    "LOE_079": [
+      "BATTLECRY"
+    ],
+    "LOE_110t": [],
+    "LOE_022": [
+      "TAUNT"
+    ],
+    "LOE_050": [
+      "DEATHRATTLE"
+    ],
+    "LOE_029": [
+      "BATTLECRY"
+    ],
+    "LOE_003": [
+      "BATTLECRY"
+    ],
+    "LOE_009": [],
+    "LOEA16_5": [],
+    "LOE_089t3": [],
+    "LOE_092": [
+      "BATTLECRY"
+    ],
+    "LOE_105": [],
+    "LOE_116": [
+      "BATTLECRY"
+    ],
+    "LOE_115a": [],
+    "LOE_061": [
+      "DEATHRATTLE"
+    ],
+    "LOEA10_3": [],
+    "LOE_021": [
+      "SECRET"
+    ],
+    "LOE_086": [],
+    "LOE_007": [],
+    "LOE_016": [],
+    "LOE_011": [
+      "BATTLECRY"
+    ],
+    "LOEA16_4": [],
+    "LOE_010": [
+      "POISONOUS"
+    ],
+    "LOE_073": [
+      "BATTLECRY"
+    ],
+    "LOE_119": [],
+    "LOE_018": [],
+    "LOE_020": [
+      "BATTLECRY"
+    ],
+    "LOE_027": [
+      "SECRET"
+    ],
+    "LOE_017": [
+      "BATTLECRY"
+    ],
+    "LOE_007t": [],
+    "LOE_115": [
+      "CHOOSE_ONE"
+    ],
+    "LOE_019": [
+      "BATTLECRY"
+    ],
+    "LOE_012": [
+      "DEATHRATTLE"
+    ],
+    "LOE_023": [
+      "BATTLECRY"
+    ],
+    "LOE_009t": [
+      "TAUNT"
+    ],
+    "HERO_11bpt": [
+      "CHARGE"
+    ],
+    "LOEA16_3": [],
+    "LOE_039": [
+      "BATTLECRY"
+    ],
+    "LOE_006": [
+      "BATTLECRY"
+    ],
+    "LOE_047": [
+      "BATTLECRY"
+    ],
+    "LOE_110": [
+      "BATTLECRY"
+    ],
+    "LOE_089": [
+      "DEATHRATTLE"
+    ],
+    "LOE_077": [],
+    "LOE_019t2": [
+      "BATTLECRY",
+      "TAUNT"
+    ],
+    "LOE_111": []
+  },
+  "events": {
+    "LOE_110t": {
+      "2018-10-03": [
+        "CASTS_WHEN_DRAWN"
+      ]
+    }
+  },
+  "interpretation": "Actual and referenced tags are evidence, not semantic authority. Own effects only; conditional grants and descriptions of other cards are not intrinsic keywords. Discover/free-text effects remain in text; empty mechanics does not mean no effect.",
+  "exceptions": {
+    "LOE_051": "Intrinsic symmetric Spell Damage aura from own text even without Tag192.",
+    "LOE_115": "Choose One from own text before dedicated tag.",
+    "HERO_11bp": "Charge belongs to summoned ghoul, not power.",
+    "LOE_073": "Conditional Taunt grant is not intrinsic Taunt.",
+    "LOE_110t": "Automatic draw trigger exists at release; formal Casts When Drawn keyword starts2018-10-03."
+  }
+}

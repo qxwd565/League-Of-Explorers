@@ -1,0 +1,392 @@
+{
+  "scope": "Read-only source audit of League of Explorers, fresh main ea2983bcc83c00fcf74ae4d4531d1fce4301e6b1. No canonical edits. Bounded audit, not exhaustive later-patch certification.",
+  "release": {
+    "finding": "All 45 collectible dates in current release-policy match the independently checked acquisition mapping. No collectible release-date correction found. Korean wings are 2015-11-13, 2015-11-20, 2015-12-04, 2015-12-11, with a one-week break after wing 2.",
+    "sources": [
+      "https://www.inven.co.kr/webzine/news/?news=146926",
+      "https://m.inven.co.kr/webzine/wznews.php?idx=147765&l=67107&p=53&site=hs",
+      "https://m.inven.co.kr/webzine/wznews.php?idx=148177&l=108392&p=52&site=hs",
+      "https://www.icy-veins.com/hearthstone/league-of-explorers-guide",
+      "https://hearthstone.fandom.com/wiki/The_League_of_Explorers_Class_Challenges"
+    ],
+    "sourceLimitations": "Inven direct opens returned 502, but search indexed contemporary article bodies explicitly identify dates. Icy Veins full reward table retrieved. Class Challenge mapping retrieved from search index.",
+    "specialCases": [
+      "Explorer's Hat LOE_105 and Forgotten Torch LOE_002 are purchase rewards, available with first release, not assigned to later class challenges.",
+      "LOE_019t and LOE_019t2 belong to Elise Starseeker, not Unearthed Raptor despite their ID prefix: December 11 is correct.",
+      "Related tokens' current dates follow their producer's collectible release. These are derived availability dates, not independently documented token unlock events.",
+      "HERO_11bp and HERO_11bpt in data are unrelated later hero-power records; do not assign 2015 release dates from their folder."
+    ]
+  },
+  "highRisk": [
+    {
+      "id": "LOE_038",
+      "name": "Naga Sea Witch",
+      "date": "2018-05-23",
+      "status": "confirmed",
+      "finding": "Existing 5 to 8 cost nerf is correctly dated in Korean time.",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/21758133/2018-5",
+        "https://www.inven.co.kr/webzine/news/?news=200008&vtype=pc"
+      ]
+    },
+    {
+      "id": "LOE_110t",
+      "name": "Ancient Curse",
+      "date": "2018-10-03",
+      "status": "confirmed_missing",
+      "finding": "Current file backdates named Casts When Drawn text to release and lacks the 12.2 update. Add dated text/keyword transition. Original pre-keyword wording includes taking 7 damage and drawing a card; named keyword absorbs the draw.",
+      "sources": [
+        "https://news.blizzard.com/ko-kr/article/22546493/12-2-10-3",
+        "https://www.inven.co.kr/webzine/news/?news=208062&vtype=pc"
+      ],
+      "archivedEvidence": [
+        "gvg-9.0.0.20457-CardDefs.xml LOE_110t CARDTEXT_INHAND: 이 카드를 뽑을 때, 내게 피해를 7 줍니다. 카드를 1장 뽑습니다.",
+        "gvg-12.2.0.26996-CardDefs.xml and tgt-12.2.0.27358-CardDefs.xml LOE_110t CARDTEXT: <b>뽑을 때 시전</b> newline 내게 피해를 7 줍니다.; ReferencedTag 1077 CASTSWHENDRAWN=1. Beware parser checking Tag only misses ReferencedTag."
+      ]
+    },
+    {
+      "id": "LOE_038",
+      "name": "Naga Sea Witch",
+      "date": "2022-04-06",
+      "status": "strong_correction_candidate",
+      "finding": "Current NAGA date Apr13 uses expansion launch. Original LOE_038 already has CARDRACE92 in archived 23.0.0.135540, and wiki explicitly attributes addition to that patch. Korean official 23.0 notes distinguish Apr6 patch changes from Apr13 expansion. Prefer Apr6 after migration owner confirms archive timing; no indication original existing card waited for expansion unlock.",
+      "sources": [
+        "https://news.blizzard.com/ko-kr/article/23784368/23-0",
+        "https://hearthstone.wiki.gg/wiki/Naga_Sea_Witch",
+        "https://hearthstone.wiki.gg/wiki/Patch_23.0.0.135540"
+      ],
+      "archivedEvidence": "tgt-23.0.0.135540-CardDefs.xml original LOE_038 CARDRACE=92. This is not a CORE or reprint ID."
+    },
+    {
+      "id": "LOE_038",
+      "name": "Naga Sea Witch",
+      "date": null,
+      "status": "unresolved_do_not_force_day",
+      "finding": "Rule-order change should be documented separately from numerical nerf. Sources conflict: official 2018 retrospective calls it 9.1; wiki associates with 9.0.0.20457 August8; Korean retrospective says August31; contemporary accounts establish it existed by August30 US. Do not turn official retrospective version label into a fabricated Sept19 effective date. Leave undated pending better Korean live evidence.",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/21758133/2018-5",
+        "https://hearthstone.wiki.gg/wiki/Patch_9.0.0.20457",
+        "https://aiptcomics.com/2018/02/20/hearthstone-wild-format-and-its-giant-naga-sea-witch-problem/",
+        "https://www.invenglobal.com/articles/5079/six-hearthstone-cards-are-being-nerfed-heres-how-it-will-change-the-game"
+      ]
+    }
+  ],
+  "remaining": "Do not treat this as comprehensive later balance, race, school or Core-change audit. Migration owner is inspecting full original-ID archive transitions. Current Keeper of Uldaman LOE_017 lacks already known Aug23 2023 cost4 to3 patch, documented in previous partial audit; include it. No later expansion was audited.",
+  "additionalFindings": [
+    {
+      "ids": [
+        "LOE_006",
+        "LOE_012",
+        "LOE_017",
+        "LOE_023",
+        "LOE_105"
+      ],
+      "date": "2023-08-23",
+      "finding": "27.0.0.181554 to27.2 archive direct comparison: Museum Curator adds cost1 reduction, Tomb Pillager attack5 to6, Keeper cost4 to3, Dark Peddler health2 to3, Explorer Hat cost2 to1. Minor wording cleanups accompany Pillager and Hat.",
+      "source": "https://hearthstone.blizzard.com/ko-kr/news/23987537/27-2-patch-notes"
+    },
+    {
+      "id": "LOE_053",
+      "date": "2017-07-11",
+      "finding": "Elemental addition, patch8.4. Not June2 or Apr5.",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/20904301/",
+        "https://www.inven.co.kr/webzine/news/?news=181470&vtype=pc"
+      ]
+    },
+    {
+      "id": "LOE_051",
+      "date": "2018-07-11",
+      "finding": "Beast removal, applied11.4. Jul3 announcement is not effective date.",
+      "sources": [
+        "https://m.inven.co.kr/webzine/wznews.php?idx=202972&l=152387&p=23&site=hs",
+        "https://hearthstone.blizzard.com/ko-kr/blog/21901630/"
+      ]
+    },
+    {
+      "id": "LOE_009t",
+      "date": "2016-03-15",
+      "finding": "Beast addition is4.2.0.12051, NOT5.0; wiki specific change plus contemporary KR patch timing. Migration owner should confirm exact4.2 original ID archive.",
+      "sources": [
+        "https://hearthstone.wiki.gg/wiki/Patch_4.2.0.12051",
+        "https://m.inven.co.kr/webzine/wznews.php?idx=152956&l=114890&p=50&site=hs"
+      ]
+    },
+    {
+      "ids": [
+        "LOE_115a",
+        "LOE_115b"
+      ],
+      "date": "2019-05-15",
+      "finding": "14.2 KR patch date corroborated by official title; combine with migration owner exact cost0 to1 original ID archive observation.",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/22933721",
+        "https://hearthstone.wiki.gg/wiki/Break_Free"
+      ]
+    },
+    {
+      "id": "LOE_039",
+      "date": "2022-04-06",
+      "finding": "Cost4 to3 explicitly listed as23.0 change in wiki; combine with original ID archive and KR23.0 timing.",
+      "sources": [
+        "https://hearthstone.wiki.gg/wiki/Patch_23.0.0.135540",
+        "https://news.blizzard.com/ko-kr/article/23784368/23-0"
+      ]
+    }
+  ],
+  "deathKnightDependency": {
+    "ids": {
+      "HERO_11bp": 78162,
+      "HERO_11bpt": 78164
+    },
+    "classUnlock": "2022-12-07",
+    "candidateFirstOrdinaryGeneration": "2022-11-30",
+    "finding": "Dec7 is NOT safe earliest generated power date. Contemporary Nov29US post demonstrates Finley receiving base Ghoul Charge before class launch. Wiki attributes availability to25.0. Korean patch timing Nov30 supported by Nov29 03:01 next-day announcement. Regional live first day merits qualification pending direct KR play report. Current Finley relatedIds includes78162. No other repo inspected.",
+    "sources": [
+      "https://www.reddit.com/r/hearthstone/comments/z85m9l/discovered_the_death_knight_hero_power_off_of/",
+      "https://hearthstone.wiki.gg/wiki/Sir_Finley_Mrrgglton",
+      "https://www.inven.co.kr/board/hs/3508/19396?p=39",
+      "https://hearthstone.blizzard.com/ko-kr/news/23882860"
+    ],
+    "upgradedDependency": "Contemporary Nov30 post https://www.reddit.com/r/hearthstone/comments/z89j26/death_knight_upgraded_hero_power/ demonstrates prelaunch upgraded2/1 power and comments explicitly discuss Finley before class launch. Could be Finley of Sands rather than base Finley then Justicar. Exact Justicar chain unproven. https://www.reddit.com/r/wildhearthstone/comments/z8yqvq/death_knight_came_early/ further corroborates prelaunch powers. Image fetch returned403; no bypass or image inspection succeeded."
+  },
+  "followupCorrections": [
+    {
+      "id": "LOE_051",
+      "dateKST": "2018-07-11",
+      "source": "https://hearthstone.blizzard.com/ko-kr/news/21943493",
+      "note": "Corrects my earlier July10 recommendation. Official Korean title July11, body explicitly Moonkin Beast removal; July10 header is US metadata."
+    },
+    {
+      "id": "LOE_010",
+      "name": "Pit Snake",
+      "dateKST": "2017-03-01",
+      "source": "https://hearthstone.blizzard.com/ko-kr/blog/20562933/",
+      "note": "Official title March1 and explicit named Poisonous wording transition. Verify card ID against source before use; name is primary evidence."
+    },
+    {
+      "id": "LOE_110t",
+      "dateKST": "2017-12-07",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/21274279",
+        "https://www.inven.co.kr/webzine/news/?news=190527&site=hs"
+      ],
+      "note": "10.0 date directly verified in Korean title and contemporary applied-patch report. Cost0→4 change comes from migration-owner exact9.4/10.0 archives, not explicit official card note."
+    }
+  ],
+  "deathKnightIdentityFollowup": {
+    "build": "25.0.0.158725",
+    "variants": [
+      {
+        "id": "HERO_11bp",
+        "dbfId": "78162",
+        "name": "Ghoul Charge",
+        "text": "[x]<b>Hero Power</b>\nSummon a 1/1 Ghoul\nwith <b>Charge</b>. It dies at\nend of turn.",
+        "tags": {
+          "COST": "2",
+          "CARD_SET": "2",
+          "CLASS": "1",
+          "FACTION": "3",
+          "CARDTYPE": "10",
+          "RARITY": "2",
+          "79943": "79943"
+        }
+      },
+      {
+        "id": "HERO_11bp2",
+        "dbfId": "79943",
+        "name": "Ghoul Frenzy",
+        "text": "[x]<b>Hero Power</b>\nSummon a 2/1 Ghoul\nwith <b>Charge</b>. It dies at\nend of turn.",
+        "tags": {
+          "COST": "2",
+          "CARD_SET": "2",
+          "CLASS": "1",
+          "FACTION": "3",
+          "CARDTYPE": "10"
+        }
+      },
+      {
+        "id": "HERO_11bp2t",
+        "dbfId": "87918",
+        "name": "Frenzied Ghoul",
+        "text": "[x]<b>Charge</b>\nAt the end of your turn,\nthis minion dies.",
+        "tags": {
+          "HEALTH": "1",
+          "ATK": "2",
+          "COST": "1",
+          "CARD_SET": "2",
+          "CHARGE": "1",
+          "CLASS": "1",
+          "CARDRACE": "11",
+          "CARDTYPE": "4",
+          "RARITY": "2",
+          "ENCHANTMENT_BIRTH_VISUAL": "2",
+          "ENCHANTMENT_IDLE_VISUAL": "2",
+          "1": "1"
+        }
+      },
+      {
+        "id": "HERO_11bpt",
+        "dbfId": "78164",
+        "name": "Frail Ghoul",
+        "text": "[x]<b>Charge</b>\nAt the end of your turn,\nthis minion dies.",
+        "tags": {
+          "HEALTH": "1",
+          "ATK": "1",
+          "COST": "1",
+          "CARD_SET": "2",
+          "CHARGE": "1",
+          "CLASS": "1",
+          "CARDRACE": "11",
+          "CARDTYPE": "4",
+          "RARITY": "2",
+          "ENCHANTMENT_BIRTH_VISUAL": "2",
+          "ENCHANTMENT_IDLE_VISUAL": "2",
+          "1": "1"
+        }
+      },
+      {
+        "id": "HERO_11cbp",
+        "dbfId": "99218",
+        "name": "Ghoul Charge",
+        "text": "[x]<b>Hero Power</b>\nSummon a 1/1 Ghoul\nwith <b>Charge</b>. It dies at\nend of turn.",
+        "tags": {
+          "COST": "2",
+          "CARD_SET": "2",
+          "CLASS": "1",
+          "FACTION": "3",
+          "CARDTYPE": "10",
+          "RARITY": "2",
+          "99219": "99219"
+        }
+      },
+      {
+        "id": "HERO_11cbp2",
+        "dbfId": "99219",
+        "name": "Ghoul Frenzy",
+        "text": "[x]<b>Hero Power</b>\nSummon a 2/1 Ghoul\nwith <b>Charge</b>. It dies at\nend of turn.",
+        "tags": {
+          "COST": "2",
+          "CARD_SET": "2",
+          "CLASS": "1",
+          "FACTION": "3",
+          "CARDTYPE": "10"
+        }
+      },
+      {
+        "id": "RLK_Prologue_Arthas_002p",
+        "dbfId": "90768",
+        "name": "Ghoul Charge",
+        "text": "[x]<b>Hero Power</b>\nSummon a 1/1 Ghoul\nwith <b>Charge</b>. It dies at\nend of turn.",
+        "tags": {
+          "COST": "2",
+          "CARD_SET": "1776",
+          "CLASS": "1",
+          "CARDTYPE": "10",
+          "HIDE_WATERMARK": "1"
+        }
+      },
+      {
+        "id": "RLK_Prologue_Arthas_003p",
+        "dbfId": "90769",
+        "name": "Ghoul Charge",
+        "text": "[x]<b>Hero Power</b>\nSummon a 1/1 Ghoul\nwith <b>Charge</b>. It dies at\nend of turn.",
+        "tags": {
+          "COST": "2",
+          "CARD_SET": "1776",
+          "CLASS": "1",
+          "CARDTYPE": "10",
+          "HIDE_WATERMARK": "1"
+        }
+      },
+      {
+        "id": "RLK_Prologue_Arthas_004p",
+        "dbfId": "90770",
+        "name": "Ghoul Charge",
+        "text": "[x]<b>Hero Power</b>\nSummon a 1/1 Ghoul\nwith <b>Charge</b>. It dies at\nend of turn.",
+        "tags": {
+          "COST": "2",
+          "CARD_SET": "1776",
+          "CLASS": "1",
+          "CARDTYPE": "10",
+          "HIDE_WATERMARK": "1"
+        }
+      },
+      {
+        "id": "RLK_Prologue_MalGanis_001p",
+        "dbfId": "90771",
+        "name": "Ghoul Charge",
+        "text": "[x]<b>Hero Power</b>\nSummon a 1/1 Ghoul\nwith <b>Charge</b>. It dies at\nend of turn.",
+        "tags": {
+          "COST": "2",
+          "CARD_SET": "1776",
+          "CLASS": "1",
+          "CARDTYPE": "10",
+          "78162": "78162",
+          "HIDE_WATERMARK": "1"
+        }
+      }
+    ],
+    "sources": [
+      "https://www.reddit.com/r/hearthstone/comments/z89j26/death_knight_upgraded_hero_power/",
+      "https://www.reddit.com/r/wildhearthstone/comments/z8yqvq/death_knight_came_early/",
+      "https://hearthstone.wiki.gg/wiki/Sir_Finley_of_the_Sands",
+      "https://hearthstone.wiki.gg/wiki/Ghoul_Charge_%28Darion_Mograine%29",
+      "https://www.inven.co.kr/board/hs/3508/19396?p=39"
+    ],
+    "recommendation": "Use2022-11-30 KST as qualified high-confidence patch-effective generation availability, not as a directly timestamped Korean match observation. December7 is class unlock, not earliest generation. A strict proof-only field should retain qualification rather than claiming exact observed Korean day.",
+    "confidence": {
+      "behavioralIdentity": "High: contemporary comments identify Finley and actual2/1ghoul/end-of-turn death before DKclass unlock.",
+      "exactPowerId": "Medium-high inference, not unique-name proof. HERO_11bp2/79943 and Darion cosmetic HERO_11cbp2/99219 have identical names/text in exact25.0. Finley standard pool favors original, but no rawPower.log ID binding was found.",
+      "exactTokenId": "High inference: only Frenzied Ghoul named token in exact25.0 is HERO_11bp2t/87918,2/1ChargeUndead. No rawPower.log binding.",
+      "ordinaryConstructed": "Medium-high: Wild subreddit, named Finley/Yoink generation, comments discussing current gameplay and future class launch strongly support constructed use; permitted text does not explicitly certify a ranked/casual queue or rule out friendly/practice. Images were not inspected after403; do not claim visual verification.",
+      "kstDay": "Medium-high patch-derivedNov30; Korean tomorrow25.0 notice datedNov29 plus contemporaryNov29/30 reports and wiki25.0 generation attribution. No exact Korean-region match timestamp obtained."
+    },
+    "limitations": [
+      "No image access bypass attempted.",
+      "No rawPower.log/deck binding, replay ID or regional timestamp.",
+      "No TGT repository inspected or edited.",
+      "Base→Justicar chain not required or proven."
+    ]
+  },
+  "upgradeMappingFollowup": {
+    "enumSource": "https://raw.githubusercontent.com/HearthSim/python-hearthstone/master/hearthstone/enums.py",
+    "finding": "HearthSim GameTag defines UPGRADED_HERO_POWER=1086. Exact25.0 original78162 points79943; cosmetic99218 points99219. Strong direct data evidence of intended upgrade mapping.",
+    "justicarSource": "https://hearthstone.wiki.gg/wiki/Ghoul_Charge",
+    "justicarFinding": "Indexed original GhoulCharge page names HERO_11bp and explicitly says Justicar upgrade becomes GhoulFrenzy summoning2attack FrenziedGhoul. This corroborates functional mapping, not underlying proprietary server implementation or actual community match IDs.",
+    "finleyLimit": "Indexed Finley page explicitly says25.0 can discoverGhoulCharge. Its actual outgoing hyperlink target could not be inspected because page access403; do not claim verified original-ID hyperlink or cosmetic exclusion.",
+    "confidence": "High intended base-original→upgraded-original mapping; actual Nov2022 match binding remains inferred, no rawPower.log."
+  },
+  "lateTribeDeployment": [
+    {
+      "id": "LOEA16_5t",
+      "dateKST": "2023-01-18",
+      "source": "https://hearthstone.blizzard.com/ko-kr/news/23892225/25-2",
+      "basis": "Migration-owner last25.0.4 noUndead→25.2 Undead. Official season3 dateJan18 anchors25.2; card-specific transition archive-derived."
+    },
+    {
+      "id": "LOE_039",
+      "dateKST": "2023-02-15",
+      "source": "https://hearthstone.blizzard.com/ko-kr/news/23913671/25-4",
+      "basis": "Migration-owner25.2 Mech-only→25.4 Beast dual type. Official mini-set25.4 deploymentFeb15; card-specific transition archive-derived."
+    }
+  ],
+  "additionalVerifiedArchiveTransitions": [
+    {
+      "id": "LOEA16_5t",
+      "date": "2023-01-18",
+      "status": "archive-derived-card-change-with-Korean-patch-day",
+      "before": "25.0.4.162171: no race",
+      "after": "25.2.0.162867: CARDRACE11",
+      "source": "https://hearthstone.blizzard.com/ko-kr/news/23892225/25-2"
+    },
+    {
+      "id": "LOE_039",
+      "date": "2023-02-15",
+      "status": "archive-derived-card-change-with-Korean-patch-day",
+      "before": "25.2.0.162867: MECHANICAL only",
+      "after": "25.4.0.165029: MECHANICAL+BEAST via2542",
+      "source": "https://hearthstone.blizzard.com/ko-kr/news/23913671/25-4"
+    }
+  ]
+}

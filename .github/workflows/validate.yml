@@ -1,0 +1,27 @@
+name: Validate date-first League API
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: |
+          python3 tools/migrate-date-schema.py
+          python3 tools/build-api.py
+          python3 tools/test-presence-fixtures.py
+          python3 tools/test-date-schema.py
+          python3 tools/test-archive-history.py
+          python3 tools/test-legacy-compatibility.py
+          python3 tools/test-future-canonical.py
+          python3 tools/test-clean-migration.py
+          python3 tools/test-build-idempotence.py
+          git diff --check
+          git diff --exit-code

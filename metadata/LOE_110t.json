@@ -1,0 +1,502 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "LOE_110t",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2015-11-13",
+    "status": "estimated"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Partial verification: numeric/taxonomy and listed gameplay changes verified against bounded archives; undated Korean display/name/rarity/class changes are retained as observations, not invented dates. No strict/default hiding.",
+  "sourceCommit": "ea2983bcc83c00fcf74ae4d4531d1fce4301e6b1",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "englishName": "Ancient Curse",
+    "card": {
+      "id": "LOE_110t",
+      "dbfId": 9082,
+      "name": "고대의 저주",
+      "text": "<b>뽑을 때 시전</b>\n내게 피해를 7 줍니다.",
+      "type": "SPELL",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "nativeSetId": 20,
+      "set": "LOE",
+      "rarity": null,
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "cost": 4,
+      "attack": 0,
+      "health": 0,
+      "armor": 0,
+      "durability": 0,
+      "collectible": false,
+      "chooseOne": false,
+      "installed": true,
+      "portrait": "HS6-050_D.psd:36c3d15900276a547adc92cf67fd60bf",
+      "flavor": "",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 349,
+          "name": "게임 태그 349",
+          "value": 1
+        },
+        {
+          "id": 1077,
+          "name": "뽑을 때 시전",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "nativeRawText": "<b>뽑을 때 시전</b>\n내게 피해를 7 줍니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2015-11-13",
+      "releaseStatus": "estimated",
+      "patches": [
+        {
+          "date": "2021-03-26",
+          "changes": {
+            "spellSchool": "SHADOW"
+          }
+        }
+      ],
+      "initialSpecStatus": "unverified",
+      "patchSources": {
+        "2021-03-26": "taxonomy introduction"
+      }
+    },
+    "root": false,
+    "relatedIds": [],
+    "expansion": {
+      "id": 20,
+      "slug": "league-of-explorers",
+      "name": "탐험가 연맹",
+      "type": "adventure",
+      "englishName": "League Of Explorers"
+    },
+    "setOrder": 38,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    }
+  },
+  "currentCatalog": {
+    "id": "LOE_110t",
+    "dbfId": 9082,
+    "name": "고대의 저주",
+    "type": "SPELL",
+    "cardClass": "NEUTRAL",
+    "rarity": null,
+    "collectible": false,
+    "cost": 4,
+    "text": "<b>뽑을 때 시전</b>\n내게 피해를 7 줍니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "",
+    "spellSchool": "SHADOW",
+    "portrait": "HS6-050_D.psd:36c3d15900276a547adc92cf67fd60bf",
+    "set": "LOE",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 349,
+        "name": "게임 태그 349",
+        "value": 1
+      },
+      {
+        "id": 1077,
+        "name": "뽑을 때 시전",
+        "value": 1
+      },
+      {
+        "id": 1635,
+        "name": "주문 속성",
+        "value": 6
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/LOE_110t.png",
+    "releasedAt": "2015-11-13",
+    "releaseStatus": "estimated"
+  },
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "attack",
+    "durability",
+    "flavor",
+    "health",
+    "nativeTags",
+    "portrait",
+    "race",
+    "races",
+    "set"
+  ],
+  "canonicalFields": [
+    "cardClass",
+    "chooseOne",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "spellSchool",
+    "text",
+    "type"
+  ],
+  "keywordAbilityEvidence": {
+    "source": "tools/loe-keyword-abilities.json",
+    "vocabulary": [
+      "BATTLECRY",
+      "CANT_BE_TARGETED_BY_HERO_POWERS",
+      "CANT_BE_TARGETED_BY_SPELLS",
+      "CASTS_WHEN_DRAWN",
+      "CHARGE",
+      "CHOOSE_ONE",
+      "COMBO",
+      "DEATHRATTLE",
+      "DIVINE_SHIELD",
+      "ELUSIVE",
+      "ENRAGED",
+      "FREEZE",
+      "INSPIRE",
+      "LIFESTEAL",
+      "MEGA_WINDFURY",
+      "OVERHEAL",
+      "OVERLOAD",
+      "POISONOUS",
+      "RUSH",
+      "SECRET",
+      "SPELLPOWER",
+      "STEALTH",
+      "TAUNT",
+      "WINDFURY"
+    ]
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": [
+      "CASTS_WHEN_DRAWN"
+    ]
+  },
+  "supplementalAudit": {
+    "status": "unpublished-reconstruction",
+    "source": "tools/supplemental-audit/LOE_110t.json",
+    "document": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "englishName": "Ancient Curse",
+      "card": {
+        "id": "LOE_110t",
+        "dbfId": 9082,
+        "name": "고대의 저주",
+        "text": "이 카드를 뽑으면, 내게 피해를 7 줍니다. 카드를 1장 뽑습니다.",
+        "type": "SPELL",
+        "cardClass": "NEUTRAL",
+        "classes": [],
+        "nativeSetId": 20,
+        "set": "LOE",
+        "rarity": null,
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "cost": 0,
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0,
+        "collectible": false,
+        "chooseOne": false,
+        "installed": true,
+        "portrait": "HS6-050_D.psd:36c3d15900276a547adc92cf67fd60bf",
+        "flavor": "",
+        "nativeTags": [
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 4
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 12
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 5
+          },
+          {
+            "id": 349,
+            "name": "게임 태그 349",
+            "value": 1
+          },
+          {
+            "id": 1077,
+            "name": "뽑을 때 시전",
+            "value": 1
+          },
+          {
+            "id": 1635,
+            "name": "주문 속성",
+            "value": 6
+          }
+        ],
+        "nativeRawText": "<b>뽑을 때 시전</b>\n내게 피해를 7 줍니다.",
+        "nativeTextBuilder": 0,
+        "releasedAt": "2015-11-13",
+        "releaseStatus": "estimated",
+        "patches": [
+          {
+            "date": "2017-12-07",
+            "changes": {
+              "cost": 4,
+              "text": "내게 피해를 7 줍니다. 카드를 1장 뽑습니다. 이 카드를 뽑아도 시전합니다."
+            }
+          },
+          {
+            "date": "2018-10-03",
+            "changes": {
+              "text": "<b>뽑을 때 시전</b>\n내게 피해를 7 줍니다."
+            }
+          },
+          {
+            "date": "2021-03-26",
+            "changes": {
+              "spellSchool": "SHADOW"
+            }
+          }
+        ],
+        "initialSpecStatus": "partially-verified",
+        "patchSources": {
+          "2021-03-26": "20.0 original-ID archive + pinned spell-school introduction",
+          "2018-10-03": "https://news.blizzard.com/ko-kr/article/22546493/12-2-10-3",
+          "2017-12-07": "OriginalLOE_110t9.4→10.0 cost/manual-cast wording + Korean live date https://hearthstone.blizzard.com/ko-kr/news/21274279"
+        }
+      },
+      "root": false,
+      "relatedIds": [],
+      "expansion": {
+        "id": 20,
+        "slug": "league-of-explorers",
+        "name": "탐험가 연맹",
+        "type": "adventure",
+        "englishName": "League Of Explorers"
+      },
+      "setOrder": 38,
+      "formats": [
+        "wild"
+      ],
+      "provenance": {
+        "source": "Installed Hearthstone dbf.unity3d",
+        "gameVersion": "6000.3.11.3145967",
+        "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+        "locale": "koKR"
+      }
+    },
+    "meaning": "Explicit source-backed reconstruction input, not the pinned original."
+  },
+  "catalogMembership": true,
+  "availabilityScope": "Korean ordinary constructed-match use, including generated powers; excludes preload and adventure-only use.",
+  "dateRecheckEvidence": "tools/loe-date-recheck.json",
+  "undatedEvidence": {
+    "source": "tools/loe-client-evidence.json",
+    "limitations": "tools/loe-known-unmodeled-intervals.json"
+  },
+  "historicalObservations": [
+    {
+      "build": "4.0.0.10833",
+      "source": "https://github.com/HearthSim/hsdata/blob/af481578003cb5dae70b672353d33e298f9ab128/CardDefs.xml",
+      "name": "고대의 저주",
+      "rawText": "이 카드를 뽑으면, 내게 피해를 7 줍니다. 카드를 1장 뽑습니다.",
+      "enText": "When you draw this, take 7 damage and draw a card.",
+      "Tag": {
+        "183": "20",
+        "202": "5",
+        "349": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Client observation only; not asserted Korean server-live date",
+      "lastObservedBuild": "5.0.0.12574"
+    },
+    {
+      "build": "6.0.0.13921",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "name": "고대의 저주",
+      "rawText": "이 카드를 뽑으면, 내게 피해를 7 줍니다. 카드를 1장 뽑습니다.",
+      "enText": "When you draw this, take 7 damage and draw a card.",
+      "Tag": {
+        "183": "20",
+        "199": "12",
+        "202": "5",
+        "349": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Client observation only; not asserted Korean server-live date",
+      "lastObservedBuild": "6.1.3.14830"
+    },
+    {
+      "build": "6.2.0.15181",
+      "source": "https://github.com/HearthSim/hsdata/blob/9b1b489dec1f2d44be1ce5d0a0e985d888ee6553/CardDefs.xml",
+      "name": "고대의 저주",
+      "rawText": "이 카드를 뽑으면, 내게 피해를 7 줍니다. 카드를 1장 뽑습니다.",
+      "enText": "When you draw this, take 7 damage and draw a card.",
+      "Tag": {
+        "183": "20",
+        "199": "12",
+        "202": "5",
+        "349": "1",
+        "377": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Client observation only; not asserted Korean server-live date",
+      "lastObservedBuild": "7.1.0.17720"
+    },
+    {
+      "build": "8.0.0.18336",
+      "source": "https://github.com/HearthSim/hsdata/blob/085f915af6c4374ac2a7088862390ebea44eb6c9/CardDefs.xml",
+      "name": "고대의 저주",
+      "rawText": "이 카드를 뽑을 때, 내게 피해를 7 줍니다. 카드를 1장 뽑습니다.",
+      "enText": "When you draw this, take 7 damage and draw a card.",
+      "Tag": {
+        "183": "20",
+        "199": "12",
+        "202": "5",
+        "349": "1",
+        "377": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Client observation only; not asserted Korean server-live date",
+      "lastObservedBuild": "9.4.0.22115"
+    },
+    {
+      "build": "10.0.0.22611",
+      "source": "https://github.com/HearthSim/hsdata/blob/d399871096675e4186c1c2d35b9c410464a4ffbf/CardDefs.xml",
+      "name": "고대의 저주",
+      "rawText": "내게 피해를 7 줍니다. 카드를 1장 뽑습니다. 이 카드를 뽑아도 시전합니다.",
+      "enText": "[x]You take 7 damage.\nDraw a card.\nCast this when drawn.",
+      "Tag": {
+        "48": "4",
+        "183": "20",
+        "199": "12",
+        "202": "5",
+        "349": "1",
+        "377": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Client observation only; not asserted Korean server-live date",
+      "lastObservedBuild": "12.0.0.25770"
+    },
+    {
+      "build": "12.2.0.26996",
+      "source": "https://github.com/HearthSim/hsdata/blob/6c5e7fdeb38d02bf91b167111a393ddaa80c3897/CardDefs.xml",
+      "name": "고대의 저주",
+      "rawText": "<b>뽑을 때 시전</b>\n내게 피해를 7 줍니다.",
+      "enText": "<b>Casts When Drawn</b>\nYou take 7 damage.",
+      "Tag": {
+        "48": "4",
+        "183": "20",
+        "199": "12",
+        "202": "5",
+        "349": "1",
+        "377": "1"
+      },
+      "ReferencedTag": {
+        "1077": "1"
+      },
+      "dateStatus": "Client observation only; not asserted Korean server-live date",
+      "lastObservedBuild": "17.0.0.44582"
+    },
+    {
+      "build": "20.0.0.77662",
+      "source": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+      "name": "고대의 저주",
+      "rawText": "<b>뽑을 때 시전</b>\n내게 피해를 7 줍니다.",
+      "enText": "<b>Casts When Drawn</b>\nYou take 7 damage.",
+      "Tag": {
+        "48": "4",
+        "183": "20",
+        "199": "12",
+        "202": "5",
+        "349": "1",
+        "377": "1",
+        "1077": "1",
+        "1635": "6"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Client observation only; not asserted Korean server-live date",
+      "lastObservedBuild": "29.0.0.195635"
+    },
+    {
+      "build": "30.6.0.208591",
+      "source": "https://github.com/HearthSim/hsdata/blob/37797c6c5e9af546306299ade90189454f2b16ac/CardDefs.xml",
+      "name": "고대의 저주",
+      "rawText": "<b>뽑을 때 시전</b>\n내게 피해를 7 줍니다.",
+      "enText": "<b>Casts When Drawn</b>\nYou take 7 damage.",
+      "Tag": {
+        "48": "4",
+        "183": "20",
+        "199": "12",
+        "202": "5",
+        "349": "1",
+        "1077": "1",
+        "1635": "6"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Client observation only; not asserted Korean server-live date",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ],
+  "rarityPresenceEvidence": {
+    "status": "unknown",
+    "value": null
+  }
+}

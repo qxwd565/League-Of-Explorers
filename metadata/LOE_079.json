@@ -1,0 +1,520 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "LOE_079",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2015-12-11",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Partial verification: numeric/taxonomy and listed gameplay changes verified against bounded archives; undated Korean display/name/rarity/class changes are retained as observations, not invented dates. No strict/default hiding.",
+  "sourceCommit": "ea2983bcc83c00fcf74ae4d4531d1fce4301e6b1",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "englishName": "Elise Starseeker",
+    "card": {
+      "id": "LOE_079",
+      "dbfId": 2951,
+      "name": "엘리스 스타시커",
+      "text": "[x]<b>전투의 함성:</b>\n'황금 원숭이 보물지도'를\n내 덱에 섞어 넣습니다.",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "nativeSetId": 20,
+      "set": "LOE",
+      "rarity": "LEGENDARY",
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "cost": 4,
+      "attack": 3,
+      "health": 5,
+      "armor": 0,
+      "durability": 0,
+      "collectible": true,
+      "chooseOne": false,
+      "installed": true,
+      "portrait": "HS6-029_D.psd:53e867971e9ba9c449c9d73fa930faa6",
+      "flavor": "그녀의 가장 중요한 직책 중 하나는 황금 원숭이 보물지도와 원숭이 섬으로 향하는 지도를 구분하는 것입니다.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 2589,
+          "name": "간판 카드 존재",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "[x]<b>전투의 함성:</b>\n'황금 원숭이 보물지도'를\n내 덱에 섞어 넣습니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2015-12-11",
+      "releaseStatus": "verified",
+      "patches": [],
+      "initialSpecStatus": "unverified",
+      "patchSources": {}
+    },
+    "root": true,
+    "relatedIds": [
+      2992,
+      2993
+    ],
+    "expansion": {
+      "id": 20,
+      "slug": "league-of-explorers",
+      "name": "탐험가 연맹",
+      "type": "adventure",
+      "englishName": "League Of Explorers"
+    },
+    "setOrder": 38,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    }
+  },
+  "currentCatalog": {
+    "id": "LOE_079",
+    "dbfId": 2951,
+    "name": "엘리스 스타시커",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 4,
+    "text": "[x]<b>전투의 함성:</b>\n'황금 원숭이 보물지도'를\n내 덱에 섞어 넣습니다.",
+    "attack": 3,
+    "health": 5,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "그녀의 가장 중요한 직책 중 하나는 황금 원숭이 보물지도와 원숭이 섬으로 향하는 지도를 구분하는 것입니다.",
+    "spellSchool": "",
+    "portrait": "HS6-029_D.psd:53e867971e9ba9c449c9d73fa930faa6",
+    "set": "LOE",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 5
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 3
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 4
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 2589,
+        "name": "간판 카드 존재",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/LOE_079.png",
+    "releasedAt": "2015-12-11",
+    "releaseStatus": "verified"
+  },
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "durability",
+    "flavor",
+    "nativeTags",
+    "portrait",
+    "race",
+    "races",
+    "set",
+    "spellSchool"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "chooseOne",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "keywordAbilityEvidence": {
+    "source": "tools/loe-keyword-abilities.json",
+    "vocabulary": [
+      "BATTLECRY",
+      "CANT_BE_TARGETED_BY_HERO_POWERS",
+      "CANT_BE_TARGETED_BY_SPELLS",
+      "CASTS_WHEN_DRAWN",
+      "CHARGE",
+      "CHOOSE_ONE",
+      "COMBO",
+      "DEATHRATTLE",
+      "DIVINE_SHIELD",
+      "ELUSIVE",
+      "ENRAGED",
+      "FREEZE",
+      "INSPIRE",
+      "LIFESTEAL",
+      "MEGA_WINDFURY",
+      "OVERHEAL",
+      "OVERLOAD",
+      "POISONOUS",
+      "RUSH",
+      "SECRET",
+      "SPELLPOWER",
+      "STEALTH",
+      "TAUNT",
+      "WINDFURY"
+    ]
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": [
+      "BATTLECRY"
+    ]
+  },
+  "supplementalAudit": {
+    "status": "unpublished-reconstruction",
+    "source": "tools/supplemental-audit/LOE_079.json",
+    "document": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "englishName": "Elise Starseeker",
+      "card": {
+        "id": "LOE_079",
+        "dbfId": 2951,
+        "name": "엘리스 스타시커",
+        "text": "[x]<b>전투의 함성:</b>\n'황금 원숭이 보물지도'를\n내 덱에 섞어 넣습니다.",
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "classes": [],
+        "nativeSetId": 20,
+        "set": "LOE",
+        "rarity": "LEGENDARY",
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "cost": 4,
+        "attack": 3,
+        "health": 5,
+        "armor": 0,
+        "durability": 0,
+        "collectible": true,
+        "chooseOne": false,
+        "installed": true,
+        "portrait": "HS6-029_D.psd:53e867971e9ba9c449c9d73fa930faa6",
+        "flavor": "그녀의 가장 중요한 직책 중 하나는 황금 원숭이 보물지도와 원숭이 섬으로 향하는 지도를 구분하는 것입니다.",
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 5
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 3
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 4
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 1
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 12
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 5
+          },
+          {
+            "id": 218,
+            "name": "전투의 함성",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 2589,
+            "name": "간판 카드 존재",
+            "value": 1
+          }
+        ],
+        "nativeRawText": "[x]<b>전투의 함성:</b>\n'황금 원숭이 보물지도'를\n내 덱에 섞어 넣습니다.",
+        "nativeTextBuilder": 0,
+        "releasedAt": "2015-12-11",
+        "releaseStatus": "verified",
+        "patches": [],
+        "initialSpecStatus": "partially-verified",
+        "patchSources": {}
+      },
+      "root": true,
+      "relatedIds": [
+        2992,
+        2993
+      ],
+      "expansion": {
+        "id": 20,
+        "slug": "league-of-explorers",
+        "name": "탐험가 연맹",
+        "type": "adventure",
+        "englishName": "League Of Explorers"
+      },
+      "setOrder": 38,
+      "formats": [
+        "wild"
+      ],
+      "provenance": {
+        "source": "Installed Hearthstone dbf.unity3d",
+        "gameVersion": "6000.3.11.3145967",
+        "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+        "locale": "koKR"
+      }
+    },
+    "meaning": "Explicit source-backed reconstruction input, not the pinned original."
+  },
+  "catalogMembership": true,
+  "availabilityScope": "Korean ordinary constructed-match use, including generated powers; excludes preload and adventure-only use.",
+  "dateRecheckEvidence": "tools/loe-date-recheck.json",
+  "undatedEvidence": {
+    "source": "tools/loe-client-evidence.json",
+    "limitations": "tools/loe-known-unmodeled-intervals.json"
+  },
+  "historicalObservations": [
+    {
+      "build": "4.0.0.10833",
+      "source": "https://github.com/HearthSim/hsdata/blob/af481578003cb5dae70b672353d33e298f9ab128/CardDefs.xml",
+      "name": "엘리스 스타시커",
+      "rawText": "<b>전투의 함성:</b> '황금 원숭이 보물지도' 카드 1장을 내 덱에 섞어 넣습니다.",
+      "enText": "<b>Battlecry:</b> Shuffle the 'Map to the Golden Monkey'   into your deck.",
+      "Tag": {
+        "45": "5",
+        "47": "3",
+        "48": "4",
+        "114": "1",
+        "183": "20",
+        "202": "4",
+        "203": "5",
+        "218": "1",
+        "321": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Client observation only; not asserted Korean server-live date",
+      "lastObservedBuild": "5.0.0.12574"
+    },
+    {
+      "build": "6.0.0.13921",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "name": "엘리스 스타시커",
+      "rawText": "<b>전투의 함성:</b> '황금 원숭이 보물지도' 카드 1장을 내 덱에 섞어 넣습니다.",
+      "enText": "<b>Battlecry:</b> Shuffle the 'Map to the Golden Monkey'   into your deck.",
+      "Tag": {
+        "45": "5",
+        "47": "3",
+        "48": "4",
+        "114": "1",
+        "183": "20",
+        "199": "12",
+        "202": "4",
+        "203": "5",
+        "218": "1",
+        "321": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Client observation only; not asserted Korean server-live date",
+      "lastObservedBuild": "12.0.0.25770"
+    },
+    {
+      "build": "12.2.0.26996",
+      "source": "https://github.com/HearthSim/hsdata/blob/6c5e7fdeb38d02bf91b167111a393ddaa80c3897/CardDefs.xml",
+      "name": "엘리스 스타시커",
+      "rawText": "[x]<b>전투의 함성:</b>\n'황금 원숭이 보물지도'를\n내 덱에 섞어 넣습니다.",
+      "enText": "<b>Battlecry:</b> Shuffle the 'Map to the Golden Monkey'   into your deck.",
+      "Tag": {
+        "45": "5",
+        "47": "3",
+        "48": "4",
+        "114": "1",
+        "183": "20",
+        "199": "12",
+        "202": "4",
+        "203": "5",
+        "218": "1",
+        "321": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Client observation only; not asserted Korean server-live date",
+      "lastObservedBuild": "25.6.2.170126"
+    },
+    {
+      "build": "26.0.0.170824",
+      "source": "https://github.com/HearthSim/hsdata/blob/8bfb29fa4064a213262beb5a8941203f6aa7434c/CardDefs.xml",
+      "name": "엘리스 스타시커",
+      "rawText": "[x]<b>전투의 함성:</b>\n'황금 원숭이 보물지도'를\n내 덱에 섞어 넣습니다.",
+      "enText": "<b>Battlecry:</b> Shuffle the 'Map to the Golden Monkey'   into your deck.",
+      "Tag": {
+        "45": "5",
+        "47": "3",
+        "48": "4",
+        "114": "1",
+        "183": "20",
+        "199": "12",
+        "202": "4",
+        "203": "5",
+        "218": "1",
+        "321": "1",
+        "1452": "2992"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Client observation only; not asserted Korean server-live date"
+    },
+    {
+      "build": "27.0.0.181554",
+      "source": "https://github.com/HearthSim/hsdata/blob/1a884ec23e99e4daa26637df99433c6e17bba63c/CardDefs.xml",
+      "name": "엘리스 스타시커",
+      "rawText": "[x]<b>전투의 함성:</b>\n'황금 원숭이 보물지도'를\n내 덱에 섞어 넣습니다.",
+      "enText": "<b>Battlecry:</b> Shuffle the 'Map to the Golden Monkey'   into your deck.",
+      "Tag": {
+        "45": "5",
+        "47": "3",
+        "48": "4",
+        "114": "1",
+        "183": "20",
+        "199": "12",
+        "202": "4",
+        "203": "5",
+        "218": "1",
+        "321": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Client observation only; not asserted Korean server-live date"
+    },
+    {
+      "build": "27.2.0.183876",
+      "source": "https://github.com/HearthSim/hsdata/blob/0403e1f741685c19216e432ca8f097e07c7ff32e/CardDefs.xml",
+      "name": "엘리스 스타시커",
+      "rawText": "[x]<b>전투의 함성:</b>\n'황금 원숭이 보물지도'를\n내 덱에 섞어 넣습니다.",
+      "enText": "<b>Battlecry:</b> Shuffle the 'Map to the Golden Monkey'   into your deck.",
+      "Tag": {
+        "45": "5",
+        "47": "3",
+        "48": "4",
+        "114": "1",
+        "183": "20",
+        "199": "12",
+        "202": "4",
+        "203": "5",
+        "218": "1",
+        "321": "1",
+        "2589": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Client observation only; not asserted Korean server-live date",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

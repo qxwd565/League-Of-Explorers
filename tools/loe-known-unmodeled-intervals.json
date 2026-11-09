@@ -1,0 +1,448 @@
+{
+  "schema": 1,
+  "scope": "Explicit limits, not certified absence of other historical changes.",
+  "unresolvedInitialDisplays": [
+    {
+      "id": "LOE_002",
+      "fields": {
+        "name": {
+          "archive": "잊혀진 횃불",
+          "retained": "잊힌 횃불"
+        },
+        "text": {
+          "archive": "피해를 $3 줍니다. 피해를 6 주는 '이글거리는 횃불' 카드 1장을 내 덱에 섞어 넣습니다.",
+          "retained": "피해를 $3 줍니다.<br></br>피해를 6 주는 '이글거리는 횃불'을<br></br>내 덱에 섞어 넣습니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_003",
+      "fields": {
+        "text": {
+          "archive": "<b>전투의 함성:</b> 주문을 하나 <b>발견</b>합니다.",
+          "retained": "<b>전투의 함성:</b><br></br>주문을 <b>발견</b>합니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_009",
+      "fields": {
+        "text": {
+          "archive": "내 턴이 끝날 때, <b>도발</b> 능력이 있는 1/1 딱정벌레를 1마리 소환합니다.",
+          "retained": "[x]내 턴이 끝날 때,<br></br><b>도발</b> 능력이 있는 1/1<br></br>딱정벌레를 소환합니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_011",
+      "fields": {
+        "text": {
+          "archive": "<b>전투의 함성:</b> 내 덱에 2장 이상 들어있는 카드가 하나도 없다면, 내 영웅의 생명력을 모두 회복시킵니다.",
+          "retained": "[x]<b>전투의 함성:</b> 내 덱에<br></br>똑같은 카드가 없으면,<br></br>내 영웅의 생명력을<br></br>모두 회복시킵니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_012",
+      "fields": {
+        "text": {
+          "archive": "<b>죽음의 메아리:</b> 동전을 내 손으로 가져옵니다.",
+          "retained": "<b>죽음의 메아리:</b> 동전을 얻습니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_016",
+      "fields": {
+        "text": {
+          "archive": "내가 <b>전투의 함성</b> 능력을 가진 하수인을 낼 때마다 무작위 적 하나에게 피해를 2 줍니다.",
+          "retained": "내가 <b>전투의 함성</b> 하수인을 낸 후에,<br></br>무작위 적에게<br></br>피해를 2 줍니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_017",
+      "fields": {
+        "text": {
+          "archive": "<b>전투의 함성:</b> 하수인 하나의 공격력과 생명력을 3으로 만듭니다.",
+          "retained": "<b>전투의 함성:</b> 하수인의 공격력과 생명력을 3으로 만듭니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_019",
+      "fields": {
+        "text": {
+          "archive": "<b>전투의 함성:</b> 아군 하수인 하나의 <b>죽음의 메아리</b> 능력을 복사합니다.",
+          "retained": "<b>전투의 함성:</b><br></br>아군 하수인의 <b>죽음의_메아리</b>를 복사합니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_019t",
+      "fields": {
+        "text": {
+          "archive": "황금 원숭이를 내 덱에 섞어 넣습니다. 카드를 1장 뽑습니다.",
+          "retained": "황금 원숭이를<br></br>내 덱에 섞어 넣습니다. 카드를 뽑습니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_019t2",
+      "fields": {
+        "text": {
+          "archive": "<b>도발</b>\n<b>전투의 함성:</b> 내 손과 덱에 있는 <b>모든</b> 카드를 <b>전설</b> 하수인으로 교체합니다.",
+          "retained": "[x]<b>도발</b>, <b>전투의 함성:</b><br></br>내 손과 덱에 있는 <b>모든</b><br></br>카드를 <b>전설</b> 하수인으로<br></br>교체합니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_020",
+      "fields": {
+        "text": {
+          "archive": "<b>전투의 함성:</b> 각 플레이어의 덱에서 비용이 (1)인 하수인을 하나씩 뽑아 전장에 놓습니다.",
+          "retained": "<b>전투의_함성:</b> 각 플레이어의 덱에서 비용이 1인 하수인을 소환합니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_021",
+      "fields": {
+        "text": {
+          "archive": "<b>비밀:</b> 상대편이 영웅 능력을 사용하면, 무작위 적 하나에게 피해를 5 줍니다.",
+          "retained": "<b>비밀:</b> 상대편이 영웅 능력을 사용한 후, 무작위 적에게<br></br>피해를 $5 줍니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_023",
+      "fields": {
+        "text": {
+          "archive": "<b>전투의 함성:</b> 비용이 (1)인 카드를 <b>발견</b>합니다.",
+          "retained": "<b>전투의 함성</b>:<br></br>비용이 1인 카드를 발견합니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_027",
+      "fields": {
+        "text": {
+          "archive": "<b>비밀:</b> 상대편에게 하수인이 셋 이상 있을 때 상대편이 하수인을 하나 더 소환하면, 그 하수인을 처치합니다.",
+          "retained": "[x]<b>비밀:</b> 상대편에게 하수인이<br></br>셋 이상 있으면 상대편이<br></br>하수인을 하나 더 낸 후에,<br></br>그 하수인을 처치합니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_029",
+      "fields": {
+        "text": {
+          "archive": "<b>전투의 함성:</b> 비용이 (3)인 카드를 1장 <b>발견</b>합니다.",
+          "retained": "<b>전투의_함성:</b> 비용이 3인 카드를 <b>발견</b>합니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_039",
+      "fields": {
+        "text": {
+          "archive": "<b>전투의 함성:</b> 내 전장에 기계가 있으면, 기계를 1대 <b>발견</b>합니다.",
+          "retained": "<b>전투의 함성</b>: 내 전장에 다른 기계가 있으면, 기계를 <b>발견</b>합니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_046",
+      "fields": {
+        "text": {
+          "archive": "<b>죽음의 메아리:</b> 무작위 적 하나에게 피해를 1 줍니다.",
+          "retained": "<b>죽음의_메아리:</b> 무작위 적에게 피해를 1 줍니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_047",
+      "fields": {
+        "text": {
+          "archive": "<b>전투의 함성:</b> 야수를 1마리 <b>발견</b>합니다.",
+          "retained": "<b>전투의_함성:</b> 야수를 <b>발견</b>합니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_050",
+      "fields": {
+        "text": {
+          "archive": "<b>죽음의 메아리:</b> 비용이 (1)인 하수인 하나를 무작위로 소환합니다.",
+          "retained": "<b>죽음의 메아리:</b><br></br>비용이 1인 무작위 하수인을 소환합니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_053",
+      "fields": {
+        "text": {
+          "archive": "내가 아군 하수인에게 주문을 시전할 때마다 이 하수인도 그 효과를 받습니다.",
+          "retained": "[x]내가 다른 아군 하수인에게<br></br>주문을 시전한 후에<br></br>이 하수인에게도 동일한<br></br>주문을 시전합니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_061",
+      "fields": {
+        "text": {
+          "archive": "<b>죽음의 메아리</b>: 무작위 아군 하수인 하나에게 +3/+3을 부여합니다.",
+          "retained": "[x]<b>죽음의 메아리:</b><br></br>무작위 아군 하수인에게<br></br>+3/+3을 부여합니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_077",
+      "fields": {
+        "text": {
+          "archive": "내 <b>전투의 함성</b> 능력이 2번 발동됩니다.",
+          "retained": "내 <b>전투의 함성</b> 능력이 2번 발동합니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_079",
+      "fields": {
+        "text": {
+          "archive": "<b>전투의 함성:</b> '황금 원숭이 보물지도' 카드 1장을 내 덱에 섞어 넣습니다.",
+          "retained": "[x]<b>전투의 함성:</b><br></br>'황금 원숭이 보물지도'를<br></br>내 덱에 섞어 넣습니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_086",
+      "fields": {
+        "text": {
+          "archive": "내가 주문을 시전할 때마다 같은 비용의 무작위 하수인 하나를 소환합니다.",
+          "retained": "내가 주문을 시전할 때마다 같은 비용의 무작위 하수인을 소환합니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_104",
+      "fields": {
+        "text": {
+          "archive": "적 하수인 하나를 내 덱에 섞어 넣습니다.",
+          "retained": "적 하수인을 내 덱에 섞어 넣습니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_105",
+      "fields": {
+        "text": {
+          "archive": "하수인 하나에게 +1/+1과 \"<b>죽음의 메아리:</b> 탐험가의 모자를 내 손으로 가져옴\" 능력을 부여합니다.",
+          "retained": "[x]하수인에게 +1/+1과<br></br>\"<b>죽음의 메아리:</b> 탐험가의<br></br>모자를 얻음\"<br></br>능력을 부여합니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_107",
+      "fields": {
+        "text": {
+          "archive": "이 하수인은 적을 공격할 수 없습니다. 전장에 다른 하수인이 없다면, 공격할 수 있습니다.",
+          "retained": "공격할 수 없습니다. 전장에 다른 하수인이 없다면, 공격할 수 있습니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_110",
+      "fields": {
+        "text": {
+          "archive": "<b>전투의 함성:</b> '고대의 저주' 카드 1장을 내 덱에 섞어 넣습니다. 그 카드를 뽑으면, 피해를 7 입습니다.",
+          "retained": "[x]<b>전투의 함성:</b> '고대의_저주'를<br></br>내 덱에 섞어 넣습니다.<br></br>그 카드를 뽑으면,<br></br>피해를 7 입습니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_113",
+      "fields": {
+        "text": {
+          "archive": "내 하수인들에게\n+2/+2를 부여합니다.\n내 전장에 있는 멀록 하나당 비용이 (1)씩 감소합니다.",
+          "retained": "내 하수인들에게 +2/+2를 부여합니다. 내 멀록 하나당 비용이 (1)씩 감소합니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_115",
+      "fields": {
+        "text": {
+          "archive": "<b>선택 -</b>\n하수인을 하나 <b>발견</b>합니다. 또는 주문을 하나 <b>발견</b>합니다.",
+          "retained": "<b>선택 -</b> 하수인을 <b>발견</b>합니다. 또는 주문을 <b>발견</b>합니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_115a",
+      "fields": {
+        "name": {
+          "archive": "까마귀 우상",
+          "retained": "해방"
+        },
+        "text": {
+          "archive": "하수인을 하나 <b>발견</b>합니다.",
+          "retained": "하수인을 <b>발견</b>합니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_115b",
+      "fields": {
+        "name": {
+          "archive": "까마귀 우상",
+          "retained": "깨어남"
+        },
+        "text": {
+          "archive": "주문을 하나 <b>발견</b>합니다.",
+          "retained": "주문을 <b>발견</b>합니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOE_116",
+      "fields": {
+        "text": {
+          "archive": "<b>전투의 함성:</b> 내 전장에 하수인이 여섯 있으면, +4/+4를 얻습니다.",
+          "retained": "[x]<b>전투의 함성:</b> 내 전장에<br></br>다른 하수인이 여섯 있으면,<br></br>+4/+4를 얻습니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOEA16_3",
+      "fields": {
+        "text": {
+          "archive": "하수인 하나에게 +10/+10을 부여합니다.",
+          "retained": "하수인에게 +10/+10을 부여합니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOEA16_5",
+      "fields": {
+        "text": {
+          "archive": "내 하수인을 소환할 공간이 다 찰 때까지 3/3 미이라 좀비를 소환합니다.",
+          "retained": "내 전장을 3/3 미라 좀비로 가득 채웁니다."
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    },
+    {
+      "id": "LOEA16_5t",
+      "fields": {
+        "name": {
+          "archive": "미이라 좀비",
+          "retained": "미라 좀비"
+        }
+      },
+      "status": "unresolved-display-timeline",
+      "meaning": "Raw release text/name differs; modern display retained where exact effective dates are unverified. Do not present this baseline as fully verified."
+    }
+  ],
+  "otherObservations": [
+    {
+      "id": "LOE_038",
+      "subject": "Naga rule-order change",
+      "date": null,
+      "status": "unresolved",
+      "meaning": "9.0/9.1 retrospective version and contemporary dates conflict. No fabricated effective date."
+    },
+    {
+      "ids": [
+        "HERO_11bp",
+        "HERO_11bpt"
+      ],
+      "subject": "Generated DK power before class launch",
+      "date": "2022-11-30",
+      "status": "estimated",
+      "meaning": "25.0 client plus prelaunch ordinary-match Finley discussion. Exact Korean replay/card identity unverified. Different from Dec7 class unlock."
+    },
+    {
+      "subject": "Client implementation flags",
+      "status": "observations-only",
+      "meaning": "AURA/TRIGGER_VISUAL/ReferencedTag changes do not automatically create dated gameplay changes."
+    },
+    {
+      "subject": "Current-only metadata",
+      "status": "retained-sidecars",
+      "meaning": "Native tags, portrait, assets, flavor, source wrappers and relationships remain immutable evidence; not backdated."
+    },
+    {
+      "subject": "Rarity/class and Korean wording",
+      "status": "partial",
+      "meaning": "No inferred historical date from engine-tag or text-build changes. All exact observations retained."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "scope": "Only old schema1 endpoints; canonical and precise endpoints retain exact presence.",
+  "legacyConsumer": "qxwd565/HSdeck-plugin 78ce6fdc4e70f689880a70d6f22aa77a6c75e337 (unmodified)",
+  "rules": [
+    "Absent combat stats use old zero sentinels only at the compatibility boundary; one weapon retains its health/durability mirror.",
+    "Original endpoint mechanics annotations and field presence are preserved, while future canonical cost and keyword edits propagate.",
+    "27 current text fields normalize newlines to <br></br>. No other current catalog differences.",
+    "60 existing catalog IDs remain in all root bundles. Two source-only card files have separate timelines but no fabricated catalog rows.",
+    "Before-release fallback remains unchanged; no strict/default hiding is enabled."
+  ],
+  "limitations": [
+    "Old numeric sentinels cannot distinguish zero from absent attributes or represent general removals.",
+    "Old PHP whitelist omits races/classes/collectible and arbitrary fields; current native tags can leak into historical rendering.",
+    "Undated Korean wording/name/class/rarity changes and Naga rule-order timing remain explicitly qualified.",
+    "Offline parser checks are not live site/import/rendering proof. No plugin or live setting was changed."
+  ],
+  "preciseEndpoints": {
+    "cards": "cards-date.json",
+    "render": "render-date.json",
+    "history": "history-date.json"
+  },
+  "artRule": "All six endpoints remain root siblings with original art/<ID> links."
+}

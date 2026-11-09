@@ -1,0 +1,412 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "LOE_018",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2015-11-20",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Partial verification: numeric/taxonomy and listed gameplay changes verified against bounded archives; undated Korean display/name/rarity/class changes are retained as observations, not invented dates. No strict/default hiding.",
+  "sourceCommit": "ea2983bcc83c00fcf74ae4d4531d1fce4301e6b1",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "englishName": "Tunnel Trogg",
+    "card": {
+      "id": "LOE_018",
+      "dbfId": 2890,
+      "name": "땅굴 트로그",
+      "text": "[x]내가 <b>과부하</b>될 때마다\n잠기는 마나 수정\n하나당 공격력을\n+1 얻습니다.",
+      "type": "MINION",
+      "cardClass": "SHAMAN",
+      "classes": [],
+      "nativeSetId": 20,
+      "set": "LOE",
+      "rarity": "COMMON",
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "cost": 1,
+      "attack": 1,
+      "health": 3,
+      "armor": 0,
+      "durability": 0,
+      "collectible": true,
+      "chooseOne": false,
+      "installed": true,
+      "portrait": "HS6-100_D.psd:6c189e135fade284db87552a6a71ffa9",
+      "flavor": "못생긴 건 맞습니다. 하지만 땅굴 속에서 햇빛 없이 자신을 가꾸려고 시도해 보세요. 쉽지 않을 걸요.",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 215,
+          "name": "과부하",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "[x]내가 <b>과부하</b>될 때마다\n잠기는 마나 수정\n하나당 공격력을\n+1 얻습니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2015-11-20",
+      "releaseStatus": "verified",
+      "patches": [],
+      "initialSpecStatus": "unverified",
+      "patchSources": {}
+    },
+    "root": true,
+    "relatedIds": [],
+    "expansion": {
+      "id": 20,
+      "slug": "league-of-explorers",
+      "name": "탐험가 연맹",
+      "type": "adventure",
+      "englishName": "League Of Explorers"
+    },
+    "setOrder": 38,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    }
+  },
+  "currentCatalog": {
+    "id": "LOE_018",
+    "dbfId": 2890,
+    "name": "땅굴 트로그",
+    "type": "MINION",
+    "cardClass": "SHAMAN",
+    "rarity": "COMMON",
+    "collectible": true,
+    "cost": 1,
+    "text": "[x]내가 <b>과부하</b>될 때마다\n잠기는 마나 수정\n하나당 공격력을\n+1 얻습니다.",
+    "attack": 1,
+    "health": 3,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "못생긴 건 맞습니다. 하지만 땅굴 속에서 햇빛 없이 자신을 가꾸려고 시도해 보세요. 쉽지 않을 걸요.",
+    "spellSchool": "",
+    "portrait": "HS6-100_D.psd:6c189e135fade284db87552a6a71ffa9",
+    "set": "LOE",
+    "nativeTags": [
+      {
+        "id": 32,
+        "name": "발동 효과 표시",
+        "value": 1
+      },
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 215,
+        "name": "과부하",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/LOE_018.png",
+    "releasedAt": "2015-11-20",
+    "releaseStatus": "verified"
+  },
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "durability",
+    "flavor",
+    "nativeTags",
+    "portrait",
+    "race",
+    "races",
+    "set",
+    "spellSchool"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "chooseOne",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "keywordAbilityEvidence": {
+    "source": "tools/loe-keyword-abilities.json",
+    "vocabulary": [
+      "BATTLECRY",
+      "CANT_BE_TARGETED_BY_HERO_POWERS",
+      "CANT_BE_TARGETED_BY_SPELLS",
+      "CASTS_WHEN_DRAWN",
+      "CHARGE",
+      "CHOOSE_ONE",
+      "COMBO",
+      "DEATHRATTLE",
+      "DIVINE_SHIELD",
+      "ELUSIVE",
+      "ENRAGED",
+      "FREEZE",
+      "INSPIRE",
+      "LIFESTEAL",
+      "MEGA_WINDFURY",
+      "OVERHEAL",
+      "OVERLOAD",
+      "POISONOUS",
+      "RUSH",
+      "SECRET",
+      "SPELLPOWER",
+      "STEALTH",
+      "TAUNT",
+      "WINDFURY"
+    ]
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": []
+  },
+  "supplementalAudit": {
+    "status": "unpublished-reconstruction",
+    "source": "tools/supplemental-audit/LOE_018.json",
+    "document": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "englishName": "Tunnel Trogg",
+      "card": {
+        "id": "LOE_018",
+        "dbfId": 2890,
+        "name": "땅굴 트로그",
+        "text": "[x]내가 <b>과부하</b>될 때마다\n잠기는 마나 수정\n하나당 공격력을\n+1 얻습니다.",
+        "type": "MINION",
+        "cardClass": "SHAMAN",
+        "classes": [],
+        "nativeSetId": 20,
+        "set": "LOE",
+        "rarity": "COMMON",
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "cost": 1,
+        "attack": 1,
+        "health": 3,
+        "armor": 0,
+        "durability": 0,
+        "collectible": true,
+        "chooseOne": false,
+        "installed": true,
+        "portrait": "HS6-100_D.psd:6c189e135fade284db87552a6a71ffa9",
+        "flavor": "못생긴 건 맞습니다. 하지만 땅굴 속에서 햇빛 없이 자신을 가꾸려고 시도해 보세요. 쉽지 않을 걸요.",
+        "nativeTags": [
+          {
+            "id": 32,
+            "name": "발동 효과 표시",
+            "value": 1
+          },
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 3
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 1
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 1
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 8
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 1
+          },
+          {
+            "id": 215,
+            "name": "과부하",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          }
+        ],
+        "nativeRawText": "[x]내가 <b>과부하</b>될 때마다\n잠기는 마나 수정\n하나당 공격력을\n+1 얻습니다.",
+        "nativeTextBuilder": 0,
+        "releasedAt": "2015-11-20",
+        "releaseStatus": "verified",
+        "patches": [],
+        "initialSpecStatus": "partially-verified",
+        "patchSources": {}
+      },
+      "root": true,
+      "relatedIds": [],
+      "expansion": {
+        "id": 20,
+        "slug": "league-of-explorers",
+        "name": "탐험가 연맹",
+        "type": "adventure",
+        "englishName": "League Of Explorers"
+      },
+      "setOrder": 38,
+      "formats": [
+        "wild"
+      ],
+      "provenance": {
+        "source": "Installed Hearthstone dbf.unity3d",
+        "gameVersion": "6000.3.11.3145967",
+        "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+        "locale": "koKR"
+      }
+    },
+    "meaning": "Explicit source-backed reconstruction input, not the pinned original."
+  },
+  "catalogMembership": true,
+  "availabilityScope": "Korean ordinary constructed-match use, including generated powers; excludes preload and adventure-only use.",
+  "dateRecheckEvidence": "tools/loe-date-recheck.json",
+  "undatedEvidence": {
+    "source": "tools/loe-client-evidence.json",
+    "limitations": "tools/loe-known-unmodeled-intervals.json"
+  },
+  "historicalObservations": [
+    {
+      "build": "4.0.0.10833",
+      "source": "https://github.com/HearthSim/hsdata/blob/af481578003cb5dae70b672353d33e298f9ab128/CardDefs.xml",
+      "name": "땅굴 트로그",
+      "rawText": "내가 <b>과부하</b>될 때마다 잠기는 마나 수정 하나당 공격력을 +1 얻습니다.",
+      "enText": "Whenever you <b>Overload</b>, gain +1 Attack per locked Mana Crystal.",
+      "Tag": {
+        "32": "1",
+        "45": "3",
+        "47": "1",
+        "48": "1",
+        "183": "20",
+        "199": "8",
+        "202": "4",
+        "203": "1",
+        "321": "1"
+      },
+      "ReferencedTag": {
+        "215": "1"
+      },
+      "dateStatus": "Client observation only; not asserted Korean server-live date",
+      "lastObservedBuild": "5.0.0.12574"
+    },
+    {
+      "build": "6.0.0.13921",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "name": "땅굴 트로그",
+      "rawText": "[x]내가 <b>과부하</b>될 때마다\n잠기는 마나 수정\n하나당 공격력을\n+1 얻습니다.",
+      "enText": "Whenever you <b>Overload</b>, gain +1 Attack per locked Mana Crystal.",
+      "Tag": {
+        "32": "1",
+        "45": "3",
+        "47": "1",
+        "48": "1",
+        "183": "20",
+        "199": "8",
+        "202": "4",
+        "203": "1",
+        "321": "1"
+      },
+      "ReferencedTag": {
+        "215": "1"
+      },
+      "dateStatus": "Client observation only; not asserted Korean server-live date",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "result": "pass",
+  "cards": 60,
+  "approvedTextNormalizations": 27,
+  "approvedReleaseMetadata": 0,
+  "otherCurrentChanges": 0,
+  "legacyDateCases": 3540,
+  "artURLChecks": 360,
+  "visibility": "Before-release old-parser fallback retained; no strict/default gating. Precise/source-only scopes remain distinct."
+}

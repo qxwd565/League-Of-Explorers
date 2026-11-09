@@ -1,0 +1,22 @@
+{
+  "result": "pass",
+  "sourceCards": 62,
+  "runtimeCards": 60,
+  "sourceOnlyCards": 2,
+  "preciseGlobalDateCases": 3540,
+  "oldConsumerCases": 3108,
+  "globalDates": 59,
+  "sparseEvents": 32,
+  "supplementalStateChecks": 94,
+  "originalAssets": 386,
+  "currentCatalogDifferences": {
+    "text": 27
+  },
+  "partiallyVerifiedBaselines": 62,
+  "currentTypes": {
+    "HERO_POWER": 1,
+    "MINION": 41,
+    "SPELL": 19,
+    "WEAPON": 1
+  }
+}

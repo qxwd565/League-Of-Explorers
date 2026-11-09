@@ -1,0 +1,479 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "LOE_092",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2015-12-11",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Partial verification: numeric/taxonomy and listed gameplay changes verified against bounded archives; undated Korean display/name/rarity/class changes are retained as observations, not invented dates. No strict/default hiding.",
+  "sourceCommit": "ea2983bcc83c00fcf74ae4d4531d1fce4301e6b1",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "englishName": "Arch-Thief Rafaam",
+    "card": {
+      "id": "LOE_092",
+      "dbfId": 2964,
+      "name": "대도 라팜",
+      "text": "<b>전투의 함성:</b> 강력한 유물을 <b>발견</b>합니다.",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "nativeSetId": 20,
+      "set": "LOE",
+      "rarity": "LEGENDARY",
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "cost": 9,
+      "attack": 7,
+      "health": 8,
+      "armor": 0,
+      "durability": 0,
+      "collectible": true,
+      "chooseOne": false,
+      "installed": true,
+      "portrait": "HS6-031_D.psd:6bda1cd141e4c884da7da1c8cd2e2713",
+      "flavor": "유물을 발견하는 데 아주 능숙합니다. 다른 사람의 박물관에서요.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 8
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 7
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 9
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 415,
+          "name": "발견",
+          "value": 1
+        },
+        {
+          "id": 1342,
+          "name": "USE_DISCOVER_VISUALS",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "<b>전투의 함성:</b> 강력한 유물을 <b>발견</b>합니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2015-12-11",
+      "releaseStatus": "verified",
+      "patches": [],
+      "initialSpecStatus": "unverified",
+      "patchSources": {}
+    },
+    "root": true,
+    "relatedIds": [
+      19614,
+      19616,
+      19615,
+      36452
+    ],
+    "expansion": {
+      "id": 20,
+      "slug": "league-of-explorers",
+      "name": "탐험가 연맹",
+      "type": "adventure",
+      "englishName": "League Of Explorers"
+    },
+    "setOrder": 38,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    }
+  },
+  "currentCatalog": {
+    "id": "LOE_092",
+    "dbfId": 2964,
+    "name": "대도 라팜",
+    "type": "MINION",
+    "cardClass": "NEUTRAL",
+    "rarity": "LEGENDARY",
+    "collectible": true,
+    "cost": 9,
+    "text": "<b>전투의 함성:</b> 강력한 유물을 <b>발견</b>합니다.",
+    "attack": 7,
+    "health": 8,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "유물을 발견하는 데 아주 능숙합니다. 다른 사람의 박물관에서요.",
+    "spellSchool": "",
+    "portrait": "HS6-031_D.psd:6bda1cd141e4c884da7da1c8cd2e2713",
+    "set": "LOE",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 8
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 7
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 9
+      },
+      {
+        "id": 114,
+        "name": "전설 속성",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 12
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 5
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 415,
+        "name": "발견",
+        "value": 1
+      },
+      {
+        "id": 1342,
+        "name": "USE_DISCOVER_VISUALS",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/LOE_092.png",
+    "releasedAt": "2015-12-11",
+    "releaseStatus": "verified"
+  },
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "durability",
+    "flavor",
+    "nativeTags",
+    "portrait",
+    "race",
+    "races",
+    "set",
+    "spellSchool"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "chooseOne",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "keywordAbilityEvidence": {
+    "source": "tools/loe-keyword-abilities.json",
+    "vocabulary": [
+      "BATTLECRY",
+      "CANT_BE_TARGETED_BY_HERO_POWERS",
+      "CANT_BE_TARGETED_BY_SPELLS",
+      "CASTS_WHEN_DRAWN",
+      "CHARGE",
+      "CHOOSE_ONE",
+      "COMBO",
+      "DEATHRATTLE",
+      "DIVINE_SHIELD",
+      "ELUSIVE",
+      "ENRAGED",
+      "FREEZE",
+      "INSPIRE",
+      "LIFESTEAL",
+      "MEGA_WINDFURY",
+      "OVERHEAL",
+      "OVERLOAD",
+      "POISONOUS",
+      "RUSH",
+      "SECRET",
+      "SPELLPOWER",
+      "STEALTH",
+      "TAUNT",
+      "WINDFURY"
+    ]
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": [
+      "BATTLECRY"
+    ]
+  },
+  "supplementalAudit": {
+    "status": "unpublished-reconstruction",
+    "source": "tools/supplemental-audit/LOE_092.json",
+    "document": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "englishName": "Arch-Thief Rafaam",
+      "card": {
+        "id": "LOE_092",
+        "dbfId": 2964,
+        "name": "대도 라팜",
+        "text": "<b>전투의 함성:</b> 강력한 유물을 <b>발견</b>합니다.",
+        "type": "MINION",
+        "cardClass": "NEUTRAL",
+        "classes": [],
+        "nativeSetId": 20,
+        "set": "LOE",
+        "rarity": "LEGENDARY",
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "cost": 9,
+        "attack": 7,
+        "health": 8,
+        "armor": 0,
+        "durability": 0,
+        "collectible": true,
+        "chooseOne": false,
+        "installed": true,
+        "portrait": "HS6-031_D.psd:6bda1cd141e4c884da7da1c8cd2e2713",
+        "flavor": "유물을 발견하는 데 아주 능숙합니다. 다른 사람의 박물관에서요.",
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 8
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 7
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 9
+          },
+          {
+            "id": 114,
+            "name": "전설 속성",
+            "value": 1
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 12
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 5
+          },
+          {
+            "id": 218,
+            "name": "전투의 함성",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          },
+          {
+            "id": 415,
+            "name": "발견",
+            "value": 1
+          },
+          {
+            "id": 1342,
+            "name": "USE_DISCOVER_VISUALS",
+            "value": 1
+          }
+        ],
+        "nativeRawText": "<b>전투의 함성:</b> 강력한 유물을 <b>발견</b>합니다.",
+        "nativeTextBuilder": 0,
+        "releasedAt": "2015-12-11",
+        "releaseStatus": "verified",
+        "patches": [],
+        "initialSpecStatus": "partially-verified",
+        "patchSources": {}
+      },
+      "root": true,
+      "relatedIds": [
+        19614,
+        19616,
+        19615,
+        36452
+      ],
+      "expansion": {
+        "id": 20,
+        "slug": "league-of-explorers",
+        "name": "탐험가 연맹",
+        "type": "adventure",
+        "englishName": "League Of Explorers"
+      },
+      "setOrder": 38,
+      "formats": [
+        "wild"
+      ],
+      "provenance": {
+        "source": "Installed Hearthstone dbf.unity3d",
+        "gameVersion": "6000.3.11.3145967",
+        "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+        "locale": "koKR"
+      }
+    },
+    "meaning": "Explicit source-backed reconstruction input, not the pinned original."
+  },
+  "catalogMembership": true,
+  "availabilityScope": "Korean ordinary constructed-match use, including generated powers; excludes preload and adventure-only use.",
+  "dateRecheckEvidence": "tools/loe-date-recheck.json",
+  "undatedEvidence": {
+    "source": "tools/loe-client-evidence.json",
+    "limitations": "tools/loe-known-unmodeled-intervals.json"
+  },
+  "historicalObservations": [
+    {
+      "build": "4.0.0.10833",
+      "source": "https://github.com/HearthSim/hsdata/blob/af481578003cb5dae70b672353d33e298f9ab128/CardDefs.xml",
+      "name": "대도 라팜",
+      "rawText": "<b>전투의 함성:</b> 강력한 유물을 <b>발견</b>합니다.",
+      "enText": "<b>Battlecry: Discover</b> a powerful Artifact.",
+      "Tag": {
+        "45": "8",
+        "47": "7",
+        "48": "9",
+        "114": "1",
+        "183": "20",
+        "202": "4",
+        "203": "5",
+        "218": "1",
+        "321": "1"
+      },
+      "ReferencedTag": {
+        "415": "1"
+      },
+      "dateStatus": "Client observation only; not asserted Korean server-live date",
+      "lastObservedBuild": "5.0.0.12574"
+    },
+    {
+      "build": "6.0.0.13921",
+      "source": "https://github.com/HearthSim/hsdata/blob/ca84daa2932b1235f2f38da53e88a2aa2b190f4c/CardDefs.xml",
+      "name": "대도 라팜",
+      "rawText": "<b>전투의 함성:</b> 강력한 유물을 <b>발견</b>합니다.",
+      "enText": "<b>Battlecry: Discover</b> a powerful Artifact.",
+      "Tag": {
+        "45": "8",
+        "47": "7",
+        "48": "9",
+        "114": "1",
+        "183": "20",
+        "199": "12",
+        "202": "4",
+        "203": "5",
+        "218": "1",
+        "321": "1"
+      },
+      "ReferencedTag": {
+        "415": "1"
+      },
+      "dateStatus": "Client observation only; not asserted Korean server-live date",
+      "lastObservedBuild": "14.6.0.31761"
+    },
+    {
+      "build": "17.0.0.44222",
+      "source": "https://github.com/HearthSim/hsdata/blob/fc67953f6f6eee064badde3f4a7bd07011508642/CardDefs.xml",
+      "name": "대도 라팜",
+      "rawText": "<b>전투의 함성:</b> 강력한 유물을 <b>발견</b>합니다.",
+      "enText": "<b>Battlecry: Discover</b> a powerful Artifact.",
+      "Tag": {
+        "45": "8",
+        "47": "7",
+        "48": "9",
+        "114": "1",
+        "183": "20",
+        "199": "12",
+        "202": "4",
+        "203": "5",
+        "218": "1",
+        "321": "1",
+        "415": "1",
+        "1342": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Client observation only; not asserted Korean server-live date",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

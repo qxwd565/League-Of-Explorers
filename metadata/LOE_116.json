@@ -1,0 +1,395 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "LOE_116",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2015-11-20",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Partial verification: numeric/taxonomy and listed gameplay changes verified against bounded archives; undated Korean display/name/rarity/class changes are retained as observations, not invented dates. No strict/default hiding.",
+  "sourceCommit": "ea2983bcc83c00fcf74ae4d4531d1fce4301e6b1",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "englishName": "Reliquary Seeker",
+    "card": {
+      "id": "LOE_116",
+      "dbfId": 13334,
+      "name": "성물회 구도자",
+      "text": "[x]<b>전투의 함성:</b> 내 전장에\n다른 하수인이 여섯 있으면,\n+4/+4를 얻습니다.",
+      "type": "MINION",
+      "cardClass": "WARLOCK",
+      "classes": [],
+      "nativeSetId": 20,
+      "set": "LOE",
+      "rarity": "RARE",
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "cost": 1,
+      "attack": 1,
+      "health": 1,
+      "armor": 0,
+      "durability": 0,
+      "collectible": true,
+      "chooseOne": false,
+      "installed": true,
+      "portrait": "W9_A142_D.psd:87bb23d21f887494baecc61833d000a2",
+      "flavor": "성물회는 탐험가 연맹을 경쟁 상대라고 생각합니다. 하지만 탐험가 연맹은 성물회 따위 안중에도 없죠.",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "[x]<b>전투의 함성:</b> 내 전장에\n다른 하수인이 여섯 있으면,\n+4/+4를 얻습니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2015-11-20",
+      "releaseStatus": "verified",
+      "patches": [],
+      "initialSpecStatus": "unverified",
+      "patchSources": {}
+    },
+    "root": true,
+    "relatedIds": [],
+    "expansion": {
+      "id": 20,
+      "slug": "league-of-explorers",
+      "name": "탐험가 연맹",
+      "type": "adventure",
+      "englishName": "League Of Explorers"
+    },
+    "setOrder": 38,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    }
+  },
+  "currentCatalog": {
+    "id": "LOE_116",
+    "dbfId": 13334,
+    "name": "성물회 구도자",
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 1,
+    "text": "[x]<b>전투의 함성:</b> 내 전장에\n다른 하수인이 여섯 있으면,\n+4/+4를 얻습니다.",
+    "attack": 1,
+    "health": 1,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "성물회는 탐험가 연맹을 경쟁 상대라고 생각합니다. 하지만 탐험가 연맹은 성물회 따위 안중에도 없죠.",
+    "spellSchool": "",
+    "portrait": "W9_A142_D.psd:87bb23d21f887494baecc61833d000a2",
+    "set": "LOE",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/LOE_116.png",
+    "releasedAt": "2015-11-20",
+    "releaseStatus": "verified"
+  },
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "durability",
+    "flavor",
+    "nativeTags",
+    "portrait",
+    "race",
+    "races",
+    "set",
+    "spellSchool"
+  ],
+  "canonicalFields": [
+    "attack",
+    "cardClass",
+    "chooseOne",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "health",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "keywordAbilityEvidence": {
+    "source": "tools/loe-keyword-abilities.json",
+    "vocabulary": [
+      "BATTLECRY",
+      "CANT_BE_TARGETED_BY_HERO_POWERS",
+      "CANT_BE_TARGETED_BY_SPELLS",
+      "CASTS_WHEN_DRAWN",
+      "CHARGE",
+      "CHOOSE_ONE",
+      "COMBO",
+      "DEATHRATTLE",
+      "DIVINE_SHIELD",
+      "ELUSIVE",
+      "ENRAGED",
+      "FREEZE",
+      "INSPIRE",
+      "LIFESTEAL",
+      "MEGA_WINDFURY",
+      "OVERHEAL",
+      "OVERLOAD",
+      "POISONOUS",
+      "RUSH",
+      "SECRET",
+      "SPELLPOWER",
+      "STEALTH",
+      "TAUNT",
+      "WINDFURY"
+    ]
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": [
+      "BATTLECRY"
+    ]
+  },
+  "supplementalAudit": {
+    "status": "unpublished-reconstruction",
+    "source": "tools/supplemental-audit/LOE_116.json",
+    "document": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "englishName": "Reliquary Seeker",
+      "card": {
+        "id": "LOE_116",
+        "dbfId": 13334,
+        "name": "성물회 구도자",
+        "text": "[x]<b>전투의 함성:</b> 내 전장에\n다른 하수인이 여섯 있으면,\n+4/+4를 얻습니다.",
+        "type": "MINION",
+        "cardClass": "WARLOCK",
+        "classes": [],
+        "nativeSetId": 20,
+        "set": "LOE",
+        "rarity": "RARE",
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "cost": 1,
+        "attack": 1,
+        "health": 1,
+        "armor": 0,
+        "durability": 0,
+        "collectible": true,
+        "chooseOne": false,
+        "installed": true,
+        "portrait": "W9_A142_D.psd:87bb23d21f887494baecc61833d000a2",
+        "flavor": "성물회는 탐험가 연맹을 경쟁 상대라고 생각합니다. 하지만 탐험가 연맹은 성물회 따위 안중에도 없죠.",
+        "nativeTags": [
+          {
+            "id": 45,
+            "name": "생명력",
+            "value": 1
+          },
+          {
+            "id": 47,
+            "name": "공격력",
+            "value": 1
+          },
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 1
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 9
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 4
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 3
+          },
+          {
+            "id": 218,
+            "name": "전투의 함성",
+            "value": 1
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          }
+        ],
+        "nativeRawText": "[x]<b>전투의 함성:</b> 내 전장에\n다른 하수인이 여섯 있으면,\n+4/+4를 얻습니다.",
+        "nativeTextBuilder": 0,
+        "releasedAt": "2015-11-20",
+        "releaseStatus": "verified",
+        "patches": [],
+        "initialSpecStatus": "partially-verified",
+        "patchSources": {}
+      },
+      "root": true,
+      "relatedIds": [],
+      "expansion": {
+        "id": 20,
+        "slug": "league-of-explorers",
+        "name": "탐험가 연맹",
+        "type": "adventure",
+        "englishName": "League Of Explorers"
+      },
+      "setOrder": 38,
+      "formats": [
+        "wild"
+      ],
+      "provenance": {
+        "source": "Installed Hearthstone dbf.unity3d",
+        "gameVersion": "6000.3.11.3145967",
+        "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+        "locale": "koKR"
+      }
+    },
+    "meaning": "Explicit source-backed reconstruction input, not the pinned original."
+  },
+  "catalogMembership": true,
+  "availabilityScope": "Korean ordinary constructed-match use, including generated powers; excludes preload and adventure-only use.",
+  "dateRecheckEvidence": "tools/loe-date-recheck.json",
+  "undatedEvidence": {
+    "source": "tools/loe-client-evidence.json",
+    "limitations": "tools/loe-known-unmodeled-intervals.json"
+  },
+  "historicalObservations": [
+    {
+      "build": "4.0.0.10833",
+      "source": "https://github.com/HearthSim/hsdata/blob/af481578003cb5dae70b672353d33e298f9ab128/CardDefs.xml",
+      "name": "성물회 구도자",
+      "rawText": "<b>전투의 함성:</b> 내 전장에 하수인이 여섯 있으면, +4/+4를 얻습니다.",
+      "enText": "<b>Battlecry:</b> If you have 6 other minions, gain +4/+4.",
+      "Tag": {
+        "45": "1",
+        "47": "1",
+        "48": "1",
+        "183": "20",
+        "199": "9",
+        "202": "4",
+        "203": "3",
+        "218": "1",
+        "321": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Client observation only; not asserted Korean server-live date",
+      "lastObservedBuild": "7.0.0.15590"
+    },
+    {
+      "build": "7.1.0.17720",
+      "source": "https://github.com/HearthSim/hsdata/blob/7ee343d4dead8fa8854116cd0973ba7a48682f30/CardDefs.xml",
+      "name": "성물회 구도자",
+      "rawText": "[x]<b>전투의 함성:</b> 내 전장에\n다른 하수인이 여섯 있으면,\n+4/+4를 얻습니다.",
+      "enText": "<b>Battlecry:</b> If you have 6 other minions, gain +4/+4.",
+      "Tag": {
+        "45": "1",
+        "47": "1",
+        "48": "1",
+        "183": "20",
+        "199": "9",
+        "202": "4",
+        "203": "3",
+        "218": "1",
+        "321": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Client observation only; not asserted Korean server-live date",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

@@ -1,8 +1,5 @@
 {
-  "schemaVersion": 1,
-  "mode": "constructed",
-  "englishName": "Entomb",
-  "card": {
+  "2015-12-04": {
     "id": "LOE_104",
     "dbfId": 3015,
     "name": "생매장",
@@ -10,74 +7,10 @@
     "type": "SPELL",
     "cardClass": "PRIEST",
     "classes": [],
-    "nativeSetId": 20,
-    "set": "LOE",
     "rarity": "COMMON",
-    "race": "",
-    "races": [],
-    "spellSchool": "",
     "cost": 6,
-    "attack": 0,
-    "health": 0,
-    "armor": 0,
-    "durability": 0,
     "collectible": true,
     "chooseOne": false,
-    "installed": true,
-    "portrait": "HS6-046_D.psd:34b6fb325864cfc429668ea34e4c8a74",
-    "flavor": "숨을 쉴 구멍만 있으면 그렇게 나쁜 경험은 아닙니다.",
-    "nativeTags": [
-      {
-        "id": 48,
-        "name": "마나 비용",
-        "value": 6
-      },
-      {
-        "id": 199,
-        "name": "직업",
-        "value": 6
-      },
-      {
-        "id": 202,
-        "name": "카드 유형",
-        "value": 5
-      },
-      {
-        "id": 203,
-        "name": "희귀도",
-        "value": 1
-      },
-      {
-        "id": 321,
-        "name": "수집 가능",
-        "value": 1
-      }
-    ],
-    "nativeRawText": "적 하수인을 내 덱에 섞어 넣습니다.",
-    "nativeTextBuilder": 0,
-    "releasedAt": "2015-12-04",
-    "releaseStatus": "verified",
-    "patches": [],
-    "initialSpecStatus": "unverified",
-    "patchSources": {}
-  },
-  "root": true,
-  "relatedIds": [],
-  "expansion": {
-    "id": 20,
-    "slug": "league-of-explorers",
-    "name": "탐험가 연맹",
-    "type": "adventure",
-    "englishName": "League Of Explorers"
-  },
-  "setOrder": 38,
-  "formats": [
-    "wild"
-  ],
-  "provenance": {
-    "source": "Installed Hearthstone dbf.unity3d",
-    "gameVersion": "6000.3.11.3145967",
-    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
-    "locale": "koKR"
+    "mechanics": []
   }
 }

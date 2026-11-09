@@ -1,0 +1,3959 @@
+{
+  "schema": 1,
+  "set": "League Of Explorers",
+  "cards": [
+    {
+      "flavor": "내가 그 횃불을 사용했을 때에는 그는 다만 하나의 검은폭탄에 지나지 않았다. 내가 그 횃불을 다시 사용했을 때 그는 나에게로 와서 화염구가 되었다.",
+      "portrait": "HS6-006_D.psd:75171fa49b747b043a92615135e9374b",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 4
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 2997
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 2
+        }
+      ],
+      "art": "art/LOE_002.png",
+      "releasedAt": "2015-11-13",
+      "releaseStatus": "verified",
+      "id": "LOE_002",
+      "dbfId": 2874,
+      "name": "잊힌 횃불",
+      "text": "피해를 $3 줍니다.<br></br>피해를 6 주는 '이글거리는 횃불'을<br></br>내 덱에 섞어 넣습니다.",
+      "type": "SPELL",
+      "cardClass": "MAGE",
+      "classes": [],
+      "rarity": "COMMON",
+      "cost": 3,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [],
+      "spellSchool": "FIRE"
+    },
+    {
+      "flavor": "",
+      "portrait": "HS6-007_D.psd:5d2a7c85603a3984a8b3b8c5c7448af5",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 4
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 2
+        }
+      ],
+      "art": "art/LOE_002t.png",
+      "releasedAt": "2015-11-13",
+      "releaseStatus": "estimated",
+      "id": "LOE_002t",
+      "dbfId": 2997,
+      "name": "이글거리는 횃불",
+      "text": "피해를 $6 줍니다.",
+      "type": "SPELL",
+      "cardClass": "MAGE",
+      "classes": [],
+      "rarity": null,
+      "cost": 3,
+      "collectible": false,
+      "chooseOne": false,
+      "mechanics": [],
+      "spellSchool": "FIRE"
+    },
+    {
+      "flavor": "왜 에테리얼들은 죽을 때 목소리가 이상할까요? 증발해버려서?",
+      "portrait": "W18_a003_D.psd:821667ebdf3266c4c90cc4d22e8f1d83",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 6
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 4
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 415,
+          "name": "발견",
+          "value": 1
+        },
+        {
+          "id": 1342,
+          "name": "USE_DISCOVER_VISUALS",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_003.png",
+      "releasedAt": "2015-11-20",
+      "releaseStatus": "verified",
+      "id": "LOE_003",
+      "dbfId": 2875,
+      "name": "에테리얼 창조술사",
+      "text": "<b>전투의 함성:</b><br></br>주문을 <b>발견</b>합니다.",
+      "type": "MINION",
+      "cardClass": "MAGE",
+      "classes": [],
+      "rarity": "COMMON",
+      "cost": 5,
+      "attack": 6,
+      "health": 4,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [
+        "BATTLECRY"
+      ]
+    },
+    {
+      "flavor": "딱 두 부류의 사람을 싫어합니다. 박물관 난간을 오르는 아이와 유물을 살아 움직이게 만드는 고고학자.",
+      "portrait": "HS6-010_D.psd:0276e8311d3b19641a398c595f546cee",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 415,
+          "name": "발견",
+          "value": 1
+        },
+        {
+          "id": 1342,
+          "name": "USE_DISCOVER_VISUALS",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_006.png",
+      "releasedAt": "2015-12-11",
+      "releaseStatus": "verified",
+      "id": "LOE_006",
+      "dbfId": 2878,
+      "name": "박물관 관리인",
+      "text": "<b>전투의 함성:</b> <b>죽음의 메아리</b> 카드를 <b>발견</b>합니다.<br></br>그 카드의 비용이 (1) 감소합니다.",
+      "type": "MINION",
+      "cardClass": "PRIEST",
+      "classes": [],
+      "rarity": "COMMON",
+      "cost": 2,
+      "attack": 1,
+      "health": 2,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [
+        "BATTLECRY"
+      ]
+    },
+    {
+      "flavor": "라팜이 발가락을 밟혔을 때 내지른 말입니다.",
+      "portrait": "HS6-049_D.psd:7edee9348ffe1a545ad225e4864260e7",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 2998
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "art": "art/LOE_007.png",
+      "releasedAt": "2015-12-11",
+      "releaseStatus": "verified",
+      "id": "LOE_007",
+      "dbfId": 2879,
+      "name": "라팜의 저주",
+      "text": "[x]상대편에게 '저주!' 카드를<br></br>줍니다. 그 카드가 손에 있으면,<br></br>상대는 자신의 턴이 시작될 때<br></br>피해를 2 입습니다.",
+      "type": "SPELL",
+      "cardClass": "WARLOCK",
+      "classes": [],
+      "rarity": "COMMON",
+      "cost": 2,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [],
+      "spellSchool": "SHADOW"
+    },
+    {
+      "flavor": "",
+      "portrait": "W6_072_D.psd:7d90204eae95f634f824f51cfd8753e4",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 349,
+          "name": "게임 태그 349",
+          "value": 1
+        },
+        {
+          "id": 401,
+          "name": "EVIL_GLOW",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "art": "art/LOE_007t.png",
+      "releasedAt": "2015-12-11",
+      "releaseStatus": "estimated",
+      "id": "LOE_007t",
+      "dbfId": 2998,
+      "name": "저주!",
+      "text": "내 손에 이 카드가 있으면, 내 턴이 시작될 때 피해를 2 입습니다.",
+      "type": "SPELL",
+      "cardClass": "WARLOCK",
+      "classes": [],
+      "rarity": null,
+      "cost": 2,
+      "collectible": false,
+      "chooseOne": false,
+      "mechanics": [],
+      "spellSchool": "SHADOW"
+    },
+    {
+      "flavor": "그 어떤 흑요석도 파괴할 수 있습니다! 이렇게 말하니 정말 없어보이는군요.",
+      "portrait": "HS6-014_D.psd:555500f5799e0104990cdb03a9d61b0c",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 7
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 7
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 7
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 38325
+        }
+      ],
+      "art": "art/LOE_009.png",
+      "releasedAt": "2015-11-13",
+      "releaseStatus": "verified",
+      "id": "LOE_009",
+      "dbfId": 2881,
+      "name": "흑요석 파괴자",
+      "text": "[x]내 턴이 끝날 때,<br></br><b>도발</b> 능력이 있는 1/1<br></br>딱정벌레를 소환합니다.",
+      "type": "MINION",
+      "cardClass": "WARRIOR",
+      "classes": [],
+      "rarity": "COMMON",
+      "cost": 7,
+      "attack": 7,
+      "health": 7,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": []
+    },
+    {
+      "flavor": "",
+      "portrait": "W18_a194_D2.psd:bfa0558fad29bf44cb0b767355bd2448",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 10
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        }
+      ],
+      "art": "art/LOE_009t.png",
+      "releasedAt": "2015-11-13",
+      "releaseStatus": "estimated",
+      "id": "LOE_009t",
+      "dbfId": 38325,
+      "name": "딱정벌레",
+      "text": "<b>도발</b>",
+      "type": "MINION",
+      "cardClass": "WARRIOR",
+      "classes": [],
+      "rarity": null,
+      "cost": 1,
+      "attack": 1,
+      "health": 1,
+      "collectible": false,
+      "chooseOne": false,
+      "mechanics": [
+        "TAUNT"
+      ],
+      "race": "야수",
+      "races": [
+        "BEAST"
+      ]
+    },
+    {
+      "flavor": "독사 구덩이였으면 훨씬 더 위험했을 겁니다.",
+      "portrait": "W7_015_D.psd:3aba63100d07b8648a63d7a82ece665a",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 7
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 363,
+          "name": "독성",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_010.png",
+      "releasedAt": "2015-12-04",
+      "releaseStatus": "verified",
+      "id": "LOE_010",
+      "dbfId": 2882,
+      "name": "구덩이 독사",
+      "text": "<b>독성</b>",
+      "type": "MINION",
+      "cardClass": "ROGUE",
+      "classes": [],
+      "rarity": "COMMON",
+      "race": "야수",
+      "races": [
+        "BEAST"
+      ],
+      "cost": 1,
+      "attack": 2,
+      "health": 1,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [
+        "POISONOUS"
+      ]
+    },
+    {
+      "flavor": "리노는 4년 연속으로 '부티나는 탐험가' 부문에서 우승을 거뒀습니다. 비결이 뭘까요?",
+      "portrait": "HS6-051_D.psd:1affc2edf7e1ecc438cb6162ba5e7db0",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 6
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1118,
+          "name": "치유의 피해 전환 적용",
+          "value": 1
+        },
+        {
+          "id": 1932,
+          "name": "다이아몬드 카드 존재",
+          "value": 1
+        },
+        {
+          "id": 2589,
+          "name": "간판 카드 존재",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_011.png",
+      "releasedAt": "2015-11-13",
+      "releaseStatus": "verified",
+      "id": "LOE_011",
+      "dbfId": 2883,
+      "name": "리노 잭슨",
+      "text": "[x]<b>전투의 함성:</b> 내 덱에<br></br>똑같은 카드가 없으면,<br></br>내 영웅의 생명력을<br></br>모두 회복시킵니다.",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "LEGENDARY",
+      "cost": 6,
+      "attack": 4,
+      "health": 6,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [
+        "BATTLECRY"
+      ]
+    },
+    {
+      "flavor": "길드가 해체된 후, 같이 묘실을 탐험할 사람이 없어서 비뚤어졌습니다.",
+      "portrait": "HS6-012_D.psd:4f45e613a1f708a4ebf68b71ef865479",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 6
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 7
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1440,
+          "name": "선술집 단계",
+          "value": 3
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 1746
+        }
+      ],
+      "art": "art/LOE_012.png",
+      "releasedAt": "2015-12-11",
+      "releaseStatus": "verified",
+      "id": "LOE_012",
+      "dbfId": 2884,
+      "name": "묘실 도굴꾼",
+      "text": "<b>죽음의 메아리:</b> 동전을 얻습니다.",
+      "type": "MINION",
+      "cardClass": "ROGUE",
+      "classes": [],
+      "rarity": "COMMON",
+      "cost": 4,
+      "attack": 6,
+      "health": 4,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [
+        "DEATHRATTLE"
+      ],
+      "race": "언데드",
+      "races": [
+        "UNDEAD"
+      ]
+    },
+    {
+      "flavor": "난 아주 아주 굶주린 정령이야.",
+      "portrait": "HS6-088_D.psd:805121b789e1e8448abf784ddabb4f3a",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 8
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 18
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_016.png",
+      "releasedAt": "2015-11-13",
+      "releaseStatus": "verified",
+      "id": "LOE_016",
+      "dbfId": 2888,
+      "name": "지축을 울리는 정령",
+      "text": "내가 <b>전투의 함성</b> 하수인을 낸 후에,<br></br>무작위 적에게<br></br>피해를 2 줍니다.",
+      "type": "MINION",
+      "cardClass": "SHAMAN",
+      "classes": [],
+      "rarity": "COMMON",
+      "cost": 4,
+      "attack": 2,
+      "health": 6,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [],
+      "race": "정령",
+      "races": [
+        "ELEMENTAL"
+      ]
+    },
+    {
+      "flavor": "울다만이라고요? 그럼 웃다만은 어디에 있는 거죠? 하핫! ...이런 싸늘한 분위기는 싸늘한 평화 도끼 이후로 처음이군요.",
+      "portrait": "HS6-043_D.psd:d71e9b28a9e70b448bbb0066a0cb4ea5",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_017.png",
+      "releasedAt": "2015-11-20",
+      "releaseStatus": "verified",
+      "id": "LOE_017",
+      "dbfId": 2889,
+      "name": "울다만의 수호자",
+      "text": "<b>전투의 함성:</b> 하수인의 공격력과 생명력을 3으로 만듭니다.",
+      "type": "MINION",
+      "cardClass": "PALADIN",
+      "classes": [],
+      "rarity": "COMMON",
+      "cost": 3,
+      "attack": 3,
+      "health": 4,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [
+        "BATTLECRY"
+      ]
+    },
+    {
+      "flavor": "못생긴 건 맞습니다. 하지만 땅굴 속에서 햇빛 없이 자신을 가꾸려고 시도해 보세요. 쉽지 않을 걸요.",
+      "portrait": "HS6-100_D.psd:6c189e135fade284db87552a6a71ffa9",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 215,
+          "name": "과부하",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_018.png",
+      "releasedAt": "2015-11-20",
+      "releaseStatus": "verified",
+      "id": "LOE_018",
+      "dbfId": 2890,
+      "name": "땅굴 트로그",
+      "text": "[x]내가 <b>과부하</b>될 때마다<br></br>잠기는 마나 수정<br></br>하나당 공격력을<br></br>+1 얻습니다.",
+      "type": "MINION",
+      "cardClass": "SHAMAN",
+      "classes": [],
+      "rarity": "COMMON",
+      "cost": 1,
+      "attack": 1,
+      "health": 3,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": []
+    },
+    {
+      "flavor": "자신을 발굴한 자를 아직도 쫓고 있습니다.",
+      "portrait": "HS6-104_D.psd:cfbd4b57ae986a2458314f85c6517c6a",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 7
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 2542,
+          "name": "게임 태그 2542",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_019.png",
+      "releasedAt": "2015-11-20",
+      "releaseStatus": "verified",
+      "id": "LOE_019",
+      "dbfId": 2891,
+      "name": "발굴된 랩터",
+      "text": "<b>전투의 함성:</b><br></br>아군 하수인의 <b>죽음의_메아리</b>를 복사합니다.",
+      "type": "MINION",
+      "cardClass": "ROGUE",
+      "classes": [],
+      "rarity": "RARE",
+      "cost": 3,
+      "attack": 3,
+      "health": 4,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "race": "언데드, 야수",
+      "races": [
+        "UNDEAD",
+        "BEAST"
+      ]
+    },
+    {
+      "flavor": "",
+      "portrait": "HS6-039_D.psd:e8dca629896d9a04389ea74d66e348b5",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        }
+      ],
+      "art": "art/LOE_019t.png",
+      "releasedAt": "2015-12-11",
+      "releaseStatus": "estimated",
+      "id": "LOE_019t",
+      "dbfId": 2992,
+      "name": "황금 원숭이 보물지도",
+      "text": "황금 원숭이를<br></br>내 덱에 섞어 넣습니다. 카드를 뽑습니다.",
+      "type": "SPELL",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": null,
+      "cost": 2,
+      "collectible": false,
+      "chooseOne": false,
+      "mechanics": []
+    },
+    {
+      "flavor": "",
+      "portrait": "HS6-004_D.psd:f076df4c1393aec45a33fa3d9591a273",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 6
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_019t2.png",
+      "releasedAt": "2015-12-11",
+      "releaseStatus": "estimated",
+      "id": "LOE_019t2",
+      "dbfId": 2993,
+      "name": "황금 원숭이",
+      "text": "[x]<b>도발</b>, <b>전투의 함성:</b><br></br>내 손과 덱에 있는 <b>모든</b><br></br>카드를 <b>전설</b> 하수인으로<br></br>교체합니다.",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": null,
+      "cost": 4,
+      "attack": 6,
+      "health": 6,
+      "collectible": false,
+      "chooseOne": false,
+      "mechanics": [
+        "BATTLECRY",
+        "TAUNT"
+      ]
+    },
+    {
+      "flavor": "출근할 때 낙타는 타지 말아야겠습니다.",
+      "portrait": "W18_a196_D.psd:743532a849b2b184e8ae481208caf6bb",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 3
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_020.png",
+      "releasedAt": "2015-12-11",
+      "releaseStatus": "verified",
+      "id": "LOE_020",
+      "dbfId": 2892,
+      "name": "사막 낙타",
+      "text": "<b>전투의_함성:</b> 각 플레이어의 덱에서 비용이 1인 하수인을 소환합니다.",
+      "type": "MINION",
+      "cardClass": "HUNTER",
+      "classes": [],
+      "rarity": "COMMON",
+      "race": "야수",
+      "races": [
+        "BEAST"
+      ],
+      "cost": 3,
+      "attack": 2,
+      "health": 4,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [
+        "BATTLECRY"
+      ]
+    },
+    {
+      "flavor": "5년 동안 탭 댄스를 배운 보람이 있군요!",
+      "portrait": "HS6-005_D.psd:26054bb8bb2eeb444b3e7eb93a4797bc",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 219,
+          "name": "비밀",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_021.png",
+      "releasedAt": "2015-12-04",
+      "releaseStatus": "verified",
+      "id": "LOE_021",
+      "dbfId": 2893,
+      "name": "화살 덫",
+      "text": "<b>비밀:</b> 상대편이 영웅 능력을 사용한 후, 무작위 적에게<br></br>피해를 $5 줍니다.",
+      "type": "SPELL",
+      "cardClass": "HUNTER",
+      "classes": [],
+      "rarity": "COMMON",
+      "cost": 2,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [
+        "SECRET"
+      ]
+    },
+    {
+      "flavor": "사나워서 피하고 싶지만 원숭이라서 성가십니다.",
+      "portrait": "HS6-098_D.psd:05ea062c470684d4791c60e9e6161773",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 10
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_022.png",
+      "releasedAt": "2015-11-20",
+      "releaseStatus": "verified",
+      "id": "LOE_022",
+      "dbfId": 2894,
+      "name": "사나운 원숭이",
+      "text": "<b>도발</b>",
+      "type": "MINION",
+      "cardClass": "WARRIOR",
+      "classes": [],
+      "rarity": "COMMON",
+      "race": "야수",
+      "races": [
+        "BEAST"
+      ],
+      "cost": 3,
+      "attack": 3,
+      "health": 4,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [
+        "TAUNT"
+      ]
+    },
+    {
+      "flavor": "지금 바로 주문하세요! 이 엄청난 진공 청소기가 단돈 39,900 골드! 당신의 영혼을 담보로 할부도 가능합니다.",
+      "portrait": "HS6-015_D.psd:48301170639771d4488566e2aa5ead03",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 415,
+          "name": "발견",
+          "value": 1
+        },
+        {
+          "id": 1342,
+          "name": "USE_DISCOVER_VISUALS",
+          "value": 1
+        },
+        {
+          "id": 4533,
+          "name": "CRAFTABLE_OUTPUT_POWER",
+          "value": 1
+        },
+        {
+          "id": 4578,
+          "name": "게임 태그 4578",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_023.png",
+      "releasedAt": "2015-11-13",
+      "releaseStatus": "verified",
+      "id": "LOE_023",
+      "dbfId": 2895,
+      "name": "어둠의 행상인",
+      "text": "<b>전투의 함성</b>:<br></br>비용이 1인 카드를 발견합니다.",
+      "type": "MINION",
+      "cardClass": "WARLOCK",
+      "classes": [],
+      "rarity": "COMMON",
+      "cost": 2,
+      "attack": 2,
+      "health": 3,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "race": "언데드",
+      "races": [
+        "UNDEAD"
+      ]
+    },
+    {
+      "flavor": "나는야 멀록! 나는야 죽음! 그리고 다시 살음!",
+      "portrait": "HS6-044_D.psd:9c431b4c2a07036488b89a521ad390be",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 10
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_026.png",
+      "releasedAt": "2015-12-04",
+      "releaseStatus": "verified",
+      "id": "LOE_026",
+      "dbfId": 2898,
+      "name": "무엇이든 가능하다옳",
+      "text": "이번 게임에서 죽은 멀록 7마리를 소환합니다.",
+      "type": "SPELL",
+      "cardClass": "PALADIN",
+      "classes": [],
+      "rarity": "RARE",
+      "cost": 10,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": []
+    },
+    {
+      "flavor": "균형을 수호합니다.",
+      "portrait": "HS6-009_D.psd:9ab99109eaeb8d7468786e024f4904d8",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 5
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 219,
+          "name": "비밀",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 5
+        }
+      ],
+      "art": "art/LOE_027.png",
+      "releasedAt": "2015-11-13",
+      "releaseStatus": "verified",
+      "id": "LOE_027",
+      "dbfId": 2899,
+      "name": "신성한 시험",
+      "text": "[x]<b>비밀:</b> 상대편에게 하수인이<br></br>셋 이상 있으면 상대편이<br></br>하수인을 하나 더 낸 후에,<br></br>그 하수인을 처치합니다.",
+      "type": "SPELL",
+      "cardClass": "PALADIN",
+      "classes": [],
+      "rarity": "COMMON",
+      "cost": 1,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [
+        "SECRET"
+      ],
+      "spellSchool": "HOLY"
+    },
+    {
+      "flavor": "강력 접착제만 있으면 무엇이든 가능하죠!",
+      "portrait": "HS6-018_D.psd:8bd9b2d737ea8154ca56e8322e59195a",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 415,
+          "name": "발견",
+          "value": 1
+        },
+        {
+          "id": 1342,
+          "name": "USE_DISCOVER_VISUALS",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_029.png",
+      "releasedAt": "2015-11-13",
+      "releaseStatus": "verified",
+      "id": "LOE_029",
+      "dbfId": 2901,
+      "name": "보석 박힌 딱정벌레",
+      "text": "<b>전투의_함성:</b> 비용이 3인 카드를 <b>발견</b>합니다.",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "COMMON",
+      "race": "야수",
+      "races": [
+        "BEAST"
+      ],
+      "cost": 2,
+      "attack": 1,
+      "health": 1,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [
+        "BATTLECRY"
+      ]
+    },
+    {
+      "flavor": "한때 매우 한결같은 카드였습니다.",
+      "portrait": "W16_a189_D.psd:51bdd67419512694395f00090eff836a",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 5
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 8
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 92
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 362,
+          "name": "지속 효과",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_038.png",
+      "releasedAt": "2015-12-04",
+      "releaseStatus": "verified",
+      "id": "LOE_038",
+      "dbfId": 2910,
+      "name": "나가 바다 마녀",
+      "text": "내 카드의 비용이<br></br>(5)가 됩니다.",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "EPIC",
+      "cost": 8,
+      "attack": 5,
+      "health": 5,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [],
+      "race": "나가",
+      "races": [
+        "NAGA"
+      ]
+    },
+    {
+      "flavor": "A-1과 A-2는 오류가 나서 폐기되었습니다. 무슨 37 이라고 하던데...",
+      "portrait": "HS6-019_D.psd:4fd6b52924546aa499ad697cd7a29142",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 17
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 415,
+          "name": "발견",
+          "value": 1
+        },
+        {
+          "id": 1342,
+          "name": "USE_DISCOVER_VISUALS",
+          "value": 1
+        },
+        {
+          "id": 2542,
+          "name": "게임 태그 2542",
+          "value": 1
+        },
+        {
+          "id": 4533,
+          "name": "CRAFTABLE_OUTPUT_POWER",
+          "value": 1
+        },
+        {
+          "id": 4578,
+          "name": "게임 태그 4578",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_039.png",
+      "releasedAt": "2015-12-04",
+      "releaseStatus": "verified",
+      "id": "LOE_039",
+      "dbfId": 2911,
+      "name": "고릴라로봇 A-3",
+      "text": "<b>전투의 함성</b>: 내 전장에 다른 기계가 있으면, 기계를 <b>발견</b>합니다.",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "COMMON",
+      "race": "기계, 야수",
+      "races": [
+        "MECHANICAL",
+        "BEAST"
+      ],
+      "cost": 3,
+      "attack": 3,
+      "health": 4,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [
+        "BATTLECRY"
+      ]
+    },
+    {
+      "flavor": "개굴거릴 때마다 피해를 줍니다.",
+      "portrait": "HS6-021_D.psd:fa7f5d82c678a8943972808706f72b52",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_046.png",
+      "releasedAt": "2015-12-04",
+      "releaseStatus": "verified",
+      "id": "LOE_046",
+      "dbfId": 2918,
+      "name": "왕두꺼비",
+      "text": "<b>죽음의_메아리:</b> 무작위 적에게 피해를 1 줍니다.",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "COMMON",
+      "race": "야수",
+      "races": [
+        "BEAST"
+      ],
+      "cost": 2,
+      "attack": 3,
+      "health": 2,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [
+        "DEATHRATTLE"
+      ]
+    },
+    {
+      "flavor": "묘실 거미의 먼 친척입니다.",
+      "portrait": "W20_a167_D.psd:223861ee9b359c94c94982ae4ff0375a",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 415,
+          "name": "발견",
+          "value": 1
+        },
+        {
+          "id": 1342,
+          "name": "USE_DISCOVER_VISUALS",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_047.png",
+      "releasedAt": "2015-11-20",
+      "releaseStatus": "verified",
+      "id": "LOE_047",
+      "dbfId": 2919,
+      "name": "무덤 거미",
+      "text": "<b>전투의_함성:</b> 야수를 <b>발견</b>합니다.",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "COMMON",
+      "race": "야수",
+      "races": [
+        "BEAST"
+      ],
+      "cost": 4,
+      "attack": 3,
+      "health": 3,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [
+        "BATTLECRY"
+      ]
+    },
+    {
+      "flavor": "영특한 녀석 같으니!",
+      "portrait": "W14_a228_D.psd:117dfd8f68e447b459dfaaf31c823121",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 20
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_050.png",
+      "releasedAt": "2015-11-20",
+      "releaseStatus": "verified",
+      "id": "LOE_050",
+      "dbfId": 2922,
+      "name": "랩터 탈것",
+      "text": "<b>죽음의 메아리:</b><br></br>비용이 1인 무작위 하수인을 소환합니다.",
+      "type": "MINION",
+      "cardClass": "DRUID",
+      "classes": [],
+      "rarity": "COMMON",
+      "race": "야수",
+      "races": [
+        "BEAST"
+      ],
+      "cost": 3,
+      "attack": 3,
+      "health": 2,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [
+        "DEATHRATTLE"
+      ]
+    },
+    {
+      "flavor": "진정한 화난 닭입니다!",
+      "portrait": "HS6-040_D.psd:fe48bd27a4ad9c0489449abb401c5de1",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 192,
+          "name": "주문 공격력",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_051.png",
+      "releasedAt": "2015-12-04",
+      "releaseStatus": "verified",
+      "id": "LOE_051",
+      "dbfId": 2923,
+      "name": "밀림 달빛야수",
+      "text": "두 플레이어 모두<br></br><b>주문 공격력 +2</b>를 얻습니다.",
+      "type": "MINION",
+      "cardClass": "DRUID",
+      "classes": [],
+      "rarity": "RARE",
+      "cost": 4,
+      "attack": 4,
+      "health": 4,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [
+        "SPELLPOWER"
+      ]
+    },
+    {
+      "flavor": "소원을 빌고 싶으면 램프를 잘못된 방향으로 문지르지 마세요.",
+      "portrait": "W18_a064_D.psd:428d4594281e34443a2eac0a90388289",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 18
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 4
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1059,
+          "name": "게임 태그 1059",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_053.png",
+      "releasedAt": "2015-11-13",
+      "releaseStatus": "verified",
+      "id": "LOE_053",
+      "dbfId": 2925,
+      "name": "서풍의 신령",
+      "text": "[x]내가 다른 아군 하수인에게<br></br>주문을 시전한 후에<br></br>이 하수인에게도 동일한<br></br>주문을 시전합니다.",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "EPIC",
+      "cost": 5,
+      "attack": 4,
+      "health": 6,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [],
+      "race": "정령",
+      "races": [
+        "ELEMENTAL"
+      ]
+    },
+    {
+      "flavor": "사실 이 파수병은 원래 1/1이었는데 다른 파수병의 죽음의 메아리 효과로 4/4가 되었습니다.",
+      "portrait": "HS6-024_D.psd:311f5b9e8bf9d474a8af017f35b8d4b7",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_061.png",
+      "releasedAt": "2015-11-13",
+      "releaseStatus": "verified",
+      "id": "LOE_061",
+      "dbfId": 2933,
+      "name": "아누비사스 파수병",
+      "text": "[x]<b>죽음의 메아리:</b><br></br>무작위 아군 하수인에게<br></br>+3/+3을 부여합니다.",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "COMMON",
+      "cost": 5,
+      "attack": 4,
+      "health": 4,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [
+        "DEATHRATTLE"
+      ]
+    },
+    {
+      "flavor": "공룡을 테마로 한 공원이 문을 닫은 후에 정처 없이 떠돌다가 이곳까지 왔습니다.",
+      "portrait": "HS6-025_D.psd:fbc67cf9e80275e49bc1990244ba3034",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 8
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 8
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 8
+        },
+        {
+          "id": 190,
+          "name": "도발",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 2542,
+          "name": "게임 태그 2542",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_073.png",
+      "releasedAt": "2015-12-11",
+      "releaseStatus": "verified",
+      "id": "LOE_073",
+      "dbfId": 2945,
+      "name": "화석 데빌사우루스",
+      "text": "[x]<b>전투의 함성:</b> 내 전장에<br></br>다른 야수가 있으면,<br></br><b>도발</b>을 얻습니다.",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "COMMON",
+      "cost": 8,
+      "attack": 8,
+      "health": 8,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "race": "언데드, 야수",
+      "races": [
+        "UNDEAD",
+        "BEAST"
+      ]
+    },
+    {
+      "flavor": "공용어는 물론이고, 멀록어와 13가지의 방언을 구사할 수 있습니다.",
+      "portrait": "HS6-027_D.psd:ba0189a94deb82d4eb9c5c6d4d6fee3f",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 14
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 415,
+          "name": "발견",
+          "value": 1
+        },
+        {
+          "id": 1342,
+          "name": "USE_DISCOVER_VISUALS",
+          "value": 1
+        },
+        {
+          "id": 2589,
+          "name": "간판 카드 존재",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_076.png",
+      "releasedAt": "2015-12-04",
+      "releaseStatus": "verified",
+      "id": "LOE_076",
+      "dbfId": 2948,
+      "name": "핀리 므르글턴 경",
+      "text": "<b>전투의 함성:</b> 새로운 기본 영웅 능력을 <b>발견</b>합니다.",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "LEGENDARY",
+      "race": "멀록",
+      "races": [
+        "MURLOC"
+      ],
+      "cost": 1,
+      "attack": 1,
+      "health": 3,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [
+        "BATTLECRY"
+      ]
+    },
+    {
+      "flavor": "마그니만큼이나 푹신푹신합니다!",
+      "portrait": "HS6-028_D.psd:300fc8e5e4a299642a5a6d03d633db4c",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 362,
+          "name": "지속 효과",
+          "value": 1
+        },
+        {
+          "id": 2589,
+          "name": "간판 카드 존재",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_077.png",
+      "releasedAt": "2015-11-20",
+      "releaseStatus": "verified",
+      "id": "LOE_077",
+      "dbfId": 2949,
+      "name": "브란 브론즈비어드",
+      "text": "내 <b>전투의 함성</b> 능력이 2번 발동합니다.",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "LEGENDARY",
+      "cost": 3,
+      "attack": 2,
+      "health": 4,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": []
+    },
+    {
+      "flavor": "그녀의 가장 중요한 직책 중 하나는 황금 원숭이 보물지도와 원숭이 섬으로 향하는 지도를 구분하는 것입니다.",
+      "portrait": "HS6-029_D.psd:53e867971e9ba9c449c9d73fa930faa6",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 5
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 2589,
+          "name": "간판 카드 존재",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_079.png",
+      "releasedAt": "2015-12-11",
+      "releaseStatus": "verified",
+      "id": "LOE_079",
+      "dbfId": 2951,
+      "name": "엘리스 스타시커",
+      "text": "[x]<b>전투의 함성:</b><br></br>'황금 원숭이 보물지도'를<br></br>내 덱에 섞어 넣습니다.",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "LEGENDARY",
+      "cost": 4,
+      "attack": 3,
+      "health": 5,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [
+        "BATTLECRY"
+      ]
+    },
+    {
+      "flavor": "미리 오지 않고 상습적으로 소환을 해달라는 공격대원이 꼭 있습니다.",
+      "portrait": "HS6-008_D.psd:85dfb4babe8f16c49bb6192d0d588771",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_086.png",
+      "releasedAt": "2015-11-13",
+      "releaseStatus": "verified",
+      "id": "LOE_086",
+      "dbfId": 2958,
+      "name": "소환의 돌",
+      "text": "내가 주문을 시전할 때마다 같은 비용의 무작위 하수인을 소환합니다.",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "RARE",
+      "cost": 5,
+      "attack": 0,
+      "health": 6,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": []
+    },
+    {
+      "flavor": "원래 네 명이었는데 가장 위에 있던 녀석이 불의의 사고를 당했습니다.",
+      "portrait": "HS6-020_D.psd:fc8491c4f3042c24392b774763e7e798",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 6
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 6
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_089.png",
+      "releasedAt": "2015-12-11",
+      "releaseStatus": "verified",
+      "id": "LOE_089",
+      "dbfId": 2961,
+      "name": "흔들거리는 소인족",
+      "text": "<b>죽음의 메아리:</b><br></br>2/2 소인족을<br></br>3명 소환합니다.",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "RARE",
+      "cost": 6,
+      "attack": 2,
+      "health": 6,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [
+        "DEATHRATTLE"
+      ]
+    },
+    {
+      "flavor": "",
+      "portrait": "HS6-106_D.psd:d23c6be8647b02542b82920e0f0a0850",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        }
+      ],
+      "art": "art/LOE_089t.png",
+      "releasedAt": "2015-12-11",
+      "releaseStatus": "estimated",
+      "id": "LOE_089t",
+      "dbfId": 37661,
+      "name": "심술궂은 소인족",
+      "text": "",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": null,
+      "cost": 2,
+      "attack": 2,
+      "health": 2,
+      "collectible": false,
+      "chooseOne": false,
+      "mechanics": []
+    },
+    {
+      "flavor": "",
+      "portrait": "HS6-108_D.psd:c861d4dbe9c390648846855fa8d3d906",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        }
+      ],
+      "art": "art/LOE_089t2.png",
+      "releasedAt": "2015-12-11",
+      "releaseStatus": "estimated",
+      "id": "LOE_089t2",
+      "dbfId": 38469,
+      "name": "교활한 소인족",
+      "text": "",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": null,
+      "cost": 2,
+      "attack": 2,
+      "health": 2,
+      "collectible": false,
+      "chooseOne": false,
+      "mechanics": []
+    },
+    {
+      "flavor": "",
+      "portrait": "HS6-107_D.psd:193228abe3748ae4085017b3fc13f7b7",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 2
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 2
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        }
+      ],
+      "art": "art/LOE_089t3.png",
+      "releasedAt": "2015-12-11",
+      "releaseStatus": "estimated",
+      "id": "LOE_089t3",
+      "dbfId": 38470,
+      "name": "궁시렁대는 소인족",
+      "text": "",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": null,
+      "cost": 2,
+      "attack": 2,
+      "health": 2,
+      "collectible": false,
+      "chooseOne": false,
+      "mechanics": []
+    },
+    {
+      "flavor": "유물을 발견하는 데 아주 능숙합니다. 다른 사람의 박물관에서요.",
+      "portrait": "HS6-031_D.psd:6bda1cd141e4c884da7da1c8cd2e2713",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 8
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 7
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 9
+        },
+        {
+          "id": 114,
+          "name": "전설 속성",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 5
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 415,
+          "name": "발견",
+          "value": 1
+        },
+        {
+          "id": 1342,
+          "name": "USE_DISCOVER_VISUALS",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_092.png",
+      "releasedAt": "2015-12-11",
+      "releaseStatus": "verified",
+      "id": "LOE_092",
+      "dbfId": 2964,
+      "name": "대도 라팜",
+      "text": "<b>전투의 함성:</b> 강력한 유물을 <b>발견</b>합니다.",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "LEGENDARY",
+      "cost": 9,
+      "attack": 7,
+      "health": 8,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [
+        "BATTLECRY"
+      ]
+    },
+    {
+      "flavor": "숨을 쉴 구멍만 있으면 그렇게 나쁜 경험은 아닙니다.",
+      "portrait": "HS6-046_D.psd:34b6fb325864cfc429668ea34e4c8a74",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 6
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_104.png",
+      "releasedAt": "2015-12-04",
+      "releaseStatus": "verified",
+      "id": "LOE_104",
+      "dbfId": 3015,
+      "name": "생매장",
+      "text": "적 하수인을 내 덱에 섞어 넣습니다.",
+      "type": "SPELL",
+      "cardClass": "PRIEST",
+      "classes": [],
+      "rarity": "COMMON",
+      "cost": 6,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": []
+    },
+    {
+      "flavor": "해리슨 존스는 탐험가 연맹 모험에 등장하지 못했습니다. 하지만 그의 모자는 등장하게 되었죠.",
+      "portrait": "HS6-011_D.psd:8464ea4e0f9748b40be291172113bd92",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 3
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 217,
+          "name": "죽음의 메아리",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_105.png",
+      "releasedAt": "2015-11-13",
+      "releaseStatus": "verified",
+      "id": "LOE_105",
+      "dbfId": 3001,
+      "name": "탐험가의 모자",
+      "text": "[x]하수인에게 +1/+1과<br></br>\"<b>죽음의 메아리:</b> 탐험가의<br></br>모자를 얻음\"<br></br>능력을 부여합니다.",
+      "type": "SPELL",
+      "cardClass": "HUNTER",
+      "classes": [],
+      "rarity": "RARE",
+      "cost": 1,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": []
+    },
+    {
+      "flavor": "혼자 공격하고 싶습니다. 모두 나가주세요.",
+      "portrait": "HS6-023_D.psd:3de105bc60e123645a060ae05e89baa8",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 7
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 7
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_107.png",
+      "releasedAt": "2015-12-11",
+      "releaseStatus": "verified",
+      "id": "LOE_107",
+      "dbfId": 9107,
+      "name": "으스스한 석상",
+      "text": "공격할 수 없습니다. 전장에 다른 하수인이 없다면, 공격할 수 있습니다.",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "RARE",
+      "cost": 4,
+      "attack": 7,
+      "health": 7,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": []
+    },
+    {
+      "flavor": "주의: 햇빛에 노출시키지 마시오.",
+      "portrait": "HS6-026_D.psd:64a77140e28c16e46b928b4cea46d9f6",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 7
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1452,
+          "name": "수집품 관련 카드 데이터베이스 ID",
+          "value": 9082
+        }
+      ],
+      "art": "art/LOE_110.png",
+      "releasedAt": "2015-11-13",
+      "releaseStatus": "verified",
+      "id": "LOE_110",
+      "dbfId": 9081,
+      "name": "고대의 망령",
+      "text": "[x]<b>전투의 함성:</b> '고대의_저주'를<br></br>내 덱에 섞어 넣습니다.<br></br>그 카드를 뽑으면,<br></br>피해를 7 입습니다.",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "RARE",
+      "cost": 4,
+      "attack": 7,
+      "health": 4,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [
+        "BATTLECRY"
+      ],
+      "race": "언데드",
+      "races": [
+        "UNDEAD"
+      ]
+    },
+    {
+      "flavor": "",
+      "portrait": "HS6-050_D.psd:36c3d15900276a547adc92cf67fd60bf",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 349,
+          "name": "게임 태그 349",
+          "value": 1
+        },
+        {
+          "id": 1077,
+          "name": "뽑을 때 시전",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "art": "art/LOE_110t.png",
+      "releasedAt": "2015-11-13",
+      "releaseStatus": "estimated",
+      "id": "LOE_110t",
+      "dbfId": 9082,
+      "name": "고대의 저주",
+      "text": "<b>뽑을 때 시전</b><br></br>내게 피해를 7 줍니다.",
+      "type": "SPELL",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": null,
+      "cost": 4,
+      "collectible": false,
+      "chooseOne": false,
+      "mechanics": [
+        "CASTS_WHEN_DRAWN"
+      ],
+      "spellSchool": "SHADOW"
+    },
+    {
+      "flavor": "악은 결코 쉬지 않는다.",
+      "portrait": "HS6-047_D.psd:b30324dd713e95743aa83a242ace1cf2",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 5
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 6
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 1635,
+          "name": "주문 속성",
+          "value": 6
+        }
+      ],
+      "art": "art/LOE_111.png",
+      "releasedAt": "2015-11-20",
+      "releaseStatus": "verified",
+      "id": "LOE_111",
+      "dbfId": 2999,
+      "name": "파헤쳐진 악",
+      "text": "<b>모든</b> 하수인에게<br></br>피해를 $3 줍니다.<br></br>이 카드를 상대편의 덱에 섞어 넣습니다.",
+      "type": "SPELL",
+      "cardClass": "PRIEST",
+      "classes": [],
+      "rarity": "RARE",
+      "cost": 5,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [],
+      "spellSchool": "SHADOW"
+    },
+    {
+      "flavor": "멀록과 함께라면 모든 것이 멋지다옳!",
+      "portrait": "W18_a120_D.psd:41d3c9109bcaa0c4eac97296729dd7df",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 7
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_113.png",
+      "releasedAt": "2015-12-04",
+      "releaseStatus": "verified",
+      "id": "LOE_113",
+      "dbfId": 3007,
+      "name": "모든 것이 멋지다옳",
+      "text": "내 하수인들에게 +2/+2를 부여합니다. 내 멀록 하나당 비용이 (1)씩 감소합니다.",
+      "type": "SPELL",
+      "cardClass": "SHAMAN",
+      "classes": [],
+      "rarity": "RARE",
+      "cost": 7,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": []
+    },
+    {
+      "flavor": "'아제로스를 빛낸 우상들'에 포함되지 못하여 매우 서운해하더군요.",
+      "portrait": "HS6-041_D.psd:388c3eb96e19e684bab994e1ee282f7a",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        },
+        {
+          "id": 415,
+          "name": "발견",
+          "value": 1
+        },
+        {
+          "id": 443,
+          "name": "선택",
+          "value": 1
+        },
+        {
+          "id": 1342,
+          "name": "USE_DISCOVER_VISUALS",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_115.png",
+      "releasedAt": "2015-12-11",
+      "releaseStatus": "verified",
+      "id": "LOE_115",
+      "dbfId": 13335,
+      "name": "까마귀 우상",
+      "text": "<b>선택 -</b> 하수인을 <b>발견</b>합니다. 또는 주문을 <b>발견</b>합니다.",
+      "type": "SPELL",
+      "cardClass": "DRUID",
+      "classes": [],
+      "rarity": "COMMON",
+      "cost": 1,
+      "collectible": true,
+      "chooseOne": true,
+      "mechanics": [
+        "CHOOSE_ONE"
+      ]
+    },
+    {
+      "flavor": "",
+      "portrait": "HS6-042_D.psd:3775fc72d4d00db4cac7413f26d5b4d9",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 415,
+          "name": "발견",
+          "value": 1
+        },
+        {
+          "id": 1342,
+          "name": "USE_DISCOVER_VISUALS",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_115a.png",
+      "releasedAt": "2015-12-11",
+      "releaseStatus": "estimated",
+      "id": "LOE_115a",
+      "dbfId": 38112,
+      "name": "해방",
+      "text": "하수인을 <b>발견</b>합니다.",
+      "type": "SPELL",
+      "cardClass": "DRUID",
+      "classes": [],
+      "rarity": null,
+      "cost": 1,
+      "collectible": false,
+      "chooseOne": false,
+      "mechanics": []
+    },
+    {
+      "flavor": "",
+      "portrait": "HS17-096.psd:0bdd9dd6ea814a5bbeb392e99134d1b4",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 2
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 415,
+          "name": "발견",
+          "value": 1
+        },
+        {
+          "id": 1342,
+          "name": "USE_DISCOVER_VISUALS",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_115b.png",
+      "releasedAt": "2015-12-11",
+      "releaseStatus": "estimated",
+      "id": "LOE_115b",
+      "dbfId": 38113,
+      "name": "깨어남",
+      "text": "주문을 <b>발견</b>합니다.",
+      "type": "SPELL",
+      "cardClass": "DRUID",
+      "classes": [],
+      "rarity": null,
+      "cost": 1,
+      "collectible": false,
+      "chooseOne": false,
+      "mechanics": []
+    },
+    {
+      "flavor": "성물회는 탐험가 연맹을 경쟁 상대라고 생각합니다. 하지만 탐험가 연맹은 성물회 따위 안중에도 없죠.",
+      "portrait": "W9_A142_D.psd:87bb23d21f887494baecc61833d000a2",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 9
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 218,
+          "name": "전투의 함성",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_116.png",
+      "releasedAt": "2015-11-20",
+      "releaseStatus": "verified",
+      "id": "LOE_116",
+      "dbfId": 13334,
+      "name": "성물회 구도자",
+      "text": "[x]<b>전투의 함성:</b> 내 전장에<br></br>다른 하수인이 여섯 있으면,<br></br>+4/+4를 얻습니다.",
+      "type": "MINION",
+      "cardClass": "WARLOCK",
+      "classes": [],
+      "rarity": "RARE",
+      "cost": 1,
+      "attack": 1,
+      "health": 1,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": [
+        "BATTLECRY"
+      ]
+    },
+    {
+      "flavor": "이번에 당첨되신 저주는 '싫어하는 노래 무한 반복 재생'입니다.",
+      "portrait": "W17_a019_D.psd:16370fa2c2f8b404fae18e7cbacd8a00",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 2
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 10
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 7
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_118.png",
+      "releasedAt": "2015-12-11",
+      "releaseStatus": "verified",
+      "id": "LOE_118",
+      "dbfId": 35025,
+      "name": "저주받은 검",
+      "text": "내 영웅이 받는 피해가 2배 증가합니다.",
+      "type": "WEAPON",
+      "cardClass": "WARRIOR",
+      "classes": [],
+      "rarity": "RARE",
+      "cost": 1,
+      "attack": 2,
+      "durability": 3,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": []
+    },
+    {
+      "flavor": "이걸 한번 입어보세요. 잠시만요, 카메라 좀 가져올게요.",
+      "portrait": "HS6-022_D.psd:39c4f80875f6150498f84a4e905ed8b7",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 32,
+          "name": "발동 효과 표시",
+          "value": 1
+        },
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 4
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 4
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 4
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 4
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/LOE_119.png",
+      "releasedAt": "2015-12-11",
+      "releaseStatus": "verified",
+      "id": "LOE_119",
+      "dbfId": 36111,
+      "name": "살아 움직이는 갑옷",
+      "text": "내 영웅이 한 번에 받는 피해가 1로 고정됩니다.",
+      "type": "MINION",
+      "cardClass": "MAGE",
+      "classes": [],
+      "rarity": "RARE",
+      "cost": 4,
+      "attack": 4,
+      "health": 4,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": []
+    },
+    {
+      "flavor": "심쿵으로 사망하지 않도록 조심하세요.",
+      "portrait": "W17_a004_D.psd:9bb38ef00455e5440a3cb713e9cd408e",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 1
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 1
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 14
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 1
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "art": "art/LOEA10_3.png",
+      "releasedAt": "2015-12-04",
+      "releaseStatus": "verified",
+      "id": "LOEA10_3",
+      "dbfId": 13879,
+      "name": "아기 멀록",
+      "text": "",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": "COMMON",
+      "race": "멀록",
+      "races": [
+        "MURLOC"
+      ],
+      "cost": 0,
+      "attack": 1,
+      "health": 1,
+      "collectible": true,
+      "chooseOne": false,
+      "mechanics": []
+    },
+    {
+      "flavor": "",
+      "portrait": "W13_158_D.psd:05581eeeec4256e49a25d8062a243de2",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 10
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 1107,
+          "name": "HIDE_WATERMARK",
+          "value": 1
+        }
+      ],
+      "art": "art/LOEA16_3.png",
+      "releasedAt": "2015-12-11",
+      "releaseStatus": "estimated",
+      "id": "LOEA16_3",
+      "dbfId": 19614,
+      "name": "전능한 힘의 등불",
+      "text": "하수인에게 +10/+10을 부여합니다.",
+      "type": "SPELL",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": null,
+      "cost": 10,
+      "collectible": false,
+      "chooseOne": false,
+      "mechanics": []
+    },
+    {
+      "flavor": "",
+      "portrait": "w20_a185_D.psd:4ba578b63b6d72046a0cbdd29f365a4b",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 10
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 349,
+          "name": "게임 태그 349",
+          "value": 1
+        },
+        {
+          "id": 1107,
+          "name": "HIDE_WATERMARK",
+          "value": 1
+        }
+      ],
+      "art": "art/LOEA16_4.png",
+      "releasedAt": "2015-12-11",
+      "releaseStatus": "estimated",
+      "id": "LOEA16_4",
+      "dbfId": 19615,
+      "name": "공포의 회중시계",
+      "text": "모든 적에게 $10의 피해를 무작위로 나누어 입힙니다.",
+      "type": "SPELL",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": null,
+      "cost": 10,
+      "collectible": false,
+      "chooseOne": false,
+      "mechanics": []
+    },
+    {
+      "flavor": "",
+      "portrait": "HS6-093_D.psd:11f44e8f65c655d499f07da473e0e5b4",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 10
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 1107,
+          "name": "HIDE_WATERMARK",
+          "value": 1
+        }
+      ],
+      "art": "art/LOEA16_5.png",
+      "releasedAt": "2015-12-11",
+      "releaseStatus": "estimated",
+      "id": "LOEA16_5",
+      "dbfId": 19616,
+      "name": "파멸의 거울",
+      "text": "내 전장을 3/3 미라 좀비로 가득 채웁니다.",
+      "type": "SPELL",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": null,
+      "cost": 10,
+      "collectible": false,
+      "chooseOne": false,
+      "mechanics": []
+    },
+    {
+      "flavor": "",
+      "portrait": "Mummy_D.psd:843fe810f4957e6469386b1f439d6f97",
+      "set": "LOE",
+      "nativeTags": [
+        {
+          "id": 45,
+          "name": "생명력",
+          "value": 3
+        },
+        {
+          "id": 47,
+          "name": "공격력",
+          "value": 3
+        },
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 3
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 12
+        },
+        {
+          "id": 200,
+          "name": "종족",
+          "value": 11
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 4
+        },
+        {
+          "id": 1107,
+          "name": "HIDE_WATERMARK",
+          "value": 1
+        }
+      ],
+      "art": "art/LOEA16_5t.png",
+      "releasedAt": "2015-12-11",
+      "releaseStatus": "estimated",
+      "id": "LOEA16_5t",
+      "dbfId": 36452,
+      "name": "미라 좀비",
+      "text": "",
+      "type": "MINION",
+      "cardClass": "NEUTRAL",
+      "classes": [],
+      "rarity": null,
+      "cost": 3,
+      "attack": 3,
+      "health": 3,
+      "collectible": false,
+      "chooseOne": false,
+      "mechanics": [],
+      "race": "언데드",
+      "races": [
+        "UNDEAD"
+      ]
+    }
+  ]
+}

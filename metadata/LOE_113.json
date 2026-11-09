@@ -1,0 +1,342 @@
+{
+  "schema": "hscard-date-metadata-1",
+  "id": "LOE_113",
+  "timezone": "Asia/Seoul",
+  "release": {
+    "date": "2015-12-04",
+    "status": "verified"
+  },
+  "baselineStatus": "partially-verified",
+  "confidenceNote": "Partial verification: numeric/taxonomy and listed gameplay changes verified against bounded archives; undated Korean display/name/rarity/class changes are retained as observations, not invented dates. No strict/default hiding.",
+  "sourceCommit": "ea2983bcc83c00fcf74ae4d4531d1fce4301e6b1",
+  "originalSource": {
+    "schemaVersion": 1,
+    "mode": "constructed",
+    "englishName": "Everyfin is Awesome",
+    "card": {
+      "id": "LOE_113",
+      "dbfId": 3007,
+      "name": "모든 것이 멋지다옳",
+      "text": "내 하수인들에게 +2/+2를 부여합니다. 내 멀록 하나당 비용이 (1)씩 감소합니다.",
+      "type": "SPELL",
+      "cardClass": "SHAMAN",
+      "classes": [],
+      "nativeSetId": 20,
+      "set": "LOE",
+      "rarity": "RARE",
+      "race": "",
+      "races": [],
+      "spellSchool": "",
+      "cost": 7,
+      "attack": 0,
+      "health": 0,
+      "armor": 0,
+      "durability": 0,
+      "collectible": true,
+      "chooseOne": false,
+      "installed": true,
+      "portrait": "W18_a120_D.psd:41d3c9109bcaa0c4eac97296729dd7df",
+      "flavor": "멀록과 함께라면 모든 것이 멋지다옳!",
+      "nativeTags": [
+        {
+          "id": 48,
+          "name": "마나 비용",
+          "value": 7
+        },
+        {
+          "id": 199,
+          "name": "직업",
+          "value": 8
+        },
+        {
+          "id": 202,
+          "name": "카드 유형",
+          "value": 5
+        },
+        {
+          "id": 203,
+          "name": "희귀도",
+          "value": 3
+        },
+        {
+          "id": 321,
+          "name": "수집 가능",
+          "value": 1
+        }
+      ],
+      "nativeRawText": "내 하수인들에게 +2/+2를 부여합니다. 내 멀록 하나당 비용이 (1)씩 감소합니다.",
+      "nativeTextBuilder": 0,
+      "releasedAt": "2015-12-04",
+      "releaseStatus": "verified",
+      "patches": [],
+      "initialSpecStatus": "unverified",
+      "patchSources": {}
+    },
+    "root": true,
+    "relatedIds": [],
+    "expansion": {
+      "id": 20,
+      "slug": "league-of-explorers",
+      "name": "탐험가 연맹",
+      "type": "adventure",
+      "englishName": "League Of Explorers"
+    },
+    "setOrder": 38,
+    "formats": [
+      "wild"
+    ],
+    "provenance": {
+      "source": "Installed Hearthstone dbf.unity3d",
+      "gameVersion": "6000.3.11.3145967",
+      "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+      "locale": "koKR"
+    }
+  },
+  "currentCatalog": {
+    "id": "LOE_113",
+    "dbfId": 3007,
+    "name": "모든 것이 멋지다옳",
+    "type": "SPELL",
+    "cardClass": "SHAMAN",
+    "rarity": "RARE",
+    "collectible": true,
+    "cost": 7,
+    "text": "내 하수인들에게 +2/+2를 부여합니다. 내 멀록 하나당 비용이 (1)씩 감소합니다.",
+    "attack": 0,
+    "health": 0,
+    "durability": 0,
+    "armor": 0,
+    "flavor": "멀록과 함께라면 모든 것이 멋지다옳!",
+    "spellSchool": "",
+    "portrait": "W18_a120_D.psd:41d3c9109bcaa0c4eac97296729dd7df",
+    "set": "LOE",
+    "nativeTags": [
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 7
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 8
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 5
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 3
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      }
+    ],
+    "races": [],
+    "race": "",
+    "classes": [],
+    "art": "art/LOE_113.png",
+    "releasedAt": "2015-12-04",
+    "releaseStatus": "verified"
+  },
+  "currentOnlyFields": [
+    "armor",
+    "art",
+    "attack",
+    "durability",
+    "flavor",
+    "health",
+    "nativeTags",
+    "portrait",
+    "race",
+    "races",
+    "set",
+    "spellSchool"
+  ],
+  "canonicalFields": [
+    "cardClass",
+    "chooseOne",
+    "classes",
+    "collectible",
+    "cost",
+    "dbfId",
+    "id",
+    "mechanics",
+    "name",
+    "rarity",
+    "text",
+    "type"
+  ],
+  "keywordAbilityEvidence": {
+    "source": "tools/loe-keyword-abilities.json",
+    "vocabulary": [
+      "BATTLECRY",
+      "CANT_BE_TARGETED_BY_HERO_POWERS",
+      "CANT_BE_TARGETED_BY_SPELLS",
+      "CASTS_WHEN_DRAWN",
+      "CHARGE",
+      "CHOOSE_ONE",
+      "COMBO",
+      "DEATHRATTLE",
+      "DIVINE_SHIELD",
+      "ELUSIVE",
+      "ENRAGED",
+      "FREEZE",
+      "INSPIRE",
+      "LIFESTEAL",
+      "MEGA_WINDFURY",
+      "OVERHEAL",
+      "OVERLOAD",
+      "POISONOUS",
+      "RUSH",
+      "SECRET",
+      "SPELLPOWER",
+      "STEALTH",
+      "TAUNT",
+      "WINDFURY"
+    ]
+  },
+  "legacyMechanicsConvention": {
+    "present": false,
+    "original": [],
+    "canonicalBaseline": []
+  },
+  "supplementalAudit": {
+    "status": "unpublished-reconstruction",
+    "source": "tools/supplemental-audit/LOE_113.json",
+    "document": {
+      "schemaVersion": 1,
+      "mode": "constructed",
+      "englishName": "Everyfin is Awesome",
+      "card": {
+        "id": "LOE_113",
+        "dbfId": 3007,
+        "name": "모든 것이 멋지다옳",
+        "text": "내 하수인들에게 +2/+2를 부여합니다. 내 멀록 하나당 비용이 (1)씩 감소합니다.",
+        "type": "SPELL",
+        "cardClass": "SHAMAN",
+        "classes": [],
+        "nativeSetId": 20,
+        "set": "LOE",
+        "rarity": "RARE",
+        "race": "",
+        "races": [],
+        "spellSchool": "",
+        "cost": 7,
+        "attack": 0,
+        "health": 0,
+        "armor": 0,
+        "durability": 0,
+        "collectible": true,
+        "chooseOne": false,
+        "installed": true,
+        "portrait": "W18_a120_D.psd:41d3c9109bcaa0c4eac97296729dd7df",
+        "flavor": "멀록과 함께라면 모든 것이 멋지다옳!",
+        "nativeTags": [
+          {
+            "id": 48,
+            "name": "마나 비용",
+            "value": 7
+          },
+          {
+            "id": 199,
+            "name": "직업",
+            "value": 8
+          },
+          {
+            "id": 202,
+            "name": "카드 유형",
+            "value": 5
+          },
+          {
+            "id": 203,
+            "name": "희귀도",
+            "value": 3
+          },
+          {
+            "id": 321,
+            "name": "수집 가능",
+            "value": 1
+          }
+        ],
+        "nativeRawText": "내 하수인들에게 +2/+2를 부여합니다. 내 멀록 하나당 비용이 (1)씩 감소합니다.",
+        "nativeTextBuilder": 0,
+        "releasedAt": "2015-12-04",
+        "releaseStatus": "verified",
+        "patches": [],
+        "initialSpecStatus": "partially-verified",
+        "patchSources": {}
+      },
+      "root": true,
+      "relatedIds": [],
+      "expansion": {
+        "id": 20,
+        "slug": "league-of-explorers",
+        "name": "탐험가 연맹",
+        "type": "adventure",
+        "englishName": "League Of Explorers"
+      },
+      "setOrder": 38,
+      "formats": [
+        "wild"
+      ],
+      "provenance": {
+        "source": "Installed Hearthstone dbf.unity3d",
+        "gameVersion": "6000.3.11.3145967",
+        "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+        "locale": "koKR"
+      }
+    },
+    "meaning": "Explicit source-backed reconstruction input, not the pinned original."
+  },
+  "catalogMembership": true,
+  "availabilityScope": "Korean ordinary constructed-match use, including generated powers; excludes preload and adventure-only use.",
+  "dateRecheckEvidence": "tools/loe-date-recheck.json",
+  "undatedEvidence": {
+    "source": "tools/loe-client-evidence.json",
+    "limitations": "tools/loe-known-unmodeled-intervals.json"
+  },
+  "historicalObservations": [
+    {
+      "build": "4.0.0.10833",
+      "source": "https://github.com/HearthSim/hsdata/blob/af481578003cb5dae70b672353d33e298f9ab128/CardDefs.xml",
+      "name": "모든 것이 멋지다옳",
+      "rawText": "내 하수인들에게\n+2/+2를 부여합니다.\n내 전장에 있는 멀록 하나당 비용이 (1)씩 감소합니다.",
+      "enText": "Give your minions +2/+2.\nCosts (1) less for each Murloc you control.",
+      "Tag": {
+        "48": "7",
+        "183": "20",
+        "199": "8",
+        "202": "5",
+        "203": "3",
+        "321": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Client observation only; not asserted Korean server-live date",
+      "lastObservedBuild": "17.0.0.44582"
+    },
+    {
+      "build": "20.0.0.77662",
+      "source": "https://github.com/HearthSim/hsdata/blob/9e10b526eed8a9c5ece2f73f0c2a6a3b60109d62/CardDefs.xml",
+      "name": "모든 것이 멋지다옳",
+      "rawText": "내 하수인들에게 +2/+2를 부여합니다. 내 멀록 하나당 비용이 (1)씩 감소합니다.",
+      "enText": "Give your minions +2/+2.\nCosts (1) less for each Murloc you control.",
+      "Tag": {
+        "48": "7",
+        "183": "20",
+        "199": "8",
+        "202": "5",
+        "203": "3",
+        "321": "1"
+      },
+      "ReferencedTag": {},
+      "dateStatus": "Client observation only; not asserted Korean server-live date",
+      "lastObservedBuild": "37.0.2.256589"
+    }
+  ]
+}

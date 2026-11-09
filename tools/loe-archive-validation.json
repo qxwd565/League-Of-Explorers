@@ -1,0 +1,7 @@
+{
+  "result": "pass",
+  "archiveBuilds": 52,
+  "numericTypeRaceSchoolObservations": 3162,
+  "abilityObservations": 3162,
+  "scope": "Overlapping bounded observations, not every historical build or server rule. Missing numeric tags in existing typed entities encode known zero defaults; they do not invent combat fields for spells/powers."
+}
