@@ -1,1 +1,95 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"LOE_009t","dbfId":38325,"name":"딱정벌레","type":"MINION","cardClass":"WARRIOR","rarity":null,"collectible":false,"cost":1,"text":"<b>도발</b>","attack":1,"health":1,"durability":0,"armor":0,"flavor":"","spellSchool":"","portrait":"W18_a194_D2.psd:bfa0558fad29bf44cb0b767355bd2448","set":"LOE","nativeTags":[{"id":45,"name":"생명력","value":1},{"id":47,"name":"공격력","value":1},{"id":48,"name":"마나 비용","value":1},{"id":190,"name":"도발","value":1},{"id":199,"name":"직업","value":10},{"id":200,"name":"종족","value":20},{"id":202,"name":"카드 유형","value":4}],"races":["BEAST"],"race":"야수","classes":[],"art":"art/LOE_009t.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"W18_a194_D2.psd:bfa0558fad29bf44cb0b767355bd2448","goldenMaterial":"LOE_009t_PremiumCard.mat:89436fa0e0c9569429f72b78a44dd975","goldenAnimation":""}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Scarab",
+  "card": {
+    "id": "LOE_009t",
+    "dbfId": 38325,
+    "name": "딱정벌레",
+    "text": "<b>도발</b>",
+    "type": "MINION",
+    "cardClass": "WARRIOR",
+    "classes": [],
+    "nativeSetId": 20,
+    "set": "LOE",
+    "rarity": null,
+    "race": "야수",
+    "races": [
+      "BEAST"
+    ],
+    "spellSchool": "",
+    "cost": 1,
+    "attack": 1,
+    "health": 1,
+    "armor": 0,
+    "durability": 0,
+    "collectible": false,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "W18_a194_D2.psd:bfa0558fad29bf44cb0b767355bd2448",
+    "flavor": "",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 1
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 1
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 1
+      },
+      {
+        "id": 190,
+        "name": "도발",
+        "value": 1
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 10
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 20
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      }
+    ],
+    "nativeRawText": "<b>도발</b>",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-11-13",
+    "releaseStatus": "estimated",
+    "patches": [],
+    "initialSpecStatus": "unverified",
+    "patchSources": {}
+  },
+  "root": false,
+  "relatedIds": [],
+  "expansion": {
+    "id": 20,
+    "slug": "league-of-explorers",
+    "name": "탐험가 연맹",
+    "type": "adventure",
+    "englishName": "League Of Explorers"
+  },
+  "setOrder": 38,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

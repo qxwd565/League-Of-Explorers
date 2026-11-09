@@ -1,1 +1,134 @@
-{"schemaVersion":1,"mode":"constructed","card":{"id":"LOE_023","dbfId":2895,"name":"어둠의 행상인","type":"MINION","cardClass":"WARLOCK","rarity":"COMMON","collectible":true,"cost":2,"text":"<b>전투의 함성</b>:\n비용이 1인 카드를 발견합니다.","attack":2,"health":3,"durability":0,"armor":0,"flavor":"지금 바로 주문하세요! 이 엄청난 진공 청소기가 단돈 39,900 골드! 당신의 영혼을 담보로 할부도 가능합니다.","spellSchool":"","portrait":"HS6-015_D.psd:48301170639771d4488566e2aa5ead03","set":"LOE","nativeTags":[{"id":45,"name":"생명력","value":3},{"id":47,"name":"공격력","value":2},{"id":48,"name":"마나 비용","value":2},{"id":199,"name":"직업","value":9},{"id":200,"name":"종족","value":11},{"id":202,"name":"카드 유형","value":4},{"id":203,"name":"희귀도","value":1},{"id":218,"name":"전투의 함성","value":1},{"id":321,"name":"수집 가능","value":1},{"id":415,"name":"발견","value":1},{"id":1342,"name":"USE_DISCOVER_VISUALS","value":1},{"id":4533,"name":"CRAFTABLE_OUTPUT_POWER","value":1},{"id":4578,"name":"게임 태그 4578","value":1}],"races":["UNDEAD"],"race":"언데드","classes":[],"art":"art/LOE_023.png"},"artworkProvenance":{"source":"installed Hearthstone native assets","portrait":"HS6-015_D.psd:48301170639771d4488566e2aa5ead03","goldenMaterial":"LOE_023_PremiumCard.mat:55f0e3f82c3b7be46bf17103b8e4210e","goldenAnimation":""}}
+{
+  "schemaVersion": 1,
+  "mode": "constructed",
+  "englishName": "Dark Peddler",
+  "card": {
+    "id": "LOE_023",
+    "dbfId": 2895,
+    "name": "어둠의 행상인",
+    "text": "<b>전투의 함성</b>:\n비용이 1인 카드를 발견합니다.",
+    "type": "MINION",
+    "cardClass": "WARLOCK",
+    "classes": [],
+    "nativeSetId": 20,
+    "set": "LOE",
+    "rarity": "COMMON",
+    "race": "언데드",
+    "races": [],
+    "spellSchool": "",
+    "cost": 2,
+    "attack": 2,
+    "health": 3,
+    "armor": 0,
+    "durability": 0,
+    "collectible": true,
+    "chooseOne": false,
+    "installed": true,
+    "portrait": "HS6-015_D.psd:48301170639771d4488566e2aa5ead03",
+    "flavor": "지금 바로 주문하세요! 이 엄청난 진공 청소기가 단돈 39,900 골드! 당신의 영혼을 담보로 할부도 가능합니다.",
+    "nativeTags": [
+      {
+        "id": 45,
+        "name": "생명력",
+        "value": 3
+      },
+      {
+        "id": 47,
+        "name": "공격력",
+        "value": 2
+      },
+      {
+        "id": 48,
+        "name": "마나 비용",
+        "value": 2
+      },
+      {
+        "id": 199,
+        "name": "직업",
+        "value": 9
+      },
+      {
+        "id": 200,
+        "name": "종족",
+        "value": 11
+      },
+      {
+        "id": 202,
+        "name": "카드 유형",
+        "value": 4
+      },
+      {
+        "id": 203,
+        "name": "희귀도",
+        "value": 1
+      },
+      {
+        "id": 218,
+        "name": "전투의 함성",
+        "value": 1
+      },
+      {
+        "id": 321,
+        "name": "수집 가능",
+        "value": 1
+      },
+      {
+        "id": 415,
+        "name": "발견",
+        "value": 1
+      },
+      {
+        "id": 1342,
+        "name": "USE_DISCOVER_VISUALS",
+        "value": 1
+      },
+      {
+        "id": 4533,
+        "name": "CRAFTABLE_OUTPUT_POWER",
+        "value": 1
+      },
+      {
+        "id": 4578,
+        "name": "게임 태그 4578",
+        "value": 1
+      }
+    ],
+    "nativeRawText": "<b>전투의 함성</b>:&\n비용이 1인 카드를 발견합니다.",
+    "nativeTextBuilder": 0,
+    "releasedAt": "2015-11-13",
+    "releaseStatus": "verified",
+    "patches": [
+      {
+        "date": "2022-11-30",
+        "changes": {
+          "races": [
+            "UNDEAD"
+          ]
+        }
+      }
+    ],
+    "initialSpecStatus": "unverified",
+    "patchSources": {
+      "2022-11-30": "taxonomy introduction"
+    }
+  },
+  "root": true,
+  "relatedIds": [],
+  "expansion": {
+    "id": 20,
+    "slug": "league-of-explorers",
+    "name": "탐험가 연맹",
+    "type": "adventure",
+    "englishName": "League Of Explorers"
+  },
+  "setOrder": 38,
+  "formats": [
+    "wild"
+  ],
+  "provenance": {
+    "source": "Installed Hearthstone dbf.unity3d",
+    "gameVersion": "6000.3.11.3145967",
+    "dbfSha256": "40d9a232262d33eb670848ce3f87e58f5b4fd084632d9876216478a8b21e9456",
+    "locale": "koKR"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schema": 1,
+  "set": "League Of Explorers",
+  "repository": "qxwd565/League-Of-Explorers",
+  "sourceRecords": 60,
+  "sourceVariants": 0,
+  "totalSourceJSON": 62,
+  "collectible": 45,
+  "uncollectible": 15,
+  "pendingReleaseIds": [],
+  "patchVerifiedIds": [
+    "LOE_038"
+  ],
+  "patchVerifiedCardCount": 1,
+  "patchEvents": 1,
+  "excludedDifferentNativeSet": [
+    {
+      "id": "HERO_11bp",
+      "nativeSet": "BASIC",
+      "dbfId": 78162
+    },
+    {
+      "id": "HERO_11bpt",
+      "nativeSet": "BASIC",
+      "dbfId": 78164
+    }
+  ],
+  "historicalAccuracy": "Historical initial snapshots are provisional, except fields directly reconstructed from cited patches; no exhaustive patch verification claimed",
+  "existingArtworkAndGoldenPreserved": true,
+  "committedPatchEvents": 17
+}

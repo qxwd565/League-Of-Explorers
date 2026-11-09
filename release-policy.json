@@ -1,0 +1,254 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "default": {
+    "date": null,
+    "status": "pending"
+  },
+  "prefixes": {},
+  "cards": {
+    "LOE_002": {
+      "date": "2015-11-13",
+      "status": "verified"
+    },
+    "LOE_003": {
+      "date": "2015-11-20",
+      "status": "verified"
+    },
+    "LOE_006": {
+      "date": "2015-12-11",
+      "status": "verified"
+    },
+    "LOE_007": {
+      "date": "2015-12-11",
+      "status": "verified"
+    },
+    "LOE_009": {
+      "date": "2015-11-13",
+      "status": "verified"
+    },
+    "LOE_010": {
+      "date": "2015-12-04",
+      "status": "verified"
+    },
+    "LOE_011": {
+      "date": "2015-11-13",
+      "status": "verified"
+    },
+    "LOE_012": {
+      "date": "2015-12-11",
+      "status": "verified"
+    },
+    "LOE_016": {
+      "date": "2015-11-13",
+      "status": "verified"
+    },
+    "LOE_017": {
+      "date": "2015-11-20",
+      "status": "verified"
+    },
+    "LOE_018": {
+      "date": "2015-11-20",
+      "status": "verified"
+    },
+    "LOE_019": {
+      "date": "2015-11-20",
+      "status": "verified"
+    },
+    "LOE_020": {
+      "date": "2015-12-11",
+      "status": "verified"
+    },
+    "LOE_021": {
+      "date": "2015-12-04",
+      "status": "verified"
+    },
+    "LOE_022": {
+      "date": "2015-11-20",
+      "status": "verified"
+    },
+    "LOE_023": {
+      "date": "2015-11-13",
+      "status": "verified"
+    },
+    "LOE_026": {
+      "date": "2015-12-04",
+      "status": "verified"
+    },
+    "LOE_027": {
+      "date": "2015-11-13",
+      "status": "verified"
+    },
+    "LOE_029": {
+      "date": "2015-11-13",
+      "status": "verified"
+    },
+    "LOE_038": {
+      "date": "2015-12-04",
+      "status": "verified"
+    },
+    "LOE_039": {
+      "date": "2015-12-04",
+      "status": "verified"
+    },
+    "LOE_046": {
+      "date": "2015-12-04",
+      "status": "verified"
+    },
+    "LOE_047": {
+      "date": "2015-11-20",
+      "status": "verified"
+    },
+    "LOE_050": {
+      "date": "2015-11-20",
+      "status": "verified"
+    },
+    "LOE_051": {
+      "date": "2015-12-04",
+      "status": "verified"
+    },
+    "LOE_053": {
+      "date": "2015-11-13",
+      "status": "verified"
+    },
+    "LOE_061": {
+      "date": "2015-11-13",
+      "status": "verified"
+    },
+    "LOE_073": {
+      "date": "2015-12-11",
+      "status": "verified"
+    },
+    "LOE_076": {
+      "date": "2015-12-04",
+      "status": "verified"
+    },
+    "LOE_077": {
+      "date": "2015-11-20",
+      "status": "verified"
+    },
+    "LOE_079": {
+      "date": "2015-12-11",
+      "status": "verified"
+    },
+    "LOE_086": {
+      "date": "2015-11-13",
+      "status": "verified"
+    },
+    "LOE_089": {
+      "date": "2015-12-11",
+      "status": "verified"
+    },
+    "LOE_092": {
+      "date": "2015-12-11",
+      "status": "verified"
+    },
+    "LOE_019t": {
+      "date": "2015-12-11",
+      "status": "estimated"
+    },
+    "LOE_019t2": {
+      "date": "2015-12-11",
+      "status": "estimated"
+    },
+    "LOE_002t": {
+      "date": "2015-11-13",
+      "status": "estimated"
+    },
+    "LOE_007t": {
+      "date": "2015-12-11",
+      "status": "estimated"
+    },
+    "LOE_111": {
+      "date": "2015-11-20",
+      "status": "verified"
+    },
+    "LOE_105": {
+      "date": "2015-11-13",
+      "status": "verified"
+    },
+    "LOE_113": {
+      "date": "2015-12-04",
+      "status": "verified"
+    },
+    "LOE_104": {
+      "date": "2015-12-04",
+      "status": "verified"
+    },
+    "LOE_110": {
+      "date": "2015-11-13",
+      "status": "verified"
+    },
+    "LOE_110t": {
+      "date": "2015-11-13",
+      "status": "estimated"
+    },
+    "LOE_107": {
+      "date": "2015-12-11",
+      "status": "verified"
+    },
+    "LOE_116": {
+      "date": "2015-11-20",
+      "status": "verified"
+    },
+    "LOE_115": {
+      "date": "2015-12-11",
+      "status": "verified"
+    },
+    "LOEA10_3": {
+      "date": "2015-12-04",
+      "status": "verified"
+    },
+    "LOEA16_3": {
+      "date": "2015-12-11",
+      "status": "estimated"
+    },
+    "LOEA16_4": {
+      "date": "2015-12-11",
+      "status": "estimated"
+    },
+    "LOEA16_5": {
+      "date": "2015-12-11",
+      "status": "estimated"
+    },
+    "LOE_118": {
+      "date": "2015-12-11",
+      "status": "verified"
+    },
+    "LOE_119": {
+      "date": "2015-12-11",
+      "status": "verified"
+    },
+    "LOEA16_5t": {
+      "date": "2015-12-11",
+      "status": "estimated"
+    },
+    "LOE_089t": {
+      "date": "2015-12-11",
+      "status": "estimated"
+    },
+    "LOE_115a": {
+      "date": "2015-12-11",
+      "status": "estimated"
+    },
+    "LOE_115b": {
+      "date": "2015-12-11",
+      "status": "estimated"
+    },
+    "LOE_009t": {
+      "date": "2015-11-13",
+      "status": "estimated"
+    },
+    "LOE_089t2": {
+      "date": "2015-12-11",
+      "status": "estimated"
+    },
+    "LOE_089t3": {
+      "date": "2015-12-11",
+      "status": "estimated"
+    }
+  },
+  "sources": {
+    "main": "https://hearthstone.blizzard.com/ko-kr/news/19993797"
+  }
+}
