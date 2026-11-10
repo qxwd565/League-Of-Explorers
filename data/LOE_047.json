@@ -3,7 +3,7 @@
     "id": "LOE_047",
     "dbfId": 2919,
     "name": "무덤 거미",
-    "text": "<b>전투의_함성:</b> 야수를 <b>발견</b>합니다.",
+    "text": "<b>전투의 함성:</b> 야수를 <b>발견</b>합니다.",
     "type": "MINION",
     "cardClass": "NEUTRAL",
     "classes": [],
