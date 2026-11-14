@@ -145,19 +145,23 @@
     },
     "LOE_019t": {
       "date": "2015-12-11",
-      "status": "estimated"
+      "status": "verified",
+      "basis": "First possible actual in-game generation on Korean wing unlock 2015-12-11; root collectible LOE_079, immediate parent LOE_079. Original 2015 build 4.0.0.10833 CardID+DBF independently matched. See tools/loe-first-use-evidence.json. Not the 2015-11-10 client preload; exact baseline stats remain partially verified."
     },
     "LOE_019t2": {
       "date": "2015-12-11",
-      "status": "estimated"
+      "status": "verified",
+      "basis": "First possible actual in-game generation on Korean wing unlock 2015-12-11; root collectible LOE_079, immediate parent LOE_019t. Original 2015 build 4.0.0.10833 CardID+DBF independently matched. See tools/loe-first-use-evidence.json. Not the 2015-11-10 client preload; exact baseline stats remain partially verified."
     },
     "LOE_002t": {
       "date": "2015-11-13",
-      "status": "estimated"
+      "status": "verified",
+      "basis": "First possible actual in-game generation on Korean wing unlock 2015-11-13; root collectible LOE_002, immediate parent LOE_002. Original 2015 build 4.0.0.10833 CardID+DBF independently matched. See tools/loe-first-use-evidence.json. Not the 2015-11-10 client preload; exact baseline stats remain partially verified."
     },
     "LOE_007t": {
       "date": "2015-12-11",
-      "status": "estimated"
+      "status": "verified",
+      "basis": "First possible actual in-game generation on Korean wing unlock 2015-12-11; root collectible LOE_007, immediate parent LOE_007. Original 2015 build 4.0.0.10833 CardID+DBF independently matched. See tools/loe-first-use-evidence.json. Not the 2015-11-10 client preload; exact baseline stats remain partially verified."
     },
     "LOE_111": {
       "date": "2015-11-20",
@@ -181,7 +185,8 @@
     },
     "LOE_110t": {
       "date": "2015-11-13",
-      "status": "estimated"
+      "status": "verified",
+      "basis": "First possible actual in-game generation on Korean wing unlock 2015-11-13; root collectible LOE_110, immediate parent LOE_110. Original 2015 build 4.0.0.10833 CardID+DBF independently matched. See tools/loe-first-use-evidence.json. Not the 2015-11-10 client preload; exact baseline stats remain partially verified."
     },
     "LOE_107": {
       "date": "2015-12-11",
@@ -201,15 +206,18 @@
     },
     "LOEA16_3": {
       "date": "2015-12-11",
-      "status": "estimated"
+      "status": "verified",
+      "basis": "First possible actual in-game generation on Korean wing unlock 2015-12-11; root collectible LOE_092, immediate parent LOE_092. Original 2015 build 4.0.0.10833 CardID+DBF independently matched. See tools/loe-first-use-evidence.json. Not the 2015-11-10 client preload; exact baseline stats remain partially verified."
     },
     "LOEA16_4": {
       "date": "2015-12-11",
-      "status": "estimated"
+      "status": "verified",
+      "basis": "First possible actual in-game generation on Korean wing unlock 2015-12-11; root collectible LOE_092, immediate parent LOE_092. Original 2015 build 4.0.0.10833 CardID+DBF independently matched. See tools/loe-first-use-evidence.json. Not the 2015-11-10 client preload; exact baseline stats remain partially verified."
     },
     "LOEA16_5": {
       "date": "2015-12-11",
-      "status": "estimated"
+      "status": "verified",
+      "basis": "First possible actual in-game generation on Korean wing unlock 2015-12-11; root collectible LOE_092, immediate parent LOE_092. Original 2015 build 4.0.0.10833 CardID+DBF independently matched. See tools/loe-first-use-evidence.json. Not the 2015-11-10 client preload; exact baseline stats remain partially verified."
     },
     "LOE_118": {
       "date": "2015-12-11",
@@ -221,31 +229,38 @@
     },
     "LOEA16_5t": {
       "date": "2015-12-11",
-      "status": "estimated"
+      "status": "verified",
+      "basis": "First possible actual in-game generation on Korean wing unlock 2015-12-11; root collectible LOE_092, immediate parent LOEA16_5. Original 2015 build 4.0.0.10833 CardID+DBF independently matched. See tools/loe-first-use-evidence.json. Not the 2015-11-10 client preload; exact baseline stats remain partially verified."
     },
     "LOE_089t": {
       "date": "2015-12-11",
-      "status": "estimated"
+      "status": "verified",
+      "basis": "First possible actual in-game generation on Korean wing unlock 2015-12-11; root collectible LOE_089, immediate parent LOE_089. Original 2015 build 4.0.0.10833 CardID+DBF independently matched. See tools/loe-first-use-evidence.json. Not the 2015-11-10 client preload; exact baseline stats remain partially verified."
     },
     "LOE_115a": {
       "date": "2015-12-11",
-      "status": "estimated"
+      "status": "verified",
+      "basis": "First possible actual in-game generation on Korean wing unlock 2015-12-11; root collectible LOE_115, immediate parent LOE_115. Original 2015 build 4.0.0.10833 CardID+DBF independently matched. See tools/loe-first-use-evidence.json. Not the 2015-11-10 client preload; exact baseline stats remain partially verified."
     },
     "LOE_115b": {
       "date": "2015-12-11",
-      "status": "estimated"
+      "status": "verified",
+      "basis": "First possible actual in-game generation on Korean wing unlock 2015-12-11; root collectible LOE_115, immediate parent LOE_115. Original 2015 build 4.0.0.10833 CardID+DBF independently matched. See tools/loe-first-use-evidence.json. Not the 2015-11-10 client preload; exact baseline stats remain partially verified."
     },
     "LOE_009t": {
       "date": "2015-11-13",
-      "status": "estimated"
+      "status": "verified",
+      "basis": "First possible actual in-game generation on Korean wing unlock 2015-11-13; root collectible LOE_009, immediate parent LOE_009. Original 2015 build 4.0.0.10833 CardID+DBF independently matched. See tools/loe-first-use-evidence.json. Not the 2015-11-10 client preload; exact baseline stats remain partially verified."
     },
     "LOE_089t2": {
       "date": "2015-12-11",
-      "status": "estimated"
+      "status": "verified",
+      "basis": "First possible actual in-game generation on Korean wing unlock 2015-12-11; root collectible LOE_089, immediate parent LOE_089. Original 2015 build 4.0.0.10833 CardID+DBF independently matched. See tools/loe-first-use-evidence.json. Not the 2015-11-10 client preload; exact baseline stats remain partially verified."
     },
     "LOE_089t3": {
       "date": "2015-12-11",
-      "status": "estimated"
+      "status": "verified",
+      "basis": "First possible actual in-game generation on Korean wing unlock 2015-12-11; root collectible LOE_089, immediate parent LOE_089. Original 2015 build 4.0.0.10833 CardID+DBF independently matched. See tools/loe-first-use-evidence.json. Not the 2015-11-10 client preload; exact baseline stats remain partially verified."
     }
   },
   "sources": {

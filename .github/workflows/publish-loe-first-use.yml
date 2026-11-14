@@ -1,0 +1,70 @@
+name: Publish verified League of Explorers first-use dates
+on:
+  push:
+    paths:
+      - 'tools/loe-first-use-evidence.json'
+      - 'tools/migrate-date-schema.py'
+      - '.github/workflows/publish-loe-first-use.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  publish-first-use:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate Python source before mutation
+        run: python3 -m py_compile tools/migrate-date-schema.py tools/test-date-schema.py tools/test-legacy-compatibility.py
+      - name: Deterministic first-use evidence and date-map migration
+        run: python3 tools/migrate-date-schema.py
+      - name: Rebuild all old and precise API endpoints
+        run: python3 tools/build-api.py
+      - name: Verify canonical and legacy API compatibility
+        run: |
+          python3 tools/test-presence-fixtures.py
+          python3 tools/test-date-schema.py
+          python3 tools/test-archive-history.py
+          python3 tools/test-legacy-compatibility.py
+          python3 tools/test-future-canonical.py
+          python3 tools/test-clean-migration.py
+          python3 tools/test-build-idempotence.py
+          git diff --check
+      - name: Verify release provenance without gameplay changes
+        run: |
+          python3 - <<'PY'
+          import json,pathlib
+          root=pathlib.Path('.')
+          catalog=json.loads((root/'cards.json').read_text())['cards']
+          precise=json.loads((root/'cards-date.json').read_text())['cards']
+          assert len(catalog)==len(precise)==60
+          for arr in (catalog,precise):
+              assert all(row['releaseStatus']=='verified' for row in arr)
+          evidence=json.loads((root/'tools/loe-first-use-evidence.json').read_text())
+          assert len(evidence['tokens'])==15
+          for row in evidence['tokens']:
+              card=next(c for c in catalog if c['id']==row['id'])
+              assert card['releasedAt']==row['firstUseKst']
+          for cid in evidence['sourceOnlyExcluded']:
+              meta=json.loads((root/'metadata'/f'{cid}.json').read_text())
+              assert meta['release']['status']=='estimated'
+          print({'result':'pass','verified':60,'generated':15,'source_only_estimated':2})
+          PY
+      - name: Commit verified canonical release metadata and rebuilt API bundles
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- metadata release-policy.json README.md docs/date-schema.md
+          git add -- cards.json render.json history.json cards-date.json render-date.json history-date.json
+          git add -- tools/date-schema-validation.json tools/legacy-compatibility-validation.json tools/loe-archive-validation.json tools/clean-rebuild-validation.json tools/legacy-compatibility-losses.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Publish verified first-use dates for all 15 League generated cards [skip ci]'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

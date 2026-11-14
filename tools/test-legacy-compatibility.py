@@ -12,6 +12,17 @@ def main(fixture=None):
   text=BREAK.sub('<br></br>',c['text'])
   if text!=c['text']:normalized.append(c['id'])
   c['text']=text
+ # Only the 15 source-backed generated-card release confidence flags may differ
+ # from the immutable pre-migration catalog; original fields remain unchanged.
+ audit=load(ROOT/'tools/loe-first-use-evidence.json')
+ reviewed={row['id']:row for row in audit['tokens']}
+ assert len(reviewed)==15
+ for c in expected['cards']:
+  if c['id'] not in reviewed:continue
+  record=reviewed[c['id']]
+  assert c['releasedAt']==record['firstUseKst'] and c['releaseStatus']=='estimated'
+  c['releaseStatus']='verified'
+ assert all(row['releaseStatus']=='verified' for row in catalog['cards'])
  assert json_equal(catalog,expected),'Unreviewed current catalog changes'
  assert all(x['schema']==1 and 'historySchema' not in x for x in (catalog,history,render))
  for name in ['cards.json','history.json','render.json']:assert '__remove' not in (ROOT/name).read_text()
@@ -33,7 +44,7 @@ def main(fixture=None):
    want={k:v for k,v in want.items() if k in PHP_FIELDS}
    assert json_equal({k:v for k,v in actual.items() if k in PHP_FIELDS},want),(cid,d)
    cases.append({'id':cid,'dbfId':c['dbfId'],'date':d,'expected':want})
- report={'result':'pass','cards':60,'approvedTextNormalizations':len(normalized),'approvedReleaseMetadata':0,'otherCurrentChanges':0,'legacyDateCases':len(cases),'artURLChecks':360,'visibility':'Before-release old-parser fallback retained; no strict/default gating. Precise/source-only scopes remain distinct.'}
+ report={'result':'pass','cards':60,'approvedTextNormalizations':len(normalized),'approvedReleaseMetadata':len(reviewed),'otherCurrentChanges':0,'legacyDateCases':len(cases),'artURLChecks':360,'visibility':'Before-release old-parser fallback retained; no strict/default gating. Precise/source-only scopes remain distinct.'}
  put(ROOT/'tools/legacy-compatibility-validation.json',report)
  if fixture:put(fixture,{'catalog':catalog,'history':history,'cases':cases,'allowed':list(PHP_FIELDS),'originalCatalog':expected,'baseUrl':BASE_URL,'expectedCards':60,'originalComparison':'Pinned current source with only reviewed display newline normalization'})
  print(json.dumps(report))

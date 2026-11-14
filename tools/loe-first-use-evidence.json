@@ -1,0 +1,804 @@
+{
+  "schema": 1,
+  "timezone": "Asia/Seoul",
+  "scope": "45 collectible +15 collectible-generated/pickable LOE cards; not unrelated BASIC death knight records",
+  "archive": {
+    "repo": "HearthSim/hsdata",
+    "commit": "af481578003cb5dae70b672353d33e298f9ab128",
+    "build": "4.0.0.10833",
+    "clientDate": "2015-11-10",
+    "cardDefsBlobSha": "c56bf29b116e57fd8cdf4382e27d109b72b29e12",
+    "url": "https://github.com/HearthSim/hsdata/blob/af481578003cb5dae70b672353d33e298f9ab128/CardDefs.xml",
+    "rule": "Client import proves ID/DBF identity, NEVER server release time"
+  },
+  "releaseSources": {
+    "firstWing": {
+      "date": "2015-11-13",
+      "sources": [
+        "https://hearthstone.blizzard.com/ko-kr/news/19940884",
+        "https://hearthstone.blizzard.com/en-us/news/19963999",
+        "https://www.inven.co.kr/webzine/news/?news=146926"
+      ]
+    },
+    "secondWing": {
+      "date": "2015-11-20",
+      "sources": [
+        "https://www.inven.co.kr/webzine/news/?news=146926",
+        "https://zdnet.co.kr/view/?no=20151120142922"
+      ]
+    },
+    "thirdWing": {
+      "date": "2015-12-04",
+      "sources": [
+        "https://www.bluetracker.gg/wow/topic/us-en/0-league-of-explorers-wing-release-schedule/",
+        "https://m.inven.co.kr/board/hs/3508/3557?sterm=9996440&stype=subjcont&svalue=toast"
+      ]
+    },
+    "fourthWing": {
+      "date": "2015-12-11",
+      "sources": [
+        "https://www.bluetracker.gg/wow/topic/us-en/0-league-of-explorers-wing-release-schedule/",
+        "https://hearthstone.blizzard.com/en-us/news/19975321"
+      ]
+    },
+    "rewardMapping": [
+      "https://www.icy-veins.com/hearthstone/league-of-explorers-guide",
+      "https://liquipedia.net/hearthstone/League_of_Explorers"
+    ]
+  },
+  "tokenSources": {
+    "japanesePreRelease": "https://hs-exp.jp/2015-11-07/card-list-league-of-explorers/",
+    "runtsContemporary": "https://www.hearthpwn.com/cards/fr/27499-avorton-vaurien",
+    "rafaamContemporary": "https://www.hearthpwn.com/forums/hearthstone-general/card-discussion/87814-will-arch-thief-rafaam-be-sleeper-op",
+    "ravenIdolChoices": "https://seore.org/w/%EB%93%9C%EB%A3%A8%EC%9D%B4%EB%93%9C%28%ED%95%98%EC%8A%A4%EC%8A%A4%ED%86%A4%29/%EC%B9%B4%EB%93%9C%EC%9D%BC%EB%9E%8C/2015%EB%85%84"
+  },
+  "wingCounts": {
+    "2015-11-13": {
+      "total": 15,
+      "collectible": 12,
+      "tokens": 3
+    },
+    "2015-11-20": {
+      "total": 10,
+      "collectible": 10,
+      "tokens": 0
+    },
+    "2015-12-11": {
+      "total": 24,
+      "collectible": 12,
+      "tokens": 12
+    },
+    "2015-12-04": {
+      "total": 11,
+      "collectible": 11,
+      "tokens": 0
+    }
+  },
+  "archivedIdentity": [
+    {
+      "id": "LOE_002",
+      "dbfId": 2874,
+      "archivedEnUS": "Forgotten Torch",
+      "archivedKoKR": "잊혀진 횃불",
+      "firstUseKst": "2015-11-13",
+      "collectible": true
+    },
+    {
+      "id": "LOE_002t",
+      "dbfId": 2997,
+      "archivedEnUS": "Roaring Torch",
+      "archivedKoKR": "이글거리는 횃불",
+      "firstUseKst": "2015-11-13",
+      "collectible": false
+    },
+    {
+      "id": "LOE_003",
+      "dbfId": 2875,
+      "archivedEnUS": "Ethereal Conjurer",
+      "archivedKoKR": "에테리얼 창조술사",
+      "firstUseKst": "2015-11-20",
+      "collectible": true
+    },
+    {
+      "id": "LOE_006",
+      "dbfId": 2878,
+      "archivedEnUS": "Museum Curator",
+      "archivedKoKR": "박물관 관리인",
+      "firstUseKst": "2015-12-11",
+      "collectible": true
+    },
+    {
+      "id": "LOE_007",
+      "dbfId": 2879,
+      "archivedEnUS": "Curse of Rafaam",
+      "archivedKoKR": "라팜의 저주",
+      "firstUseKst": "2015-12-11",
+      "collectible": true
+    },
+    {
+      "id": "LOE_007t",
+      "dbfId": 2998,
+      "archivedEnUS": "Cursed!",
+      "archivedKoKR": "저주!",
+      "firstUseKst": "2015-12-11",
+      "collectible": false
+    },
+    {
+      "id": "LOE_009",
+      "dbfId": 2881,
+      "archivedEnUS": "Obsidian Destroyer",
+      "archivedKoKR": "흑요석 파괴자",
+      "firstUseKst": "2015-11-13",
+      "collectible": true
+    },
+    {
+      "id": "LOE_009t",
+      "dbfId": 38325,
+      "archivedEnUS": "Scarab",
+      "archivedKoKR": "딱정벌레",
+      "firstUseKst": "2015-11-13",
+      "collectible": false
+    },
+    {
+      "id": "LOE_010",
+      "dbfId": 2882,
+      "archivedEnUS": "Pit Snake",
+      "archivedKoKR": "구덩이 독사",
+      "firstUseKst": "2015-12-04",
+      "collectible": true
+    },
+    {
+      "id": "LOE_011",
+      "dbfId": 2883,
+      "archivedEnUS": "Reno Jackson",
+      "archivedKoKR": "리노 잭슨",
+      "firstUseKst": "2015-11-13",
+      "collectible": true
+    },
+    {
+      "id": "LOE_012",
+      "dbfId": 2884,
+      "archivedEnUS": "Tomb Pillager",
+      "archivedKoKR": "묘실 도굴꾼",
+      "firstUseKst": "2015-12-11",
+      "collectible": true
+    },
+    {
+      "id": "LOE_016",
+      "dbfId": 2888,
+      "archivedEnUS": "Rumbling Elemental",
+      "archivedKoKR": "지축을 울리는 정령",
+      "firstUseKst": "2015-11-13",
+      "collectible": true
+    },
+    {
+      "id": "LOE_017",
+      "dbfId": 2889,
+      "archivedEnUS": "Keeper of Uldaman",
+      "archivedKoKR": "울다만의 수호자",
+      "firstUseKst": "2015-11-20",
+      "collectible": true
+    },
+    {
+      "id": "LOE_018",
+      "dbfId": 2890,
+      "archivedEnUS": "Tunnel Trogg",
+      "archivedKoKR": "땅굴 트로그",
+      "firstUseKst": "2015-11-20",
+      "collectible": true
+    },
+    {
+      "id": "LOE_019",
+      "dbfId": 2891,
+      "archivedEnUS": "Unearthed Raptor",
+      "archivedKoKR": "발굴된 랩터",
+      "firstUseKst": "2015-11-20",
+      "collectible": true
+    },
+    {
+      "id": "LOE_019t",
+      "dbfId": 2992,
+      "archivedEnUS": "Map to the Golden Monkey",
+      "archivedKoKR": "황금 원숭이 보물지도",
+      "firstUseKst": "2015-12-11",
+      "collectible": false
+    },
+    {
+      "id": "LOE_019t2",
+      "dbfId": 2993,
+      "archivedEnUS": "Golden Monkey",
+      "archivedKoKR": "황금 원숭이",
+      "firstUseKst": "2015-12-11",
+      "collectible": false
+    },
+    {
+      "id": "LOE_020",
+      "dbfId": 2892,
+      "archivedEnUS": "Desert Camel",
+      "archivedKoKR": "사막 낙타",
+      "firstUseKst": "2015-12-11",
+      "collectible": true
+    },
+    {
+      "id": "LOE_021",
+      "dbfId": 2893,
+      "archivedEnUS": "Dart Trap",
+      "archivedKoKR": "화살 덫",
+      "firstUseKst": "2015-12-04",
+      "collectible": true
+    },
+    {
+      "id": "LOE_022",
+      "dbfId": 2894,
+      "archivedEnUS": "Fierce Monkey",
+      "archivedKoKR": "사나운 원숭이",
+      "firstUseKst": "2015-11-20",
+      "collectible": true
+    },
+    {
+      "id": "LOE_023",
+      "dbfId": 2895,
+      "archivedEnUS": "Dark Peddler",
+      "archivedKoKR": "어둠의 행상인",
+      "firstUseKst": "2015-11-13",
+      "collectible": true
+    },
+    {
+      "id": "LOE_026",
+      "dbfId": 2898,
+      "archivedEnUS": "Anyfin Can Happen",
+      "archivedKoKR": "무엇이든 가능하다옳",
+      "firstUseKst": "2015-12-04",
+      "collectible": true
+    },
+    {
+      "id": "LOE_027",
+      "dbfId": 2899,
+      "archivedEnUS": "Sacred Trial",
+      "archivedKoKR": "신성한 시험",
+      "firstUseKst": "2015-11-13",
+      "collectible": true
+    },
+    {
+      "id": "LOE_029",
+      "dbfId": 2901,
+      "archivedEnUS": "Jeweled Scarab",
+      "archivedKoKR": "보석 박힌 딱정벌레",
+      "firstUseKst": "2015-11-13",
+      "collectible": true
+    },
+    {
+      "id": "LOE_038",
+      "dbfId": 2910,
+      "archivedEnUS": "Naga Sea Witch",
+      "archivedKoKR": "나가 바다 마녀",
+      "firstUseKst": "2015-12-04",
+      "collectible": true
+    },
+    {
+      "id": "LOE_039",
+      "dbfId": 2911,
+      "archivedEnUS": "Gorillabot A-3",
+      "archivedKoKR": "고릴라로봇 A-3",
+      "firstUseKst": "2015-12-04",
+      "collectible": true
+    },
+    {
+      "id": "LOE_046",
+      "dbfId": 2918,
+      "archivedEnUS": "Huge Toad",
+      "archivedKoKR": "왕두꺼비",
+      "firstUseKst": "2015-12-04",
+      "collectible": true
+    },
+    {
+      "id": "LOE_047",
+      "dbfId": 2919,
+      "archivedEnUS": "Tomb Spider",
+      "archivedKoKR": "무덤 거미",
+      "firstUseKst": "2015-11-20",
+      "collectible": true
+    },
+    {
+      "id": "LOE_050",
+      "dbfId": 2922,
+      "archivedEnUS": "Mounted Raptor",
+      "archivedKoKR": "랩터 탈것",
+      "firstUseKst": "2015-11-20",
+      "collectible": true
+    },
+    {
+      "id": "LOE_051",
+      "dbfId": 2923,
+      "archivedEnUS": "Jungle Moonkin",
+      "archivedKoKR": "밀림 달빛야수",
+      "firstUseKst": "2015-12-04",
+      "collectible": true
+    },
+    {
+      "id": "LOE_053",
+      "dbfId": 2925,
+      "archivedEnUS": "Djinni of Zephyrs",
+      "archivedKoKR": "서풍의 신령",
+      "firstUseKst": "2015-11-13",
+      "collectible": true
+    },
+    {
+      "id": "LOE_061",
+      "dbfId": 2933,
+      "archivedEnUS": "Anubisath Sentinel",
+      "archivedKoKR": "아누비사스 파수병",
+      "firstUseKst": "2015-11-13",
+      "collectible": true
+    },
+    {
+      "id": "LOE_073",
+      "dbfId": 2945,
+      "archivedEnUS": "Fossilized Devilsaur",
+      "archivedKoKR": "화석 데빌사우루스",
+      "firstUseKst": "2015-12-11",
+      "collectible": true
+    },
+    {
+      "id": "LOE_076",
+      "dbfId": 2948,
+      "archivedEnUS": "Sir Finley Mrrgglton",
+      "archivedKoKR": "핀리 므르글턴 경",
+      "firstUseKst": "2015-12-04",
+      "collectible": true
+    },
+    {
+      "id": "LOE_077",
+      "dbfId": 2949,
+      "archivedEnUS": "Brann Bronzebeard",
+      "archivedKoKR": "브란 브론즈비어드",
+      "firstUseKst": "2015-11-20",
+      "collectible": true
+    },
+    {
+      "id": "LOE_079",
+      "dbfId": 2951,
+      "archivedEnUS": "Elise Starseeker",
+      "archivedKoKR": "엘리스 스타시커",
+      "firstUseKst": "2015-12-11",
+      "collectible": true
+    },
+    {
+      "id": "LOE_086",
+      "dbfId": 2958,
+      "archivedEnUS": "Summoning Stone",
+      "archivedKoKR": "소환의 돌",
+      "firstUseKst": "2015-11-13",
+      "collectible": true
+    },
+    {
+      "id": "LOE_089",
+      "dbfId": 2961,
+      "archivedEnUS": "Wobbling Runts",
+      "archivedKoKR": "흔들거리는 소인족",
+      "firstUseKst": "2015-12-11",
+      "collectible": true
+    },
+    {
+      "id": "LOE_089t",
+      "dbfId": 37661,
+      "archivedEnUS": "Rascally Runt",
+      "archivedKoKR": "심술궂은 소인족",
+      "firstUseKst": "2015-12-11",
+      "collectible": false
+    },
+    {
+      "id": "LOE_089t2",
+      "dbfId": 38469,
+      "archivedEnUS": "Wily Runt",
+      "archivedKoKR": "교활한 소인족",
+      "firstUseKst": "2015-12-11",
+      "collectible": false
+    },
+    {
+      "id": "LOE_089t3",
+      "dbfId": 38470,
+      "archivedEnUS": "Grumbly Runt",
+      "archivedKoKR": "궁시렁대는 소인족",
+      "firstUseKst": "2015-12-11",
+      "collectible": false
+    },
+    {
+      "id": "LOE_092",
+      "dbfId": 2964,
+      "archivedEnUS": "Arch-Thief Rafaam",
+      "archivedKoKR": "대도 라팜",
+      "firstUseKst": "2015-12-11",
+      "collectible": true
+    },
+    {
+      "id": "LOE_104",
+      "dbfId": 3015,
+      "archivedEnUS": "Entomb",
+      "archivedKoKR": "생매장",
+      "firstUseKst": "2015-12-04",
+      "collectible": true
+    },
+    {
+      "id": "LOE_105",
+      "dbfId": 3001,
+      "archivedEnUS": "Explorer's Hat",
+      "archivedKoKR": "탐험가의 모자",
+      "firstUseKst": "2015-11-13",
+      "collectible": true
+    },
+    {
+      "id": "LOE_107",
+      "dbfId": 9107,
+      "archivedEnUS": "Eerie Statue",
+      "archivedKoKR": "으스스한 석상",
+      "firstUseKst": "2015-12-11",
+      "collectible": true
+    },
+    {
+      "id": "LOE_110",
+      "dbfId": 9081,
+      "archivedEnUS": "Ancient Shade",
+      "archivedKoKR": "고대의 망령",
+      "firstUseKst": "2015-11-13",
+      "collectible": true
+    },
+    {
+      "id": "LOE_110t",
+      "dbfId": 9082,
+      "archivedEnUS": "Ancient Curse",
+      "archivedKoKR": "고대의 저주",
+      "firstUseKst": "2015-11-13",
+      "collectible": false
+    },
+    {
+      "id": "LOE_111",
+      "dbfId": 2999,
+      "archivedEnUS": "Excavated Evil",
+      "archivedKoKR": "파헤쳐진 악",
+      "firstUseKst": "2015-11-20",
+      "collectible": true
+    },
+    {
+      "id": "LOE_113",
+      "dbfId": 3007,
+      "archivedEnUS": "Everyfin is Awesome",
+      "archivedKoKR": "모든 것이 멋지다옳",
+      "firstUseKst": "2015-12-04",
+      "collectible": true
+    },
+    {
+      "id": "LOE_115",
+      "dbfId": 13335,
+      "archivedEnUS": "Raven Idol",
+      "archivedKoKR": "까마귀 우상",
+      "firstUseKst": "2015-12-11",
+      "collectible": true
+    },
+    {
+      "id": "LOE_115a",
+      "dbfId": 38112,
+      "archivedEnUS": "Raven Idol",
+      "archivedKoKR": "까마귀 우상",
+      "firstUseKst": "2015-12-11",
+      "collectible": false
+    },
+    {
+      "id": "LOE_115b",
+      "dbfId": 38113,
+      "archivedEnUS": "Raven Idol",
+      "archivedKoKR": "까마귀 우상",
+      "firstUseKst": "2015-12-11",
+      "collectible": false
+    },
+    {
+      "id": "LOE_116",
+      "dbfId": 13334,
+      "archivedEnUS": "Reliquary Seeker",
+      "archivedKoKR": "성물회 구도자",
+      "firstUseKst": "2015-11-20",
+      "collectible": true
+    },
+    {
+      "id": "LOE_118",
+      "dbfId": 35025,
+      "archivedEnUS": "Cursed Blade",
+      "archivedKoKR": "저주받은 검",
+      "firstUseKst": "2015-12-11",
+      "collectible": true
+    },
+    {
+      "id": "LOE_119",
+      "dbfId": 36111,
+      "archivedEnUS": "Animated Armor",
+      "archivedKoKR": "살아 움직이는 갑옷",
+      "firstUseKst": "2015-12-11",
+      "collectible": true
+    },
+    {
+      "id": "LOEA10_3",
+      "dbfId": 13879,
+      "archivedEnUS": "Murloc Tinyfin",
+      "archivedKoKR": "아기 멀록",
+      "firstUseKst": "2015-12-04",
+      "collectible": true
+    },
+    {
+      "id": "LOEA16_3",
+      "dbfId": 19614,
+      "archivedEnUS": "Lantern of Power",
+      "archivedKoKR": "전능한 힘의 등불",
+      "firstUseKst": "2015-12-11",
+      "collectible": false
+    },
+    {
+      "id": "LOEA16_4",
+      "dbfId": 19615,
+      "archivedEnUS": "Timepiece of Horror",
+      "archivedKoKR": "공포의 회중시계",
+      "firstUseKst": "2015-12-11",
+      "collectible": false
+    },
+    {
+      "id": "LOEA16_5",
+      "dbfId": 19616,
+      "archivedEnUS": "Mirror of Doom",
+      "archivedKoKR": "파멸의 거울",
+      "firstUseKst": "2015-12-11",
+      "collectible": false
+    },
+    {
+      "id": "LOEA16_5t",
+      "dbfId": 36452,
+      "archivedEnUS": "Mummy Zombie",
+      "archivedKoKR": "미이라 좀비",
+      "firstUseKst": "2015-12-11",
+      "collectible": false
+    }
+  ],
+  "tokens": [
+    {
+      "id": "LOE_002t",
+      "dbfId": 2997,
+      "name": "이글거리는 횃불",
+      "firstUseKst": "2015-11-13",
+      "parentId": "LOE_002",
+      "rootCollectibleId": "LOE_002",
+      "relation": "이글거리는 횃불을 덱에 섞음",
+      "sourceRefs": [
+        "japanesePreRelease"
+      ],
+      "archivedNativeId": "matched-4.0.0.10833",
+      "statusBefore": "estimated",
+      "statusAfter": "verified"
+    },
+    {
+      "id": "LOE_009t",
+      "dbfId": 38325,
+      "name": "딱정벌레",
+      "firstUseKst": "2015-11-13",
+      "parentId": "LOE_009",
+      "rootCollectibleId": "LOE_009",
+      "relation": "턴 종료 시 도발 1/1 딱정벌레 소환",
+      "sourceRefs": [
+        "japanesePreRelease"
+      ],
+      "archivedNativeId": "matched-4.0.0.10833",
+      "statusBefore": "estimated",
+      "statusAfter": "verified"
+    },
+    {
+      "id": "LOE_110t",
+      "dbfId": 9082,
+      "name": "고대의 저주",
+      "firstUseKst": "2015-11-13",
+      "parentId": "LOE_110",
+      "rootCollectibleId": "LOE_110",
+      "relation": "전투의 함성: 고대의 저주를 덱에 섞음",
+      "sourceRefs": [
+        "japanesePreRelease"
+      ],
+      "archivedNativeId": "matched-4.0.0.10833",
+      "statusBefore": "estimated",
+      "statusAfter": "verified"
+    },
+    {
+      "id": "LOE_007t",
+      "dbfId": 2998,
+      "name": "저주!",
+      "firstUseKst": "2015-12-11",
+      "parentId": "LOE_007",
+      "rootCollectibleId": "LOE_007",
+      "relation": "상대 손에 저주! 추가",
+      "sourceRefs": [
+        "japanesePreRelease"
+      ],
+      "archivedNativeId": "matched-4.0.0.10833",
+      "statusBefore": "estimated",
+      "statusAfter": "verified"
+    },
+    {
+      "id": "LOE_019t",
+      "dbfId": 2992,
+      "name": "황금 원숭이 보물지도",
+      "firstUseKst": "2015-12-11",
+      "parentId": "LOE_079",
+      "rootCollectibleId": "LOE_079",
+      "relation": "엘리스 전투의 함성으로 보물지도 섞음",
+      "sourceRefs": [
+        "japanesePreRelease"
+      ],
+      "archivedNativeId": "matched-4.0.0.10833",
+      "statusBefore": "estimated",
+      "statusAfter": "verified"
+    },
+    {
+      "id": "LOE_019t2",
+      "dbfId": 2993,
+      "name": "황금 원숭이",
+      "firstUseKst": "2015-12-11",
+      "parentId": "LOE_019t",
+      "rootCollectibleId": "LOE_079",
+      "relation": "엘리스의 보물지도에서 황금 원숭이 추가",
+      "sourceRefs": [
+        "japanesePreRelease"
+      ],
+      "archivedNativeId": "matched-4.0.0.10833",
+      "statusBefore": "estimated",
+      "statusAfter": "verified"
+    },
+    {
+      "id": "LOE_089t",
+      "dbfId": 37661,
+      "name": "심술궂은 소인족",
+      "firstUseKst": "2015-12-11",
+      "parentId": "LOE_089",
+      "rootCollectibleId": "LOE_089",
+      "relation": "흔들거리는 소인족의 죽음의 메아리로 소인족 3종 중 1",
+      "sourceRefs": [
+        "japanesePreRelease",
+        "runtsContemporary"
+      ],
+      "archivedNativeId": "matched-4.0.0.10833",
+      "statusBefore": "estimated",
+      "statusAfter": "verified"
+    },
+    {
+      "id": "LOE_089t2",
+      "dbfId": 38469,
+      "name": "교활한 소인족",
+      "firstUseKst": "2015-12-11",
+      "parentId": "LOE_089",
+      "rootCollectibleId": "LOE_089",
+      "relation": "흔들거리는 소인족의 죽음의 메아리로 소인족 3종 중 1",
+      "sourceRefs": [
+        "japanesePreRelease",
+        "runtsContemporary"
+      ],
+      "archivedNativeId": "matched-4.0.0.10833",
+      "statusBefore": "estimated",
+      "statusAfter": "verified"
+    },
+    {
+      "id": "LOE_089t3",
+      "dbfId": 38470,
+      "name": "궁시렁대는 소인족",
+      "firstUseKst": "2015-12-11",
+      "parentId": "LOE_089",
+      "rootCollectibleId": "LOE_089",
+      "relation": "흔들거리는 소인족의 죽음의 메아리로 소인족 3종 중 1",
+      "sourceRefs": [
+        "japanesePreRelease",
+        "runtsContemporary"
+      ],
+      "archivedNativeId": "matched-4.0.0.10833",
+      "statusBefore": "estimated",
+      "statusAfter": "verified"
+    },
+    {
+      "id": "LOE_115a",
+      "dbfId": 38112,
+      "name": "해방",
+      "firstUseKst": "2015-12-11",
+      "parentId": "LOE_115",
+      "rootCollectibleId": "LOE_115",
+      "relation": "까마귀 우상 선택: 하수인 발견",
+      "sourceRefs": [
+        "ravenIdolChoices"
+      ],
+      "archivedNativeId": "matched-4.0.0.10833",
+      "statusBefore": "estimated",
+      "statusAfter": "verified"
+    },
+    {
+      "id": "LOE_115b",
+      "dbfId": 38113,
+      "name": "깨어남",
+      "firstUseKst": "2015-12-11",
+      "parentId": "LOE_115",
+      "rootCollectibleId": "LOE_115",
+      "relation": "까마귀 우상 선택: 주문 발견",
+      "sourceRefs": [
+        "ravenIdolChoices"
+      ],
+      "archivedNativeId": "matched-4.0.0.10833",
+      "statusBefore": "estimated",
+      "statusAfter": "verified"
+    },
+    {
+      "id": "LOEA16_3",
+      "dbfId": 19614,
+      "name": "전능한 힘의 등불",
+      "firstUseKst": "2015-12-11",
+      "parentId": "LOE_092",
+      "rootCollectibleId": "LOE_092",
+      "relation": "라팜의 전투의 함성: 강력한 유물 발견",
+      "sourceRefs": [
+        "japanesePreRelease",
+        "rafaamContemporary"
+      ],
+      "archivedNativeId": "matched-4.0.0.10833",
+      "statusBefore": "estimated",
+      "statusAfter": "verified"
+    },
+    {
+      "id": "LOEA16_4",
+      "dbfId": 19615,
+      "name": "공포의 회중시계",
+      "firstUseKst": "2015-12-11",
+      "parentId": "LOE_092",
+      "rootCollectibleId": "LOE_092",
+      "relation": "라팜의 전투의 함성: 강력한 유물 발견",
+      "sourceRefs": [
+        "japanesePreRelease",
+        "rafaamContemporary"
+      ],
+      "archivedNativeId": "matched-4.0.0.10833",
+      "statusBefore": "estimated",
+      "statusAfter": "verified"
+    },
+    {
+      "id": "LOEA16_5",
+      "dbfId": 19616,
+      "name": "파멸의 거울",
+      "firstUseKst": "2015-12-11",
+      "parentId": "LOE_092",
+      "rootCollectibleId": "LOE_092",
+      "relation": "라팜의 전투의 함성: 강력한 유물 발견",
+      "sourceRefs": [
+        "japanesePreRelease",
+        "rafaamContemporary"
+      ],
+      "archivedNativeId": "matched-4.0.0.10833",
+      "statusBefore": "estimated",
+      "statusAfter": "verified"
+    },
+    {
+      "id": "LOEA16_5t",
+      "dbfId": 36452,
+      "name": "미라 좀비",
+      "firstUseKst": "2015-12-11",
+      "parentId": "LOEA16_5",
+      "rootCollectibleId": "LOE_092",
+      "relation": "파멸의 거울로 3/3 미라 좀비 소환",
+      "sourceRefs": [
+        "japanesePreRelease",
+        "rafaamContemporary"
+      ],
+      "archivedNativeId": "matched-4.0.0.10833",
+      "statusBefore": "estimated",
+      "statusAfter": "verified"
+    }
+  ],
+  "sourceOnlyExcluded": [
+    "HERO_11bp",
+    "HERO_11bpt"
+  ],
+  "claims": {
+    "collectibleVerified": 45,
+    "tokenDateAfterEvidence": 15,
+    "all60NativeIdsAndDbfsMatched10833": true,
+    "noBalanceOrArtChanges": true,
+    "baselineStatsRemainPartiallyVerified": true
+  }
+}

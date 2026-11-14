@@ -48,6 +48,36 @@ def main():
    for k,v in expected.items():
     if k in state:assert json_equal(state[k],v),(cid,d,k,state[k],v)
    oldcases+=1
+ # Audit every original CardID and DBF, and separately verify actual first-use
+ # date plus producer for all tokens. Legacy stats stay partially verified.
+ audit=load(ROOT/'tools/loe-first-use-evidence.json')
+ originals={row['id']:row for row in audit['archivedIdentity']}
+ tokens={row['id']:row for row in audit['tokens']}
+ assert audit['schema']==1 and audit['timezone']=='Asia/Seoul'
+ assert len(originals)==60 and len(tokens)==15 and set(originals)==set(current)
+ assert set(tokens)=={cid for cid,x in current.items() if not x['collectible']}
+ for cid,row in originals.items():
+  meta=metas[cid]; timeline=maps[cid]
+  assert row['dbfId']==current[cid]['dbfId'],cid
+  assert row['firstUseKst']==current[cid]['releasedAt']==next(iter(timeline)),cid
+  assert meta['release']=={'date':row['firstUseKst'],'status':'verified'},cid
+  assert meta['releaseEvidence']['firstUseKst']==row['firstUseKst'],cid
+  assert meta['releaseEvidence']['originalClientCardId']==cid,cid
+  assert meta['releaseEvidence']['originalClientDbfId']==row['dbfId'],cid
+  assert meta['releaseEvidence']['originalClientBuild']=='4.0.0.10833',cid
+  assert meta['baselineStatus']=='partially-verified',cid
+  assert resolve(timeline,meta,(date.fromisoformat(row['firstUseKst'])-timedelta(days=1)).isoformat()) is None,cid
+ for cid,token in tokens.items():
+  p=token['parentId'];root=token['rootCollectibleId']
+  assert originals[p]['firstUseKst']==originals[root]['firstUseKst']==token['firstUseKst'],cid
+  assert originals[root]['collectible'] and not originals[cid]['collectible'],cid
+  assert metas[cid]['releaseEvidence']['parentId']==p,cid
+  assert metas[cid]['releaseEvidence']['rootCollectibleId']==root,cid
+  assert metas[p]['release']['status']=='verified',cid
+ for cid in audit['sourceOnlyExcluded']:
+  assert cid in metas and cid not in originals,cid
+  assert metas[cid]['release']['status']=='estimated',cid
+ 
  # Endpoint differences are explicit, narrow and independently counted.
  differences=Counter()
  for cid,c in old.items():
@@ -61,6 +91,6 @@ def main():
  for path in assets:assert (ROOT/path).read_bytes()==subprocess.check_output(['git','show',SOURCE+':'+path],cwd=ROOT)
  for cid in current:
   assert old[cid]['art']==current[cid]['art']==precise[cid]['art'] and (ROOT/old[cid]['art']).is_file()
- report={'result':'pass','sourceCards':62,'runtimeCards':60,'sourceOnlyCards':2,'preciseGlobalDateCases':cases,'oldConsumerCases':oldcases,'globalDates':len(dates),'sparseEvents':events,'supplementalStateChecks':checks,'originalAssets':len(assets),'currentCatalogDifferences':dict(differences),'partiallyVerifiedBaselines':62,'currentTypes':dict(Counter(fold(t)['type'] for t in maps.values()))}
+ report={'result':'pass','sourceCards':62,'firstUseVerified':60,'generatedFirstUseVerified':15,'runtimeCards':60,'sourceOnlyCards':2,'preciseGlobalDateCases':cases,'oldConsumerCases':oldcases,'globalDates':len(dates),'sparseEvents':events,'supplementalStateChecks':checks,'originalAssets':len(assets),'currentCatalogDifferences':dict(differences),'partiallyVerifiedBaselines':62,'currentTypes':dict(Counter(fold(t)['type'] for t in maps.values()))}
  put(ROOT/'tools/date-schema-validation.json',report);print(json.dumps(report))
 if __name__=='__main__':main()
