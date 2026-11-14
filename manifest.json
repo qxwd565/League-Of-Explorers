@@ -4,7 +4,7 @@
   "repository": "qxwd565/League-Of-Explorers",
   "sourceRecords": 60,
   "sourceVariants": 0,
-  "totalSourceJSON": 62,
+  "totalSourceJSON": 60,
   "collectible": 45,
   "uncollectible": 15,
   "pendingReleaseIds": [],
@@ -17,12 +17,16 @@
     {
       "id": "HERO_11bp",
       "nativeSet": "BASIC",
-      "dbfId": 78162
+      "dbfId": 78162,
+      "destination": "qxwd565/legacy",
+      "firstUseKst": "2022-12-07"
     },
     {
       "id": "HERO_11bpt",
       "nativeSet": "BASIC",
-      "dbfId": 78164
+      "dbfId": 78164,
+      "destination": "qxwd565/legacy",
+      "firstUseKst": "2022-12-07"
     }
   ],
   "historicalAccuracy": "Historical initial snapshots are provisional, except fields directly reconstructed from cited patches; no exhaustive patch verification claimed",

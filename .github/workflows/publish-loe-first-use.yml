@@ -59,7 +59,7 @@ jobs:
           for cid in evidence['sourceOnlyExcluded']:
               meta=json.loads((root/'metadata'/f'{cid}.json').read_text())
               assert meta['release']['status']=='estimated'
-          print({'result':'pass','verified':60,'generated':15,'source_only_estimated':2})
+          print({'result':'pass','verified':60,'generated':15,'source_only_estimated':0})
           PY
       - name: Commit verified canonical release metadata and rebuilt API bundles
         run: |

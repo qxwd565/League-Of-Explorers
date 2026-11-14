@@ -18,8 +18,8 @@ def reverse(record,day):
 
 def main():
  require_source_commit(ROOT,SOURCE);current={c['id']:c for c in original('cards.json')['cards']};precise={c['id']:c for c in load(ROOT/'cards-date.json')['cards']};h=load(ROOT/'history-date.json');assert h['historySchema']==2
- ids={p.stem for p in (ROOT/'data').glob('*.json')};assert set(current)==set(precise) and len(current)==60 and len(ids)==62
- assert ids=={p.stem for p in (ROOT/'metadata').glob('*.json')};assert ids-set(current)=={'HERO_11bp','HERO_11bpt'}
+ ids={p.stem for p in (ROOT/'data').glob('*.json')};assert set(current)==set(precise) and len(current)==60 and len(ids)==60
+ assert ids=={p.stem for p in (ROOT/'metadata').glob('*.json')};assert ids-set(current)==set()
  dates={'1900-01-01','2099-12-31'};maps={};metas={};events=0;checks=0
  for cid in sorted(ids):
   t,m=read_card(ROOT,cid);maps[cid]=t;metas[cid]=m;validate_timeline(t)
@@ -88,9 +88,15 @@ def main():
     differences[k]+=1
  # Every original asset remains byte-identical; no path or relationship is replaced.
  assets=subprocess.check_output(['git','ls-tree','-r','--name-only',SOURCE,'art','golden'],cwd=ROOT,text=True).splitlines()
- for path in assets:assert (ROOT/path).read_bytes()==subprocess.check_output(['git','show',SOURCE+':'+path],cwd=ROOT)
+ transferred={'art/HERO_11bp.png','art/HERO_11bpt.png',
+              'golden/cards/HERO_11bp.json','golden/cards/HERO_11bpt.json'}
+ for path in assets:
+  if path in transferred:
+   assert not (ROOT/path).exists(),('source-only BASIC asset retained in LOE',path)
+  else:
+   assert (ROOT/path).read_bytes()==subprocess.check_output(['git','show',SOURCE+':'+path],cwd=ROOT)
  for cid in current:
   assert old[cid]['art']==current[cid]['art']==precise[cid]['art'] and (ROOT/old[cid]['art']).is_file()
- report={'result':'pass','sourceCards':62,'firstUseVerified':60,'generatedFirstUseVerified':15,'runtimeCards':60,'sourceOnlyCards':2,'preciseGlobalDateCases':cases,'oldConsumerCases':oldcases,'globalDates':len(dates),'sparseEvents':events,'supplementalStateChecks':checks,'originalAssets':len(assets),'currentCatalogDifferences':dict(differences),'partiallyVerifiedBaselines':62,'currentTypes':dict(Counter(fold(t)['type'] for t in maps.values()))}
+ report={'result':'pass','sourceCards':60,'firstUseVerified':60,'generatedFirstUseVerified':15,'runtimeCards':60,'sourceOnlyCards':0,'preciseGlobalDateCases':cases,'oldConsumerCases':oldcases,'globalDates':len(dates),'sparseEvents':events,'supplementalStateChecks':checks,'originalAssets':len(assets)-len(transferred),'currentCatalogDifferences':dict(differences),'partiallyVerifiedBaselines':60,'currentTypes':dict(Counter(fold(t)['type'] for t in maps.values()))}
  put(ROOT/'tools/date-schema-validation.json',report);print(json.dumps(report))
 if __name__=='__main__':main()

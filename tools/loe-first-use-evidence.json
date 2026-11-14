@@ -790,15 +790,28 @@
       "statusAfter": "verified"
     }
   ],
-  "sourceOnlyExcluded": [
-    "HERO_11bp",
-    "HERO_11bpt"
-  ],
+  "sourceOnlyExcluded": [],
   "claims": {
     "collectibleVerified": 45,
     "tokenDateAfterEvidence": 15,
     "all60NativeIdsAndDbfsMatched10833": true,
     "noBalanceOrArtChanges": true,
     "baselineStatsRemainPartiallyVerified": true
-  }
+  },
+  "transferredBasicRecords": [
+    {
+      "id": "HERO_11bp",
+      "dbfId": 78162,
+      "nativeSet": "BASIC",
+      "destination": "qxwd565/legacy",
+      "firstUseKst": "2022-12-07"
+    },
+    {
+      "id": "HERO_11bpt",
+      "dbfId": 78164,
+      "nativeSet": "BASIC",
+      "destination": "qxwd565/legacy",
+      "firstUseKst": "2022-12-07"
+    }
+  ]
 }

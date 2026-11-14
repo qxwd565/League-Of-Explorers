@@ -71,5 +71,5 @@ assert all(policy['cards'][cid]['status']=='verified' and policy['cards'][cid]['
 diff=subprocess.check_output(['git','diff','--name-only','--','data','art','golden','frame'],cwd=ROOT,text=True).strip()
 assert not diff,('unapproved gameplay or art modification',diff)
 print(json.dumps({'result':'pass','catalog':60,'collectibleFirstUse':45,'tokenFirstUse':15,
-                  'undatedBaselineVerified':0,'sourceOnlyNotBackdated':2,
+                  'undatedBaselineVerified':0,'sourceOnlyNotBackdated':0,
                   'noGameplayOrAssetChanges':True}))
