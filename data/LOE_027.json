@@ -10,7 +10,6 @@
     "rarity": "COMMON",
     "cost": 1,
     "collectible": true,
-    "chooseOne": false,
     "mechanics": [
       "SECRET"
     ]

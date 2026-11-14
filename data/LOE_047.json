@@ -16,7 +16,6 @@
     "attack": 3,
     "health": 3,
     "collectible": true,
-    "chooseOne": false,
     "mechanics": [
       "BATTLECRY"
     ]

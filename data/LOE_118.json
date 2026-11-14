@@ -12,7 +12,6 @@
     "attack": 2,
     "durability": 3,
     "collectible": true,
-    "chooseOne": false,
     "mechanics": []
   }
 }

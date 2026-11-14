@@ -10,7 +10,6 @@
     "rarity": null,
     "cost": 10,
     "collectible": false,
-    "chooseOne": false,
     "mechanics": []
   }
 }

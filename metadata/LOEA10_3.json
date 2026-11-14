@@ -397,5 +397,12 @@
     ],
     "criterion": "First collectible availability on Korean release date; not prior client preload",
     "limitations": "First available date only; baseline gameplay stats and wording remain partially verified."
+  },
+  "normalization": {
+    "datedExcludedFields": {
+      "2015-12-04": {
+        "chooseOne": false
+      }
+    }
   }
 }

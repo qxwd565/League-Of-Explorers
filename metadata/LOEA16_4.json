@@ -380,5 +380,12 @@
     ],
     "criterion": "Earliest playable or generatable on Korean wing opening, never client import",
     "limitations": "Actual generating effect/parent unlock and CardID verified; entire first stats and text not fully certified."
+  },
+  "normalization": {
+    "datedExcludedFields": {
+      "2015-12-11": {
+        "chooseOne": false
+      }
+    }
   }
 }

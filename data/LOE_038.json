@@ -12,7 +12,6 @@
     "attack": 5,
     "health": 5,
     "collectible": true,
-    "chooseOne": false,
     "mechanics": []
   },
   "2018-05-23": {
