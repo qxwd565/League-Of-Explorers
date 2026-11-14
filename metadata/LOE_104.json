@@ -7,7 +7,7 @@
     "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Partial verification: numeric/taxonomy and listed gameplay changes verified against bounded archives; undated Korean display/name/rarity/class changes are retained as observations, not invented dates. No strict/default hiding.",
+  "confidenceNote": "First Korean collectible use date and 2015 CardID/DBF independently cross-checked. Original stat and text baselines remain partially verified.",
   "sourceCommit": "ea2983bcc83c00fcf74ae4d4531d1fce4301e6b1",
   "originalSource": {
     "schemaVersion": 1,
@@ -356,5 +356,25 @@
       "dateStatus": "Client observation only; not asserted Korean server-live date",
       "lastObservedBuild": "37.0.2.256589"
     }
-  ]
+  ],
+  "releaseEvidence": {
+    "firstUseKst": "2015-12-04",
+    "timezone": "Asia/Seoul",
+    "evidenceType": "Korean adventure wing unlock and collectible/class-challenge reward",
+    "originalClientBuild": "4.0.0.10833",
+    "originalClientCardId": "LOE_104",
+    "originalClientDbfId": 3015,
+    "clientArchive": "tools/loe-first-use-evidence.json",
+    "clientArchiveSha": "c56bf29b116e57fd8cdf4382e27d109b72b29e12",
+    "wingReleaseSources": [
+      "https://www.bluetracker.gg/wow/topic/us-en/0-league-of-explorers-wing-release-schedule/",
+      "https://m.inven.co.kr/board/hs/3508/3557?sterm=9996440&stype=subjcont&svalue=toast"
+    ],
+    "rewardMappingSources": [
+      "https://www.icy-veins.com/hearthstone/league-of-explorers-guide",
+      "https://liquipedia.net/hearthstone/League_of_Explorers"
+    ],
+    "criterion": "First collectible availability on Korean release date; not prior client preload",
+    "limitations": "First available date only; baseline gameplay stats and wording remain partially verified."
+  }
 }

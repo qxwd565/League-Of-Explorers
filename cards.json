@@ -109,7 +109,7 @@
       "classes": [],
       "art": "art/LOE_002t.png",
       "releasedAt": "2015-11-13",
-      "releaseStatus": "estimated"
+      "releaseStatus": "verified"
     },
     {
       "id": "LOE_003",
@@ -392,7 +392,7 @@
       "classes": [],
       "art": "art/LOE_007t.png",
       "releasedAt": "2015-12-11",
-      "releaseStatus": "estimated"
+      "releaseStatus": "verified"
     },
     {
       "id": "LOE_009",
@@ -533,7 +533,7 @@
       "classes": [],
       "art": "art/LOE_009t.png",
       "releasedAt": "2015-11-13",
-      "releaseStatus": "estimated"
+      "releaseStatus": "verified"
     },
     {
       "id": "LOE_010",
@@ -1123,7 +1123,7 @@
       "classes": [],
       "art": "art/LOE_019t.png",
       "releasedAt": "2015-12-11",
-      "releaseStatus": "estimated"
+      "releaseStatus": "verified"
     },
     {
       "id": "LOE_019t2",
@@ -1185,7 +1185,7 @@
       "classes": [],
       "art": "art/LOE_019t2.png",
       "releasedAt": "2015-12-11",
-      "releaseStatus": "estimated"
+      "releaseStatus": "verified"
     },
     {
       "id": "LOE_020",
@@ -2820,7 +2820,7 @@
       "classes": [],
       "art": "art/LOE_089t.png",
       "releasedAt": "2015-12-11",
-      "releaseStatus": "estimated"
+      "releaseStatus": "verified"
     },
     {
       "id": "LOE_089t2",
@@ -2872,7 +2872,7 @@
       "classes": [],
       "art": "art/LOE_089t2.png",
       "releasedAt": "2015-12-11",
-      "releaseStatus": "estimated"
+      "releaseStatus": "verified"
     },
     {
       "id": "LOE_089t3",
@@ -2924,7 +2924,7 @@
       "classes": [],
       "art": "art/LOE_089t3.png",
       "releasedAt": "2015-12-11",
-      "releaseStatus": "estimated"
+      "releaseStatus": "verified"
     },
     {
       "id": "LOE_092",
@@ -3313,7 +3313,7 @@
       "classes": [],
       "art": "art/LOE_110t.png",
       "releasedAt": "2015-11-13",
-      "releaseStatus": "estimated"
+      "releaseStatus": "verified"
     },
     {
       "id": "LOE_111",
@@ -3541,7 +3541,7 @@
       "classes": [],
       "art": "art/LOE_115a.png",
       "releasedAt": "2015-12-11",
-      "releaseStatus": "estimated"
+      "releaseStatus": "verified"
     },
     {
       "id": "LOE_115b",
@@ -3593,7 +3593,7 @@
       "classes": [],
       "art": "art/LOE_115b.png",
       "releasedAt": "2015-12-11",
-      "releaseStatus": "estimated"
+      "releaseStatus": "verified"
     },
     {
       "id": "LOE_116",
@@ -3900,7 +3900,7 @@
       "classes": [],
       "art": "art/LOEA16_3.png",
       "releasedAt": "2015-12-11",
-      "releaseStatus": "estimated"
+      "releaseStatus": "verified"
     },
     {
       "id": "LOEA16_4",
@@ -3952,7 +3952,7 @@
       "classes": [],
       "art": "art/LOEA16_4.png",
       "releasedAt": "2015-12-11",
-      "releaseStatus": "estimated"
+      "releaseStatus": "verified"
     },
     {
       "id": "LOEA16_5",
@@ -3999,7 +3999,7 @@
       "classes": [],
       "art": "art/LOEA16_5.png",
       "releasedAt": "2015-12-11",
-      "releaseStatus": "estimated"
+      "releaseStatus": "verified"
     },
     {
       "id": "LOEA16_5t",
@@ -4063,7 +4063,7 @@
       "classes": [],
       "art": "art/LOEA16_5t.png",
       "releasedAt": "2015-12-11",
-      "releaseStatus": "estimated"
+      "releaseStatus": "verified"
     }
   ]
 }

@@ -4,10 +4,10 @@
   "timezone": "Asia/Seoul",
   "release": {
     "date": "2015-11-13",
-    "status": "estimated"
+    "status": "verified"
   },
   "baselineStatus": "partially-verified",
-  "confidenceNote": "Partial verification: numeric/taxonomy and listed gameplay changes verified against bounded archives; undated Korean display/name/rarity/class changes are retained as observations, not invented dates. No strict/default hiding.",
+  "confidenceNote": "First possible generated-card use date corroborated against Korean wing unlock, parent generation and original 2015 CardID/DBF. Baseline gameplay stats remain partially verified.",
   "sourceCommit": "ea2983bcc83c00fcf74ae4d4531d1fce4301e6b1",
   "originalSource": {
     "schemaVersion": 1,
@@ -498,5 +498,28 @@
   "rarityPresenceEvidence": {
     "status": "unknown",
     "value": null
+  },
+  "releaseEvidence": {
+    "firstUseKst": "2015-11-13",
+    "timezone": "Asia/Seoul",
+    "evidenceType": "In-game generation/selection from wing-unlocked original parent",
+    "originalClientBuild": "4.0.0.10833",
+    "originalClientCardId": "LOE_110t",
+    "originalClientDbfId": 9082,
+    "clientArchive": "tools/loe-first-use-evidence.json",
+    "clientArchiveSha": "c56bf29b116e57fd8cdf4382e27d109b72b29e12",
+    "parentId": "LOE_110",
+    "rootCollectibleId": "LOE_110",
+    "parentAction": "전투의 함성: 고대의 저주를 덱에 섞음",
+    "wingReleaseSources": [
+      "https://hearthstone.blizzard.com/ko-kr/news/19940884",
+      "https://hearthstone.blizzard.com/en-us/news/19963999",
+      "https://www.inven.co.kr/webzine/news/?news=146926"
+    ],
+    "cardAndParentSources": [
+      "https://hs-exp.jp/2015-11-07/card-list-league-of-explorers/"
+    ],
+    "criterion": "Earliest playable or generatable on Korean wing opening, never client import",
+    "limitations": "Actual generating effect/parent unlock and CardID verified; entire first stats and text not fully certified."
   }
 }
