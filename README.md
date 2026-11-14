@@ -3,8 +3,7 @@
 이 저장소는 `qxwd565/legacy`와 동일한 **schema 1** API 파일 형식으로 만들어졌습니다. 시간 기준은 **Asia/Seoul(한국 날짜)**입니다.
 
 - `cards.json`: 현재 카드 데이터(원화 경로 `art`는 항상 `""`)
-- `render.json`: 현재 데이터와 날짜별 과거 변경값을 합친 WebGL 전용 API
-- `history.json`: 이전 HScard 플러그인을 위한 호환 인덱스
+- `render.json`, `history.json`: 중복 호환 출력으로 더 이상 배포하지 않습니다.
 - `data/<카드ID>.json`: 원본 카드 정보 + `card`에 최초 스펙을 저장하고 `card.patches`에는 후속 변경된 필드만 기록
 - `release-policy.json`: 확장팩·미니세트·선행 카드 출시일
 - `manifest.json`: 데이터 수량 및 검증 범위
@@ -27,7 +26,7 @@
 
 ## Date-first history
 
-See [date-schema.md](docs/date-schema.md) for the 62 per-card timelines, 60-card compatible/precise root endpoints, pinned source provenance, Korean date policy, validation commands and explicit uncertainty. The old root endpoints remain schema 1; use the `-date.json` siblings only with a historySchema 2 capable reader. No live plugin settings were changed.
+See [date-schema.md](docs/date-schema.md) for the 62 per-card timelines, 60-card compatible/precise root endpoints, pinned source provenance, Korean date policy, validation commands and explicit uncertainty. The duplicate root compatibility endpoints have been retired; the HSdeck plugin reads each `data/<ID>.json` directly.
 
 ## 최초 사용 가능일 전수 검증 (2026-11-14)
 
@@ -39,3 +38,12 @@ See [date-schema.md](docs/date-schema.md) for the 62 per-card timelines, 60-card
 
 독립 근거, 날짜·부모 관계, 60개 ID/DBF 매핑은 [최초 사용일 검증 자료](tools/loe-first-use-evidence.json)에 기록했습니다.
 
+
+
+## 공개 API 및 편집 지침 (2026-11-14)
+
+- 공개 데이터는 **`cards.json` 목록 + `data/<카드ID>.json` 한국 날짜별 기록**으로 통일합니다. 기존 `render*.json`, `history*.json`, `cards-date.json`은 빌드 검사용 임시 산출물이며 커밋·배포하지 않습니다.
+- 카드 기본 정보, 시대별 능력·설명·수집 여부, 원화, 일반/황금 카드, 애니메이션·텍스처, 프레임의 원본 연결은 보존합니다. 별도의 중복 집계·호환 래퍼·사용하지 않는 schema 파일을 새로 추가하지 않습니다.
+- 최초 기록일은 한국 시간 실제 플레이 가능일입니다. 베타는 북미 최초 사용 시각의 한국 날짜로, 모험은 각 지구 실제 개방일로, 이벤트는 실제 시작일로 계산합니다. 사전 클라이언트 탑재일이나 기능 변화 없는 텍스트 수정은 게임 변경일로 기록하지 않습니다.
+- `data/`의 첫 날짜 키에는 최초 상태, 이후 날짜에는 변경 필드만 기록합니다. 잘못 기입된 기존 키는 삭제·통합하고, 토큰 및 부모 카드 연결을 함께 교차 검증합니다. 표시 줄바꿈은 `<br></br>`를 사용합니다.
+- `metadata/`, `tools/`, `.github/` 등의 근거·빌드 작업물은 미확정 스펙을 사실로 승격하지 않는 데 필요한 경우에만 유지합니다. 실제 참조하는 근거는 먼저 삭제하지 않고, CI가 미게시 집계 출력을 재커밋하지 않게 유지합니다.
